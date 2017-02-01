@@ -1,7 +1,7 @@
 body
 {
     background-image: url('../images/background-2011743_1920.jpg');
-    background-repeat: repeat-y;
+    background-repeat: repeat;
     color:white;
 
 }
@@ -29,7 +29,7 @@ body
 
 .socialMediaLinksDark a
 {
-    color: #2D233B;
+    color: mediumpurple;
     text-align: center;
     padding: 8px;
 }
