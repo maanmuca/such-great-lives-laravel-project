@@ -6,13 +6,16 @@
              <a href="{{url('/sbuscribe')}}">Subscribe !</a>
             </div>
         </div>
-        <div class="row">
+        <div class="row text-center">
         <img src="{{URL::asset('images/sgllogo_light.png')}}" id="sgl-logo" class="img-responsive center-block"  alt="logo">
-        <p class="socialMediaLinks">
-            <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+        </div>
+        <div class="row text-center">
+            <div class="col-lg-12 socialMediaLinksDark text-center">
+                <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
             </div>
+        </div>
         <div class="row text-center">
             <a href="#"  data-toggle="tooltip" title="Videos !" class="col-lg-4 col-md-4 col-sm-4 col-xs-4" ><img src="{{URL::asset('images/videos.png')}}" class=" center-block bigIcons"   alt="videos"></a>
             <a href="#"  data-toggle="tooltip" title="Releases !" class="col-lg-4 col-md-4 col-sm-4 col-xs-4" ><img src="{{URL::asset('images/releases.png')}}"  class=" center-block bigIcons"   alt="releases"></a>
@@ -86,7 +89,7 @@
                             After years of galactic silence, civilization is on the brink of more Star Wars movies. Now, with the Force already awaken, the people of Earth seek solace in creating websites, memes, and presentations that need the intro crawl we've come to know and love. Make cooler stuff, faster, with our simple CSS library for the Star Wars Intro Crawl. Follow us on :
 
                                 </div>
-                                <div class="col-lg-12 linksStarWars text-center">
+                                <div class="col-lg-12 socialMediaLinksDark text-center">
                                     <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
                                     <a href="#"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
                                     <a href="#"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
@@ -107,7 +110,7 @@
                     <p class="text-justify">Jon is our rhyhthm guitarist and lead singer. He relishes being on stage and is the infant of the group. He sits at home in the dark, however, and writes some magical tunes.Jon is our rhyhthm guitarist and lead singer. He relishes being on stage and is the infant of the group. He sits at home in the dark, however, and writes some magical tunes.Jon is our rhyhthm guitarist and lead singer. He relishes being on stage and is the infant of the group. He sits at home in the dark, however, and writes some magical tunes.</p></div>
                 <div class="col-md-6 col-lg-6  col-xs-12 "><img src="images/jon.jpg" class="img-thumbnail imageNews" alt="news"> </div>
             <div class="row">
-                <div class="col-lg-12 socialMediaLinks">
+                <div class="col-lg-12 socialMediaLinksDark">
                     <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
                     <a href="#"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
                     <a href="#"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
@@ -116,7 +119,7 @@
 
             </div>
     </div>
-    <div class="container">
+    <div class="container shows">
         <div class="row text-center">
             <h2 class="section-heading">Shows</h2>
         </div>
@@ -149,13 +152,6 @@
                     </tbody>
                 </table>
             </div>
-            <div class="row">
-                <div class="col-lg-offset-9 socialMediaLinks">
-                    <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
-                    <a href="#"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
-                </div>
-            </div>
         </div>
     </div>
     <div class="container sglMore">
@@ -167,7 +163,6 @@
         </div>
         <div class="row text-center">
                 <ul>
-
                     <li>
                         <td><a href="https://www.youtube.com/user/szabologist">Szabologist Channel <i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a></td>
                     </li>
@@ -178,6 +173,13 @@
                         <td><a href="https://www.youtube.com/channel/UCTdf_tRogxxn3VTx7IK671Q">Such Great Lives Channel <i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a></td>
                     </li>
                 </ul>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 socialMediaLinksDark text-center">
+                <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+            </div>
         </div>
     </div>
 @endsection

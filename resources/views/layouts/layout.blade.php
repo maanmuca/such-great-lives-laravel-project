@@ -29,16 +29,16 @@
 <a href="#" id="menu-slider"><i class="fa fa-bars text-center" aria-hidden="true"></i></a>
 <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" id="closeNav">&times;</a>
-    <li><a href="{{url('/welcome')}}">Home</a></li>
-    <li><a class="page-scroll" href="{{url('/aboutUs')}}">About</a></li>
-    <li><a class="page-scroll" href="{{url('/news')}}">News</a></li>
-    <li><a class="page-scroll" href="{{url('/shows')}}">Shows</a></li>
-    <li><a href="{{url('/photos')}}">Photos</a></li>
-    <li><a href="{{url('/videos')}}">Videos</a></li>
-    <li><a href="{{url('/releases')}}">Releases</a></li>
-    <li><a href="{{url('/game')}}">Game</a></li>
-    <li><a class="page-scroll" href="{{url('/links')}}">Links</a></li>
-    <li><a href="{{url('/contact')}}">Contact</a></li>
+    <li><a class="currentNavPage" href="{{url('/welcome')}}">Home</a></li>
+    <li><a class="currentNavPage" href="{{url('/aboutUs')}}">About</a></li>
+    <li><a class="currentNavPage" href="{{url('/news')}}">News</a></li>
+    <li><a class="currentNavPage" href="{{url('/shows')}}">Shows</a></li>
+    <li><a class="currentNavPage" href="{{url('/photos')}}">Photos</a></li>
+    <li><a class="currentNavPage" href="{{url('/videos')}}">Videos</a></li>
+    <li><a class="currentNavPage" href="{{url('/releases')}}">Releases</a></li>
+    <li><a class="currentNavPage" href="{{url('/game')}}">Game</a></li>
+    <li><a class="currentNavPage" href="{{url('/links')}}">Links</a></li>
+    <li><a class="currentNavPage" href="{{url('/contact')}}">Contact</a></li>
 </div>
 <div id="main">
     @yield('content')
@@ -53,35 +53,27 @@
             </div>
         </div>
     </div>
+    <div class="jumbotron sglFooter" id="bg_footer">
+        <nav class="navbar">
+            <div class="container" id="container_ft">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="text-center">
+                            <p class="navbar-text pull-left">
+                                <span class="copyright">COPYRIGHT &copy; 2017 | SUCH GREAT LIVES | ALL RIGHTS RESERVED</span>
+                            </p>
+                            <p class="navbar-text pull-right">
+                                <span class="designed">Site | Design | By Marco Munoz - Paola Sanabria</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
 </div>
 
-
-
-    <!-- /#page-content-wrapper -->
-<!--<div class="container">
-    <nav class="navbar navbar-inverse myNavbar">
-        <div class="container-fluid ">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <div class="collapse navbar-collapse myNavbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li><a href="{{ url('/welcome') }}">Home</a></li>
-                    <li><a href="{{ url('/aboutUs') }}">About us</a></li>
-                    <li><a href="{{ url('/shows') }}">Shows</a></li>
-                    <li><a href="{{ url('/news') }}">News</a></li>
-                    <li><a href="{{ url('/photos') }}">Photos</a></li>
-                    <li><a href="{{ url('/media') }}">Media</a></li>
-                    <li><a href="{{ url('/subscribe') }}"><span class="glyphicon glyphicon-user"></span> Subcribe !</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-</div>-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
