@@ -12,6 +12,12 @@ body, html{
   min-height: 100vh;
   margin: 0px;
 }
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+.content-body
+{
+    font-family: 'Open Sans', sans-serif;
+}
 
 
 .star-wars-intro {
