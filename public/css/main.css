@@ -1,0 +1,1642 @@
+body
+{
+    background-image: url('../images/background-2011743_1920.jpg');
+    background-repeat: repeat-y;
+    color:white;
+
+}
+.imageNews
+{
+    width: 50%;
+    height: 50%;
+}
+
+
+.socialMediaLinks
+{
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+
+.socialMediaLinks a
+{
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-top: 4px;
+    color: white;
+}
+
+.socialMediaLinksDark a
+{
+    color: #2D233B;
+    text-align: center;
+    padding: 8px;
+}
+
+.socialMediaLinksDark a:hover
+{
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-top: 4px;
+    color: mediumpurple;
+}
+
+.sglMore
+{
+    background-color: #2D233B;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.sglMore a
+{
+    color: white;
+}
+
+.sglMore ul li
+{
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+#sgl-logo
+{
+    padding-top: 100px;
+    width: 50%;
+    height: 50%;
+    vertical-align: middle;
+}
+
+#menu-slider
+{
+    position:fixed;
+    z-index: 2;
+    font-size: 32px;
+    padding-top: 5px;
+    color: white;
+    background-color: #2D233B;
+    width: 56px;
+    height: 56px;
+    vertical-align:28px;
+    text-align: center;
+    border-radius: 28px;
+    border: solid white 2px;
+}
+@media only screen
+and (max-device-width : 319px)
+{
+    .upcomingShowsTable thead th
+    {
+        font-size: 8px;
+    }
+    #sgl-logo
+    {
+        padding-top: 25px;
+        width: 50%;
+        height: 50%;
+        vertical-align: middle;
+    }
+    .bigIcons
+    {
+        width: 100%;
+        height: 100%;
+    }
+    .starWarsNews
+    {
+        background-image: url('../images/stars-bg.jpg');
+        background-repeat: no-repeat;
+        color:yellow;
+        height: 200px;
+    }
+
+    .starwarsSglTitle
+    {
+        width: 75%;
+        height: 75%;
+        padding-left: 25%;
+    }
+
+    .subscribe
+    {
+        padding-top: 60px;
+    }
+    .subscribe a
+    {
+        padding-top: 60px;
+        font-family: myNavigationFont;
+        color: white;
+        font-size: 24px;
+    }
+
+    .subscribe a:hover
+    {
+        padding-top: 60px;
+        font-family: myNavigationFont;
+        color: white;
+        font-size: 28px;
+        text-decoration: none;
+    }
+    .intro
+    {
+        background-image: url('../images/sgl_img_0.png');
+        background-repeat: no-repeat;
+        background-size: 100% 169%;
+        width: 100%;
+        height: 600px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .sidenav {
+        height: 100%; /* 100% Full-height */
+        width: 0px; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0;
+        left: 0;
+        background-color: #2D233B; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    }
+
+    /* The navigation menu links */
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color:white;
+        display: block;
+        transition: 0.3s
+    }
+
+    .sidenav li
+    {
+        list-style: none;
+        text-align: center;
+
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    #main {
+        transition: margin-left .5s;
+        padding: 20px;
+        margin-left:0px ;
+    }
+
+
+}
+@media only screen
+and (max-width : 319px)
+{
+    .upcomingShowsTable thead th
+    {
+        font-size: 12px;
+        color: white;
+    }
+
+    .upcomingShowsTable tbody td
+    {
+        font-size: 12px;
+        color: white;
+    }
+    #sgl-logo
+    {
+        padding-top: 25px;
+        width: 50%;
+        height: 50%;
+        vertical-align: middle;
+    }
+    .starWarsNews
+    {
+        background-image: url('../images/stars-bg.jpg');
+        background-repeat: no-repeat;
+        color:yellow;
+        height: 200px;
+    }
+
+    .starwarsSglTitle
+    {
+        width: 75%;
+        height: 75%;
+        padding-left: 25%;
+    }
+
+    .subscribe
+    {
+        padding-top: 60px;
+    }
+    .subscribe a
+    {
+        padding-top: 60px;
+        font-family: myNavigationFont;
+        color: white;
+        font-size: 24px;
+    }
+
+    .subscribe a:hover
+    {
+        padding-top: 60px;
+        font-family: myNavigationFont;
+        color: white;
+        font-size: 28px;
+        text-decoration: none;
+    }
+
+    .intro
+    {
+        background-image: url('../images/sgl_img_0.png');
+        background-repeat: no-repeat;
+        background-size: 80% 169%;
+        width: 100%;
+        height: 600px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .sidenav {
+        height: 100%; /* 100% Full-height */
+        width: 0px; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0;
+        left: 0;
+        background-color: #2D233B; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    }
+
+    /* The navigation menu links */
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color:white;
+        display: block;
+        transition: 0.3s
+    }
+
+    .sidenav li
+    {
+        list-style: none;
+        text-align: center;
+
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    #main {
+        transition: margin-left .5s;
+        padding: 20px;
+        margin-left:0px ;
+    }
+
+
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+{
+
+    .upcomingShowsTable td
+    {
+        font-size: 6px;
+    }
+
+    #sgl-logo
+    {
+        padding-top: 25px;
+        width: 50%;
+        height: 50%;
+        vertical-align: middle;
+    }
+
+    .starWarsNews
+    {
+        background-image: url('../images/stars-bg.jpg');
+        background-repeat: no-repeat;
+        color:yellow;
+        height: 200px;
+    }
+
+    .starwarsSglTitle
+    {
+        width: 75%;
+        height: 75%;
+        padding-left: 25%;
+    }
+
+    .subscribe
+    {
+        padding-top: 60px;
+    }
+    .subscribe a
+    {
+        padding-top: 60px;
+        font-family: myNavigationFont;
+        color: white;
+        font-size: 24px;
+    }
+
+    .subscribe a:hover
+    {
+        padding-top: 60px;
+        font-family: myNavigationFont;
+        color: white;
+        text-decoration: none;
+    }
+    #videosPage
+    {
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 4px;
+        color: hotpink;
+        opacity: 0.6;
+    }
+
+    #releasesPage
+    {
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 4px;
+        color: white;
+        opacity: 0.6;
+
+    }
+
+    #photosPage
+    {
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 4px;
+        color: #D2BE03;
+        opacity: 0.6;
+    }
+
+    #videosPage:hover
+    {
+        opacity: 1;
+    }
+    #releasesPage:hover
+    {
+        opacity: 1;
+    }
+    #photosPage:hover
+    {
+        opacity: 1;
+    }
+
+
+    .intro
+    {
+        background-image: url('../images/sgl_img_0.png');
+        background-repeat: no-repeat;
+        background-size: 100% 169%;
+        width: 100%;
+        height: 600px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .sidenav {
+        height: 100%; /* 100% Full-height */
+        width: 0px; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0;
+        left: 0;
+        background-color: #2D233B; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    }
+
+    /* The navigation menu links */
+    .sidenav li
+    {
+        list-style: none;
+        text-align: center;
+
+    }
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        display: block;
+        transition: 0.3s
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    #main {
+        transition: margin-left .5s;
+        padding: 20px;
+        margin-left:0px ;
+    }
+
+
+}
+
+
+@media only screen
+and (min-device-width : 480px)
+and (max-device-width : 768px)
+and (orientation : landscape)
+{
+    #sgl-logo
+    {
+        padding-top: 25px;
+        width: 50%;
+        height: 50%;
+        vertical-align: middle;
+    }
+    .bigIcons
+    {
+        width: 60%;
+        height: 60%;
+    }
+    .starWarsNews
+    {
+        background-image: url('../images/stars-bg.jpg');
+        background-repeat: no-repeat;
+        color:yellow;
+        height: 200px;
+    }
+
+    .starwarsSglTitle
+    {
+        width: 75%;
+        height: 75%;
+        padding-left: 25%;
+    }
+
+    .subscribe
+    {
+        padding-top: 60px;
+    }
+    .subscribe a
+    {
+        padding-top: 60px;
+        font-family: myNavigationFont;
+        color: white;
+        font-size: 24px;
+    }
+
+    .subscribe a:hover
+    {
+        padding-top: 60px;
+        font-family: myNavigationFont;
+        color: white;
+        font-size: 28px;
+        text-decoration: none;
+    }
+    #videosPage
+    {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 4px;
+        color: hotpink;
+        font-size: 28px;
+        opacity: 0.6;
+    }
+
+    #releasesPage
+    {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 4px;
+        color: white;
+        font-size: 28px;
+        opacity: 0.6;
+
+    }
+
+    #photosPage
+    {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 4px;
+        color: #D2BE03;
+        font-size: 28px;
+        opacity: 0.6;
+    }
+
+    #videosPage:hover
+    {
+        opacity: 1;
+    }
+    #releasesPage:hover
+    {
+        opacity: 1;
+    }
+    #photosPage:hover
+    {
+        opacity: 1;
+    }
+
+    .intro
+    {
+        background-image: url('../images/sgl_img_0.png');
+        background-repeat: no-repeat;
+        background-size: 100% 169%;
+        width: 100%;
+        height: 600px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .sidenav {
+        height: 100%; /* 100% Full-height */
+        width: 0px; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0;
+        left: 0;
+        background-color: #2D233B; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    }
+
+    /* The navigation menu links */
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        display: block;
+        transition: 0.3s
+    }
+
+    .sidenav li
+    {
+        list-style: none;
+        text-align: center;
+
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    #main {
+        transition: margin-left .5s;
+        padding: 20px;
+        margin-left:0px ;
+    }
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+
+{
+    #sgl-logo
+    {
+        padding-top: 25px;
+        width: 50%;
+        height: 50%;
+        vertical-align: middle;
+    }
+    .bigIcons
+    {
+        width: 40%;
+        height: 40%;
+    }
+    .starWarsNews
+    {
+        background-image: url('../images/stars-bg.jpg');
+        background-repeat: no-repeat;
+        color:yellow;
+        height: 200px;
+    }
+
+    .starwarsSglTitle
+    {
+        width: 75%;
+        height: 75%;
+        padding-left: 25%;
+    }
+
+    .subscribe
+    {
+        padding-top: 60px;
+    }
+    .subscribe a
+    {
+        padding-top: 60px;
+        font-family: myNavigationFont;
+        color: white;
+        font-size: 24px;
+    }
+
+    .subscribe a:hover
+    {
+        padding-top: 60px;
+        font-family: myNavigationFont;
+        color: white;
+        font-size: 28px;
+        text-decoration: none;
+    }
+    #videosPage
+    {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 4px;
+        color: hotpink;
+        font-size: 28px;
+        opacity: 0.6;
+    }
+
+    #releasesPage
+    {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 4px;
+        color: white;
+        font-size: 28px;
+        opacity: 0.6;
+
+    }
+
+    #photosPage
+    {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 4px;
+        color: #D2BE03;
+        font-size: 28px;
+        opacity: 0.6;
+    }
+
+    #videosPage:hover
+    {
+        opacity: 1;
+    }
+    #releasesPage:hover
+    {
+        opacity: 1;
+    }
+    #photosPage:hover
+    {
+        opacity: 1;
+    }
+
+    .intro
+    {
+        background-image: url('../images/sgl_img_0.png');
+        background-repeat: no-repeat;
+        background-size: 100% 169%;
+        width: 100%;
+        height: 600px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .sidenav {
+        height: 100%; /* 100% Full-height */
+        width: 0px; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0;
+        left: 0;
+        background-color:#2D233B; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    }
+
+    /* The navigation menu links */
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        display: block;
+        transition: 0.3s
+    }
+
+    .sidenav li
+    {
+        list-style: none;
+        text-align: center;
+
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    #main {
+        transition: margin-left .5s;
+        padding: 20px;
+        margin-left:0px ;
+    }
+
+
+}
+@media only screen
+and (min-device-width : 768px)
+and (orientation : landscape)
+{
+    #sgl-logo
+    {
+        padding-top: 25px;
+        width: 20%;
+        height: 20%;
+        vertical-align: middle;
+    }
+    .bigIcons
+    {
+        width: 60%;
+        height: 60%;
+    }
+    .starWarsNews
+    {
+        background-image: url('../images/stars-bg.jpg');
+        background-repeat: no-repeat;
+        color:yellow;
+        height: 200px;
+    }
+
+    .starwarsSglTitle
+    {
+        width: 75%;
+        height: 75%;
+        padding-left: 25%;
+    }
+
+    .subscribe
+    {
+        padding-top: 60px;
+    }
+    .subscribe a
+    {
+        padding-top: 60px;
+        font-family: myNavigationFont;
+        color: white;
+        font-size: 24px;
+    }
+
+    .subscribe a:hover
+    {
+        padding-top: 60px;
+        font-family: myNavigationFont;
+        color: white;
+        font-size: 28px;
+        text-decoration: none;
+    }
+    #videosPage
+    {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 4px;
+        color: hotpink;
+        font-size: 28px;
+        opacity: 0.6;
+    }
+
+    #releasesPage
+    {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 4px;
+        color: white;
+        font-size: 28px;
+        opacity: 0.6;
+
+    }
+
+    #photosPage
+    {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 4px;
+        color: #D2BE03;
+        font-size: 28px;
+        opacity: 0.6;
+    }
+
+    #videosPage:hover
+    {
+        opacity: 1;
+    }
+    #releasesPage:hover
+    {
+        opacity: 1;
+    }
+    #photosPage:hover
+    {
+        opacity: 1;
+    }
+
+
+    .intro
+    {
+        background-image: url('../images/sgl_img_0.png');
+        background-repeat: no-repeat;
+        background-size: 100% 169%;
+        width: 100%;
+        height: 600px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .sidenav {
+        height: 100%; /* 100% Full-height */
+        width: 0px; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0;
+        left: 0;
+        background-color: #2D233B; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    }
+
+    /* The navigation menu links */
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        display: block;
+        transition: 0.3s
+    }
+
+    .sidenav li
+    {
+        list-style: none;
+        text-align: center;
+
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    #main {
+        transition: margin-left .5s;
+        padding: 20px;
+        margin-left:0px ;
+    }
+
+}
+
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+
+    .sglNews
+    {
+        background-color: #2D233B;
+        color: white;
+        margin-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    #sgl-logo
+    {
+        padding-top: 25px;
+        width: 20%;
+        height: 20%;
+        vertical-align: middle;
+    }
+    .bigIcons
+    {
+        width: 40%;
+        height: 40%;
+    }
+    .starWarsNews
+    {
+        background-image: url('../images/stars-bg.jpg');
+        background-repeat: no-repeat;
+        color:yellow;
+        height: 200px;
+    }
+
+    .starwarsSglTitle
+    {
+        width: 75%;
+        height: 75%;
+        padding-left: 25%;
+    }
+
+    .subscribe
+    {
+        padding-top: 60px;
+    }
+    .subscribe a
+    {
+        padding-top: 60px;
+        font-family: myNavigationFont;
+        color: white;
+        font-size: 24px;
+    }
+
+    .subscribe a:hover
+    {
+        padding-top: 60px;
+        font-family: myNavigationFont;
+        color: white;
+        font-size: 28px;
+        text-decoration: none;
+    }
+    #videosPage
+    {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 4px;
+        color: hotpink;
+        font-size: 28px;
+        opacity: 0.6;
+    }
+
+    #releasesPage
+    {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 4px;
+        color: white;
+        font-size: 28px;
+        opacity: 0.6;
+
+    }
+
+    #photosPage
+    {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 4px;
+        color: #D2BE03;
+        font-size: 28px;
+        opacity: 0.6;
+    }
+
+    #videosPage:hover
+    {
+        opacity: 1;
+    }
+    #releasesPage:hover
+    {
+        opacity: 1;
+    }
+    #photosPage:hover
+    {
+        opacity: 1;
+    }
+    .intro
+    {
+        background-image: url('../images/sgl_img_0.png');
+        background-repeat: no-repeat;
+        background-size: 100% 169%;
+        width: 100%;
+        height: 600px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .sidenav {
+        height: 100%; /* 100% Full-height */
+        width: 0px; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0;
+        left: 0;
+        background-color:#2D233B; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    }
+
+    /* The navigation menu links */
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        display: block;
+        transition: 0.3s
+    }
+
+    .sidenav li
+    {
+        list-style: none;
+        text-align: center;
+
+    }
+
+    .sidenav .closebtn {
+        display:none;
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    #main {
+        transition: margin-left .5s;
+        padding-right: 20px;
+        margin-left:150px;
+        margin-right:-30px;
+    }
+
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1025px)
+{
+    .linksStarWars a
+    {
+        color: yellow;
+        padding-top: 2em;
+    }
+
+    .linksStarWars a:hover
+    {
+        color: brown;
+        padding-top: 2em;
+    }
+    .sglNews
+    {
+        background-color: #2D233B;
+        color: white;
+        margin-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    #sgl-logo
+    {
+        padding-top: 25px;
+        width: 15%;
+        height: 20%;
+        vertical-align: middle;
+    }
+
+    .bigIcons
+    {
+        width: 40%;
+        height: 40%;
+    }
+    .starWarsNews
+    {
+        background-image: url('../images/stars-bg.jpg');
+        background-repeat: no-repeat;
+        color:yellow;
+        height: 200px;
+    }
+
+    .starwarsSglTitle
+    {
+        width: 75%;
+        height: 75%;
+        padding-left: 25%;
+    }
+
+    .subscribe
+    {
+        padding-top: 60px;
+    }
+    .subscribe a
+    {
+        padding-top: 60px;
+        font-family: myNavigationFont;
+        color: white;
+        font-size: 24px;
+    }
+
+    .subscribe a:hover
+    {
+        padding-top: 60px;
+        font-family: myNavigationFont;
+        color: white;
+        font-size: 28px;
+        text-decoration: none;
+    }
+    #videosPage:hover
+    {
+        opacity: 1;
+    }
+    #releasesPage:hover
+    {
+        opacity: 1;
+    }
+    #photosPage:hover
+    {
+        opacity: 1;
+    }
+    .intro
+    {
+        background-image: url('../images/sgl_img_0.png');
+        background-repeat: no-repeat;
+        background-size: 100% 169%;
+        width: 100%;
+        height: 600px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #menu-slider
+    {
+        display: none;
+    }
+    .sidenav {
+        height: 100%; /* 100% Full-height */
+        width: 150px; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1;
+        top: 0;
+        background-color: #2D233B; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+         /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    }
+
+    /* The navigation menu links */
+    .sidenav a {
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        display: block;
+        font-family: myNavigationFont;
+        transition: 0.3s
+    }
+
+    .sidenav li
+    {
+        list-style: none;
+        text-align: center;
+
+    }
+
+    .sidenav li:hover
+    {
+        list-style: none;
+        background-color:mediumpurple;
+    }
+
+    .sidenav .closebtn {
+        display:none;
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    #main {
+        transition: margin-left .5s;
+        margin-left:150px ;
+    }
+
+}
+
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+    #sgl-logo
+    {
+        padding-top: 100px;
+        width: 25%;
+        height: 25%;
+        vertical-align: middle;
+    }
+
+    .bigIcons
+    {
+        width: 40%;
+        height: 40%;
+    }
+    .starWarsNews
+    {
+        background-image: url('../images/stars-bg.jpg');
+        background-repeat: no-repeat;
+        color:yellow;
+        height: 200px;
+    }
+
+    .starwarsSglTitle
+    {
+        width: 75%;
+        height: 75%;
+        padding-left: 25%;
+    }
+
+    .subscribe
+    {
+        padding-top: 60px;
+    }
+    .subscribe a
+    {
+        padding-top: 60px;
+        font-family: myNavigationFont;
+        color: white;
+        font-size: 24px;
+    }
+
+    .subscribe a:hover
+    {
+        padding-top: 60px;
+        font-family: myNavigationFont;
+        color: white;
+        font-size: 28px;
+        text-decoration: none;
+    }
+    #videosPage
+    {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 4px;
+        color: hotpink;
+        font-size: 28px;
+        opacity: 0.6;
+    }
+
+    #releasesPage
+    {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 4px;
+        color: white;
+        font-size: 28px;
+        opacity: 0.6;
+
+    }
+
+    #photosPage
+    {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 4px;
+        color: #D2BE03;
+        font-size: 28px;
+        opacity: 0.6;
+    }
+
+    #videosPage:hover
+    {
+        opacity: 1;
+    }
+    #releasesPage:hover
+    {
+        opacity: 1;
+    }
+    #photosPage:hover
+    {
+        opacity: 1;
+    }
+    .intro
+    {
+        background-image: url('../images/sgl_img_0.png');
+        background-repeat: no-repeat;
+        background-size: 100% 169%;
+        width: 100%;
+        height: 600px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #menu-slider
+    {
+        display: none;
+    }
+    .sidenav {
+        height: 100%; /* 100% Full-height */
+        width: 250px; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0;
+        left: 0;
+        background-color: purple; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    }
+
+    /* The navigation menu links */
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        display: block;
+        transition: 0.3s
+    }
+
+    .sidenav li
+    {
+        list-style: none;
+        text-align: center;
+
+    }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    #main {
+        transition: margin-left .5s;
+        padding: 20px;
+        margin-left: 250px;
+    }
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+    /* Styles */
+}
+
+.myFooter
+{
+    background-color:purple;
+    border:purple;
+    background-size:90%;
+    background-repeat:no-repeat;
+    background-position: center;
+    font-family: myNavigationFont;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 20px;
+    color:WHITE;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    height: 290px;
+    margin: auto;
+}
+#myCarousel:hover .carousel-left{
+    left:0px;
+    -webkit-transition: 600ms;
+    -moz-transition: 600ms;
+    -o-transition: 600ms;
+    transition: 600ms;
+}
+
+#myCarousel:hover .carousel-right{
+    right:0px;
+    -webkit-transition: 600ms;
+    -moz-transition: 600ms;
+    -o-transition: 600ms;
+    transition: 600ms;
+}
+
+#myCarousel .carousel-left,
+#myCarousel .carousel-right{
+    padding: 15px;
+    z-index: 12;
+    font-size: 60px;
+    color: rgba(255, 255, 255, 0.52);
+    top: 50%;
+    position: absolute;
+    margin-top: -60px;
+    text-align: center;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -o-transition: 300ms;
+    transition: 300ms;
+}
+
+
+
+
+@font-face {
+    font-family: 'myNavigationFont'; /*a name to be used later*/
+    src: url('../fonts/28 Days Later.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'starWarsFont'; /*a name to be used later*/
+    src: url('../fonts/Star_Jedi_Rounded.ttf'); /*URL to font*/
+}
+
+
+#news h1
+{
+    font-family: myNavigationFont;
+    color: white;
+}
+#news p
+{
+    font-family: myNavigationFont;
+    color: white;
+}
+
+#upcomingShows h1
+{
+    color: black;
+}
+
+#upcomingShows p
+{
+
+    color: black;
+}
+
+.upcomingShowsTable th
+{
+
+    color: black;
+    text-align: center;
+}
+
+.upcomingShowsTable td
+{
+    color: black;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.star {
+    animation: star 10s ease-out infinite;
+}
+.wars {
+    animation: wars 10s ease-out infinite;
+}
+.byline span {
+    animation: spin-letters 10s linear infinite;
+}
+.byline {
+    animation: move-byline 10s linear infinite;
+}
+
+/* Keyframes */
+@keyframes star {
+    0% {
+        opacity: 0;
+        transform: scale(0.8) translateY(-0.75em);
+    }
+    20% {
+        opacity: 1;
+    }
+    89% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: translateZ(-1000em);
+    }
+}
+
+@keyframes wars {
+    0% {
+        opacity: 0;
+        transform: scale(0.8) translateY(0.5em);
+    }
+    20% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 0;
+        transform: translateZ(-1000em);
+    }
+}
+
+@keyframes spin-letters {
+    0%, 10% {
+        opacity: 0;
+        transform: rotateY(90deg);
+    }
+    30% {
+        opacity: 1;
+    }
+    70%, 86% {
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
+    95%, 100% {
+        opacity: 0;
+    }
+}
+
+@keyframes move-byline {
+    0% {
+        transform: translateZ(5em);
+    }
+    100% {
+        transform: translateZ(0);
+    }
+}
+
+/* Make the 3D work on the container */
+.starwars-demo {
+    perspective: 300px;
+    -webkit-transform-style: preserve-3d; /* Chrome, Safari, Opera */
+    transform-style: preserve-3d;
+}
+
+/* General styles and layout */
+.starWarsBody {
+  /* background: #000 url(../images/bg.jpg);*/
+
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+}
+
+
+.starwars-demo {
+    height: 21em;
+    transform: translate(30%,0%);
+    width: 34em;
+}
+
+.byline span {
+    display: inline-block;
+}
+
+img {
+    width: 100%;
+}
+
+.star, .wars, .byline {
+    position: absolute;
+}
+
+.star {
+    top: -0.75em;
+}
+
+.wars {
+    bottom: -0.5em;
+}
+
+.byline {
+    color: #fff;
+    font-family: "ITC Serif Gothic", Lato;
+    font-size: 2.25em;
+    left: -2em;
+    letter-spacing: 0.4em;
+    right: -2em;
+    text-align: center;
+    text-transform: uppercase;
+    top: 29%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
