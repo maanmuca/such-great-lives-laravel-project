@@ -86,7 +86,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-lg-12 ">
-                            After years of galactic silence, civilization is on the brink of more Star Wars movies. Now, with the Force already awaken, the people of Earth seek solace in creating websites, memes, and presentations that need the intro crawl we've come to know and love. Make cooler stuff, faster, with our simple CSS library for the Star Wars Intro Crawl. Follow us on :
+                                After years of galactic silence, civilization is on the brink of more Star Wars movies. Now, with the Force already awaken, the people of Earth seek solace in creating websites, memes, and presentations that need the intro crawl we've come to know and love. Make cooler stuff, faster, with our simple CSS library for the Star Wars Intro Crawl. Follow us on :
 
                                 </div>
                                 <div class="col-lg-12 socialMediaLinksDark text-center">

@@ -42,17 +42,6 @@
 </div>
 <div id="main">
     @yield('content')
-    <div class="container myNavigation">
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <nav class="navbar navbar-inverse">
-                    <div class="container-fluid myFooter">
-                        <p>Copyright &copy; 2016 - <a href="http://www.suchgreatlives.com/">www.suchgreatlives.com</a> | All Rights Reserved | Created by Paola Sanabria and Marco Munoz</p>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </div>
     <div class="jumbotron sglFooter" id="bg_footer">
         <nav class="navbar">
             <div class="container" id="container_ft">
