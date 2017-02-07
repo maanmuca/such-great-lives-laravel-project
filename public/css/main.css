@@ -1,12 +1,52 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Acme');
+.eachImageStyle
+{
+    position: relative; top: 0; left: 0;
+}
 
+.youTubeBtnStyle
+{
+    position: absolute; top: 10%; left: 10%;
+}
+
+.youTubeBtnStyle
+{
+    width: 30%;
+    height: 40%;
+    opacity: 0.6;
+}
+.thumbnailStyle
+{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.mainVideoContainer
+
+{
+    background-color:rgba(74,0,74,1);
+    margin-top: -20px;
+}
+
+#no
+{
+    color: white;
+    font-size: 32px;
+}
+
+.mainVideo
+{
+    background-color:rgba(74,0,74,1);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 body
 {
-    background-image: url('../images/stars-bg.jpg');
+    /*background-image: url('../images/stars-bg.jpg');
     background-repeat: repeat;
     color:white;
-    z-index: 0;
+    z-index: 0;*/
 
 }
 
@@ -17,6 +57,15 @@ body
 
 }
 
+p
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section-heading
+{
+    font-family: 'Acme', sans-serif;
+}
 
 
 .imageNews
@@ -27,16 +76,12 @@ body
 
 .upcomingShowsTable thead th
 {
-    color: white;
+    color: rgba(74,0,74,1);
 }
 
 .upcomingShowsTable tbody td
 {
-    color: white;
-}
-.sglFooter
-{
-    background-color: black;
+    color: rgba(74,0,74,1);
 }
 
 #bg_footer{
@@ -49,6 +94,11 @@ body
 
 #container_ft{
     padding-top:5px;
+}
+
+.service-heading
+{
+    font-family: 'Acme', sans-serif;
 }
 
 
@@ -71,7 +121,10 @@ body
 {
     color: white;
     text-align: center;
-    padding: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 4px;
+    padding-right: 4px;
     margin: 16px;
 }
 
@@ -82,7 +135,7 @@ body
 
 .sglMore
 {
-    background-color: #2D233B;
+    background-color: rgba(74,0,74,1);
     color: white;
     margin-bottom: 40px;
     padding-bottom: 20px;
@@ -117,7 +170,7 @@ body
     font-size: 28px;
     padding-top: 5px;
     color: white;
-    background-color: #2D233B;
+    background-color:rgba(74,0,74,1);
     width: 56px;
     height: 56px;
     vertical-align:28px;
@@ -166,7 +219,7 @@ and (max-device-width : 319px)
     .subscribe a
     {
         padding-top: 60px;
-        font-family: myNavigationFont;
+        font-family: 'Acme', sans-serif;
         color: white;
         font-size: 24px;
     }
@@ -174,7 +227,7 @@ and (max-device-width : 319px)
     .subscribe a:hover
     {
         padding-top: 60px;
-        font-family: myNavigationFont;
+        font-family: 'Acme', sans-serif;
         color: white;
         font-size: 28px;
         text-decoration: none;
@@ -197,7 +250,7 @@ and (max-device-width : 319px)
         z-index: 1; /* Stay on top */
         top: 0;
         left: 0;
-        background-color: #2D233B; /* Black*/
+        background-color: rgba(74,0,74,1);
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 60px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -241,13 +294,13 @@ and (max-width : 319px)
     .upcomingShowsTable thead th
     {
         font-size: 12px;
-        color: white;
+        color:rgba(74,0,74,1);
     }
 
     .upcomingShowsTable tbody td
     {
         font-size: 12px;
-        color: white;
+        color:rgba(74,0,74,1);
     }
     #sgl-logo
     {
@@ -278,7 +331,7 @@ and (max-width : 319px)
     .subscribe a
     {
         padding-top: 60px;
-        font-family: myNavigationFont;
+        font-family: 'Acme', sans-serif;
         color: white;
         font-size: 24px;
     }
@@ -286,7 +339,7 @@ and (max-width : 319px)
     .subscribe a:hover
     {
         padding-top: 60px;
-        font-family: myNavigationFont;
+        font-family: 'Acme', sans-serif;
         color: white;
         font-size: 28px;
         text-decoration: none;
@@ -310,7 +363,7 @@ and (max-width : 319px)
         z-index: 1; /* Stay on top */
         top: 0;
         left: 0;
-        background-color: #2D233B; /* Black*/
+        background-color:rgba(74,0,74,1);
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 60px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -390,7 +443,7 @@ and (max-device-width : 480px)
     .subscribe a
     {
         padding-top: 60px;
-        font-family: myNavigationFont;
+        font-family: 'Acme', sans-serif;
         color: white;
         font-size: 24px;
     }
@@ -398,7 +451,7 @@ and (max-device-width : 480px)
     .subscribe a:hover
     {
         padding-top: 60px;
-        font-family: myNavigationFont;
+        font-family: 'Acme', sans-serif;
         color: white;
         text-decoration: none;
     }
@@ -429,21 +482,6 @@ and (max-device-width : 480px)
         color: #D2BE03;
         opacity: 0.6;
     }
-
-    #videosPage:hover
-    {
-        opacity: 1;
-    }
-    #releasesPage:hover
-    {
-        opacity: 1;
-    }
-    #photosPage:hover
-    {
-        opacity: 1;
-    }
-
-
     .intro
     {
         background-image: url('../images/sgl_img_0.png');
@@ -456,31 +494,34 @@ and (max-device-width : 480px)
     }
     .sidenav {
         height: 100%; /* 100% Full-height */
-        width: 0px; /* 0 width - change this with JavaScript */
+        width: 150px; /* 0 width - change this with JavaScript */
         position: fixed; /* Stay in place */
-        z-index: 1; /* Stay on top */
+        z-index: 1;
         top: 0;
-        left: 0;
-        background-color: #2D233B; /* Black*/
+        background-color:  rgba(74,0,74,1);
         overflow-x: hidden; /* Disable horizontal scroll */
-        padding-top: 60px; /* Place content 60px from the top */
+        /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
     }
 
     /* The navigation menu links */
-    .sidenav li
-    {
-        list-style: none;
-        text-align: center;
-
-    }
     .sidenav a {
-        padding: 8px 8px 8px 8px;
         text-decoration: none;
-        font-size: 25px;
+        font-size: 20px;
         color: white;
-        display: block;
+        margin-left: 20px;
+        background-position: center;
+        font-family: 'Acme', sans-serif;
         transition: 0.3s
+    }
+
+    .sidenav a:hover {
+
+        color:  mediumpurple;
+        /*background:  transparent url("../images/sglBtn.svg") no-repeat 0 center;*/
+        background-size: 150% 150%;
+        background-position: center;
+        margin-left: 20px;
     }
 
     .sidenav .closebtn {
@@ -539,7 +580,7 @@ and (orientation : landscape)
     .subscribe a
     {
         padding-top: 60px;
-        font-family: myNavigationFont;
+        font-family: 'Acme', sans-serif;
         color: white;
         font-size: 24px;
     }
@@ -547,7 +588,7 @@ and (orientation : landscape)
     .subscribe a:hover
     {
         padding-top: 60px;
-        font-family: myNavigationFont;
+        font-family: 'Acme', sans-serif;
         color: white;
         font-size: 28px;
         text-decoration: none;
@@ -557,9 +598,6 @@ and (orientation : landscape)
         margin-left: 10%;
         margin-right: 10%;
         margin-top: 4px;
-        color: hotpink;
-        font-size: 28px;
-        opacity: 0.6;
     }
 
     #releasesPage
@@ -567,9 +605,6 @@ and (orientation : landscape)
         margin-left: 5%;
         margin-right: 5%;
         margin-top: 4px;
-        color: white;
-        font-size: 28px;
-        opacity: 0.6;
 
     }
 
@@ -578,22 +613,6 @@ and (orientation : landscape)
         margin-left: 10%;
         margin-right: 10%;
         margin-top: 4px;
-        color: #D2BE03;
-        font-size: 28px;
-        opacity: 0.6;
-    }
-
-    #videosPage:hover
-    {
-        opacity: 1;
-    }
-    #releasesPage:hover
-    {
-        opacity: 1;
-    }
-    #photosPage:hover
-    {
-        opacity: 1;
     }
 
     .intro
@@ -608,27 +627,35 @@ and (orientation : landscape)
     }
     .sidenav {
         height: 100%; /* 100% Full-height */
-        width: 0px; /* 0 width - change this with JavaScript */
+        width: 150px; /* 0 width - change this with JavaScript */
         position: fixed; /* Stay in place */
-        z-index: 1; /* Stay on top */
+        z-index: 1;
         top: 0;
-        left: 0;
-        background-color: #2D233B; /* Black*/
+        background-color:  rgba(74,0,74,1);
         overflow-x: hidden; /* Disable horizontal scroll */
-        padding-top: 60px; /* Place content 60px from the top */
+        /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
     }
 
     /* The navigation menu links */
     .sidenav a {
-        padding: 8px 8px 8px 8px;
         text-decoration: none;
-        font-size: 25px;
+        font-size: 20px;
         color: white;
-        display: block;
+        margin-left: 20px;
+        background-position: center;
+        font-family: 'Acme', sans-serif;
         transition: 0.3s
     }
 
+    .sidenav a:hover {
+
+        color:  mediumpurple;
+        /*background:  transparent url("../images/sglBtn.svg") no-repeat 0 center;*/
+        background-size: 150% 150%;
+        background-position: center;
+        margin-left: 20px;
+    }
     .sidenav li
     {
         list-style: none;
@@ -690,7 +717,7 @@ and (min-device-width : 768px)
     .subscribe a
     {
         padding-top: 60px;
-        font-family: myNavigationFont;
+        font-family: 'Acme', sans-serif;
         color: white;
         font-size: 24px;
     }
@@ -698,7 +725,7 @@ and (min-device-width : 768px)
     .subscribe a:hover
     {
         padding-top: 60px;
-        font-family: myNavigationFont;
+        font-family: 'Acme', sans-serif;
         color: white;
         font-size: 28px;
         text-decoration: none;
@@ -764,7 +791,7 @@ and (min-device-width : 768px)
         z-index: 1; /* Stay on top */
         top: 0;
         left: 0;
-        background-color:#2D233B; /* Black*/
+        background-color:rgba(74,0,74,1);
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 60px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -840,7 +867,7 @@ and (orientation : landscape)
     .subscribe a
     {
         padding-top: 60px;
-        font-family: myNavigationFont;
+        font-family: 'Acme', sans-serif;
         color: white;
         font-size: 24px;
     }
@@ -848,7 +875,7 @@ and (orientation : landscape)
     .subscribe a:hover
     {
         padding-top: 60px;
-        font-family: myNavigationFont;
+        font-family: 'Acme', sans-serif;
         color: white;
         font-size: 28px;
         text-decoration: none;
@@ -910,25 +937,34 @@ and (orientation : landscape)
     }
     .sidenav {
         height: 100%; /* 100% Full-height */
-        width: 0px; /* 0 width - change this with JavaScript */
+        width: 150px; /* 0 width - change this with JavaScript */
         position: fixed; /* Stay in place */
-        z-index: 1; /* Stay on top */
+        z-index: 1;
         top: 0;
-        left: 0;
-        background-color: #2D233B; /* Black*/
+        background-color:  rgba(74,0,74,1);
         overflow-x: hidden; /* Disable horizontal scroll */
-        padding-top: 60px; /* Place content 60px from the top */
+        /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
     }
 
     /* The navigation menu links */
     .sidenav a {
-        padding: 8px 8px 8px 8px;
         text-decoration: none;
-        font-size: 25px;
+        font-size: 20px;
         color: white;
-        display: block;
+        margin-left: 20px;
+        background-position: center;
+        font-family: 'Acme', sans-serif;
         transition: 0.3s
+    }
+
+    .sidenav a:hover {
+
+        color:  mediumpurple;
+        /*background:  transparent url("../images/sglBtn.svg") no-repeat 0 center;*/
+        background-size: 150% 150%;
+        background-position: center;
+        margin-left: 20px;
     }
 
     .sidenav li
@@ -962,7 +998,7 @@ and (orientation : landscape) {
 
     .sglNews
     {
-        background-color: #2D233B;
+        background-color:rgba(74,0,74,1);
         color: white;
         margin-top: 20px;
         padding-bottom: 20px;
@@ -1002,7 +1038,7 @@ and (orientation : landscape) {
     .subscribe a
     {
         padding-top: 60px;
-        font-family: myNavigationFont;
+        font-family: 'Acme', sans-serif;
         color: white;
         font-size: 24px;
     }
@@ -1010,7 +1046,7 @@ and (orientation : landscape) {
     .subscribe a:hover
     {
         padding-top: 60px;
-        font-family: myNavigationFont;
+        font-family: 'Acme', sans-serif;
         color: white;
         font-size: 28px;
         text-decoration: none;
@@ -1045,19 +1081,6 @@ and (orientation : landscape) {
         font-size: 28px;
         opacity: 0.6;
     }
-
-    #videosPage:hover
-    {
-        opacity: 1;
-    }
-    #releasesPage:hover
-    {
-        opacity: 1;
-    }
-    #photosPage:hover
-    {
-        opacity: 1;
-    }
     .intro
     {
         background-image: url('../images/sgl_img_0.png');
@@ -1070,25 +1093,34 @@ and (orientation : landscape) {
     }
     .sidenav {
         height: 100%; /* 100% Full-height */
-        width: 0px; /* 0 width - change this with JavaScript */
+        width: 150px; /* 0 width - change this with JavaScript */
         position: fixed; /* Stay in place */
-        z-index: 1; /* Stay on top */
+        z-index: 1;
         top: 0;
-        left: 0;
-        background-color:#2D233B; /* Black*/
+        background-color:  rgba(74,0,74,1);
         overflow-x: hidden; /* Disable horizontal scroll */
-        padding-top: 60px; /* Place content 60px from the top */
+        /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
     }
 
     /* The navigation menu links */
     .sidenav a {
-        padding: 8px 8px 8px 8px;
         text-decoration: none;
-        font-size: 25px;
+        font-size: 20px;
         color: white;
-        display: block;
+        margin-left: 20px;
+        background-position: center;
+        font-family: 'Acme', sans-serif;
         transition: 0.3s
+    }
+
+    .sidenav a:hover {
+
+        color:  mediumpurple;
+        /*background:  transparent url("../images/sglBtn.svg") no-repeat 0 center;*/
+        background-size: 150% 150%;
+        background-position: center;
+        margin-left: 20px;
     }
 
     .sidenav li
@@ -1133,7 +1165,7 @@ and (min-width : 1025px)
     }
     .sglNews
     {
-        background-color: #2D233B;
+        background-color: rgba(74,0,74,1);
         color: white;
         margin-top: 20px;
         padding-bottom: 20px;
@@ -1205,10 +1237,9 @@ and (min-width : 1025px)
         height: 100%; /* 100% Full-height */
         width: 150px; /* 0 width - change this with JavaScript */
         position: fixed; /* Stay in place */
-        margin-left: -15px;
         z-index: 1;
         top: 0;
-        background-color: rgba(45, 35, 59, 0);
+        background-color:  rgba(74,0,74,1);
         overflow-x: hidden; /* Disable horizontal scroll */
          /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -1218,7 +1249,9 @@ and (min-width : 1025px)
     .sidenav a {
         text-decoration: none;
         font-size: 20px;
-        color:  #2D233B;
+        color: white;
+        margin-left: 20px;
+        background-position: center;
         font-family: 'Acme', sans-serif;
         transition: 0.3s
     }
@@ -1226,13 +1259,17 @@ and (min-width : 1025px)
     .sidenav a:hover {
 
         color:  mediumpurple;
+        /*background:  transparent url("../images/sglBtn.svg") no-repeat 0 center;*/
+        background-size: 150% 150%;
+        background-position: center;
+        margin-left: 20px;
     }
 
     .currentNavPage
     {
-        background:  transparent url("../images/sglBtn.svg") no-repeat 0 center;
+        /*background:  transparent url("../images/sglBtn.svg") no-repeat 0 center;
         background-size: 100% 100%;
-        margin-left: 40px;
+        margin-left: 40px;*/
 
     }
     .sidenav li
@@ -1240,8 +1277,8 @@ and (min-width : 1025px)
         list-style: none;
         margin-left: 0px;
         text-align: center;
-        background: url('../images/sglBtn.png') no-repeat;
-        background-size: contain;
+       /* background: url('../images/sglBtn.png') no-repeat;
+        background-size: contain;*/
 
 
     }
@@ -1382,7 +1419,7 @@ and (min-width : 1824px) {
         z-index: 1; /* Stay on top */
         top: 0;
         left: 0;
-        background-color: purple; /* Black*/
+        background-color: rgba(74,0,74,1);
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 60px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -1426,19 +1463,6 @@ only screen and (min-device-pixel-ratio : 1.5) {
     /* Styles */
 }
 
-.myFooter
-{
-    background-color:purple;
-    border:purple;
-    background-size:90%;
-    background-repeat:no-repeat;
-    background-position: center;
-    font-family: myNavigationFont;
-    vertical-align: middle;
-    text-align: center;
-    padding-top: 20px;
-    color:WHITE;
-}
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
@@ -1478,14 +1502,6 @@ only screen and (min-device-pixel-ratio : 1.5) {
     transition: 300ms;
 }
 
-
-
-
-@font-face {
-    font-family: 'myNavigationFont'; /*a name to be used later*/
-    src: url('../fonts/28 Days Later.ttf'); /*URL to font*/
-}
-
 @font-face {
     font-family: 'starWarsFont'; /*a name to be used later*/
     src: url('../fonts/Star_Jedi_Rounded.ttf'); /*URL to font*/
@@ -1494,12 +1510,12 @@ only screen and (min-device-pixel-ratio : 1.5) {
 
 #news h1
 {
-    font-family: myNavigationFont;
+    font-family: 'Acme', sans-serif;
     color: white;
 }
 #news p
 {
-    font-family: myNavigationFont;
+    font-family: 'Acme', sans-serif;
     color: white;
 }
 
@@ -1517,13 +1533,13 @@ only screen and (min-device-pixel-ratio : 1.5) {
 .upcomingShowsTable th
 {
 
-    color: black;
+    color: rgba(74,0,74,1);
     text-align: center;
 }
 
 .upcomingShowsTable td
 {
-    color: black;
+    color:rgba(74,0,74,1);
     text-align: center;
 }
 
