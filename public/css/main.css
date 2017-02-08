@@ -178,8 +178,8 @@ p
     border-radius: 28px;
     border: solid white 2px;
 }
-@media only screen
-and (max-device-width : 319px)
+/*////////////////////////////////////////////////////device-width 319px max//*/
+@media only screen and (max-device-width : 319px)
 {
     .upcomingShowsTable thead th
     {
@@ -234,7 +234,7 @@ and (max-device-width : 319px)
     }
     .intro
     {
-        background-image: url('../images/sgl_img_0.png');
+        background-image: url('../images/bg_02.png');
         background-repeat: no-repeat;
         background-size: 100% 169%;
         width: 100%;
@@ -347,7 +347,7 @@ and (max-width : 319px)
 
     .intro
     {
-        background-image: url('../images/sgl_img_0.png');
+        background-image: url('../images/bg_02.png');
         background-repeat: no-repeat;
         background-size: 80% 169%;
         width: 100%;
@@ -402,10 +402,8 @@ and (max-width : 319px)
 
 }
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px)
+/*//////////////////////////////////////Smartphones (portrait and landscape)//*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
 {
 
     .upcomingShowsTable td
@@ -484,7 +482,7 @@ and (max-device-width : 480px)
     }
     .intro
     {
-        background-image: url('../images/sgl_img_0.png');
+        background-image: url('../images/bg_02.png');
         background-repeat: no-repeat;
         background-size: 100% 169%;
         width: 100%;
@@ -541,10 +539,10 @@ and (max-device-width : 480px)
 }
 
 
-@media only screen
-and (min-device-width : 480px)
-and (max-device-width : 768px)
-and (orientation : landscape)
+/*////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (min-device-width : 480px)
+                   and (max-device-width : 768px)
+                   and (orientation : landscape)
 {
     #sgl-logo
     {
@@ -617,7 +615,7 @@ and (orientation : landscape)
 
     .intro
     {
-        background-image: url('../images/sgl_img_0.png');
+        background-image: url('../images/bg_02.png');
         background-repeat: no-repeat;
         background-size: 100% 169%;
         width: 100%;
@@ -678,9 +676,8 @@ and (orientation : landscape)
 }
 
 
-/* iPads (portrait and landscape) ----------- */
-@media only screen
-and (min-device-width : 768px)
+/*////////////////////////////////////////////iPads (portrait and landscape)//*/
+@media only screen and (min-device-width : 768px)
 
 {
     #sgl-logo
@@ -776,7 +773,7 @@ and (min-device-width : 768px)
 
     .intro
     {
-        background-image: url('../images/sgl_img_0.png');
+        background-image: url('../images/bg_02.png');
         background-repeat: no-repeat;
         background-size: 100% 169%;
         width: 100%;
@@ -826,12 +823,9 @@ and (min-device-width : 768px)
         padding: 20px;
         margin-left:0px ;
     }
-
-
 }
-@media only screen
-and (min-device-width : 768px)
-and (orientation : landscape)
+/*////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (min-device-width : 768px) and (orientation : landscape)
 {
     #sgl-logo
     {
@@ -927,7 +921,7 @@ and (orientation : landscape)
 
     .intro
     {
-        background-image: url('../images/sgl_img_0.png');
+        background-image: url('../images/bg_02.png');
         background-repeat: no-repeat;
         background-size: 100% 169%;
         width: 100%;
@@ -989,13 +983,11 @@ and (orientation : landscape)
 
 }
 
-
-/* iPads (landscape) ----------- */
-@media only screen
-and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : landscape) {
-
+/*/////////////////////////////////////////////////////////iPads (landscape)//*/
+@media only screen and (min-device-width : 768px)
+                   and (max-device-width : 1024px)
+                   and (orientation : landscape) 
+{
     .sglNews
     {
         background-color:rgba(74,0,74,1);
@@ -1083,7 +1075,7 @@ and (orientation : landscape) {
     }
     .intro
     {
-        background-image: url('../images/sgl_img_0.png');
+        background-image: url('../images/bg_02.png');
         background-repeat: no-repeat;
         background-size: 100% 169%;
         width: 100%;
@@ -1144,13 +1136,10 @@ and (orientation : landscape) {
         margin-left:150px;
         margin-right:-30px;
     }
-
 }
 
-
-/* Desktops and laptops ----------- */
-@media only screen
-and (min-width : 1025px)
+/*//////////////////////////////////////////////////////Desktops and laptops//*/
+@media only screen and (min-width : 1025px)
 {
     .linksStarWars a
     {
@@ -1221,7 +1210,7 @@ and (min-width : 1025px)
 
     .intro
     {
-        background-image: url('../images/sgl_img_0.png');
+        background-image: url('../images/bg_02.png');
         background-repeat: no-repeat;
         background-size: 100% 169%;
         width: 100%;
@@ -1300,13 +1289,11 @@ and (min-width : 1025px)
         transition: margin-left .5s;
         margin-left:150px ;
     }
-
 }
 
-
-/* Large screens ----------- */
-@media only screen
-and (min-width : 1824px) {
+/*/////////////////////////////////////////////////////////////Large screens//*/
+@media only screen and (min-width : 1824px) 
+{
     #sgl-logo
     {
         padding-top: 100px;
@@ -1400,7 +1387,7 @@ and (min-width : 1824px) {
     }
     .intro
     {
-        background-image: url('../images/sgl_img_0.png');
+        background-image: url('../images/bg_02.png');
         background-repeat: no-repeat;
         background-size: 100% 169%;
         width: 100%;
@@ -1408,6 +1395,7 @@ and (min-width : 1824px) {
         margin-left: 0px;
         margin-right: 0px;
     }
+   
     #menu-slider
     {
         display: none;
@@ -1456,10 +1444,10 @@ and (min-width : 1824px) {
     }
 }
 
-/* iPhone 4 ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
+/*/////////////////////////////////////////////////////////////iPhone 4///////*/
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5),
+       only screen and (min-device-pixel-ratio : 1.5) 
+{
     /* Styles */
 }
 

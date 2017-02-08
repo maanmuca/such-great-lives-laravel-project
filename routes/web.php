@@ -11,28 +11,26 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//home
+Route::get('/', 'NavController@index');
 
-Route::get('/welcome', function () {
-    return view('welcome');
-});
-Route::get('/aboutUs', function () {
-    return view('pages.aboutUs');
-});
-Route::get('/media', function () {
-    return view('pages.media');
-});
-Route::get('/news', function () {
-    return view('pages.news');
-});
-Route::get('/photos', function () {
-    return view('pages.photos');
-});
-Route::get('/shows', function () {
-    return view('pages.shows');
-});
-Route::get('/subscribe', function () {
-    return view('pages.subscribe');
-});
+//albums
+Route::get('albums', 'NavController@albums');
+
+//photos
+Route::get('photos', 'NavController@photos');
+
+//videos
+Route::get('videos', 'NavController@videos');
+
+//releases
+Route::get('releases', 'NavController@releases');
+
+//game
+Route::get('game', 'NavController@game');
+
+//contact
+Route::get('/contact', 'NavController@contact');
+
+ //subscribe
+Route::get('subscribe', 'NavController@subscribe'); 

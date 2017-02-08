@@ -29,15 +29,15 @@
 <a href="#" id="menu-slider"><i class="fa fa-bars text-center" aria-hidden="true"></i></a>
 <div id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" id="closeNav">&times;</a>
-    <li><a class="currentNavPage" href="{{url('/welcome')}}">Home</a></li>
-    <li><a class="currentNavPage" href="{{url('/aboutUs')}}">About</a></li>
-    <li><a class="currentNavPage" href="{{url('/news')}}">News</a></li>
-    <li><a class="currentNavPage" href="{{url('/shows')}}">Shows</a></li>
-    <li><a class="currentNavPage" href="{{url('/photos')}}">Photos</a></li>
+    <li><a class="currentNavPage" href="{{url('/')}}">Home</a></li>
+    <li><a class="currentNavPage" href="{{url('/')}}#about">About</a></li>
+    <li><a class="currentNavPage" href="{{url('/')}}#news">News</a></li>
+    <li><a class="currentNavPage" href="{{url('/')}}#shows">Shows</a></li>
+    <li><a class="currentNavPage" href="{{url('/albums')}}">Photos</a></li>
     <li><a class="currentNavPage" href="{{url('/videos')}}">Videos</a></li>
     <li><a class="currentNavPage" href="{{url('/releases')}}">Releases</a></li>
     <li><a class="currentNavPage" href="{{url('/game')}}">Game</a></li>
-    <li><a class="currentNavPage" href="{{url('/links')}}">Links</a></li>
+    <li><a class="currentNavPage" href="{{url('/')}}#links">Links</a></li>
     <li><a class="currentNavPage" href="{{url('/contact')}}">Contact</a></li>
 </div>
 <div id="main">
