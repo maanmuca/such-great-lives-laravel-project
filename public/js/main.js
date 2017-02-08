@@ -29,7 +29,7 @@ $(window).resize(function()
 
 $(document).ready(function() {
     var width = $(window).width();
-    alert(width);
+   // alert(width);
     var positionLeftMenu=width-200;
     var height = $(window).height();
     var positionTopMenu =height-100;

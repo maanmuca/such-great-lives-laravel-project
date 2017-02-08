@@ -86,6 +86,7 @@ p
 
 #bg_footer{
     background-image: url("../images/bg_footer_04.png");
+    background-color: white;
     background-position: top;
     background-repeat: no-repeat;
     margin-top: 35px;

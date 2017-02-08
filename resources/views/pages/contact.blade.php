@@ -43,6 +43,7 @@
     </ol>  
 </div>
 
+<div class="container contact" >
 <div class="row text-center">
     <h2 class="section-heading">Contact</h2>
 </div>
@@ -74,8 +75,7 @@
          </div>          
     </form>
            
-            <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit</button>
-       
-
-</div> 
+    <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit</button>     
+</div>
+</div>
 @endsection
