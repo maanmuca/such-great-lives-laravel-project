@@ -1,6 +1,7 @@
 @extends('layouts.layout')
 @section('content')
-<div class="container intro" >
+<div class="jumbotron" id="intro">
+  
     <div class="row">
         <div class="col-lg-offset-9 col-md-offset-9 col-sm-offset-6 col-xs-offset-5 subscribe">
             <a href="{{url('/subscribe')}}">Subscribe !</a>
@@ -21,6 +22,7 @@
         <a href="#"  data-toggle="tooltip" title="Releases !" class="col-lg-4 col-md-4 col-sm-4 col-xs-4" ><img src="{{URL::asset('images/releases.png')}}"  class=" center-block bigIcons"   alt="releases"></a>
         <a href="#"  data-toggle="tooltip" title="Photos !" class="col-lg-4 col-md-4 col-sm-4 col-xs-4"  ><img src="{{URL::asset('images/gallery.png')}}" class= " center-block bigIcons"   alt="gallery"></a>
     </div>
+
 </div>
     
 <!-------------------------------- Section About ------------------------------*-->

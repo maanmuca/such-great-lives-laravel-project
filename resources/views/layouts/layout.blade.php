@@ -17,7 +17,7 @@
         <script src="https://use.fontawesome.com/fdb3ab1e60.js"></script>
         <link href="{{URL::asset('css/main.css')}}" rel="stylesheet">
         <link rel="stylesheet" href="{{URL::asset('css/starwarsintro.css')}}">
-        <link rel="shortcut icon" href="{{URL::asset('images/favicon.ico')}}">
+        <link rel="shortcut icon" href="{{URL::asset('images/mini-logo.png')}}">
         <script>
             window.Laravel =
             <?php echo json_encode([
@@ -25,9 +25,12 @@
             ]); ?>
         </script>
     </head>
+    
     <body>
-        <a href="#" id="menu-slider"><i class="fa fa-bars text-center" aria-hidden="true"></i></a>
-        <div id="mySidenav" class="sidenav">
+        <a href="#" id="menu-slider">
+            <i class="fa fa-bars text-center" aria-hidden="true"></i></a>
+        
+         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" id="closeNav">&times;</a>
             <li><a class="currentNavPage" href="{{url('/')}}">Home</a></li>
             <li><a class="currentNavPage" href="{{url('/')}}#about">About</a></li>

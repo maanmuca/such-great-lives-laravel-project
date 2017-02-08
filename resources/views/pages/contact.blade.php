@@ -37,9 +37,9 @@
     </div>
         
     <ol class="list-inline social-buttons pull-right">
-        <li><a href="#"><i class="fa fa-youtube fa-2x aria-hidden="true"></i></a></li>
-        <li><a href="#"><i class="fa fa-facebook fa-2x aria-hidden="true"></i></a></li>
-        <li><a href="#"><i class="fa fa-google-plus fa-2x aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a></li>
     </ol>  
 </div>
 
@@ -50,7 +50,7 @@
     
 <div class="row">
     <div class="col-lg-5">
-        <h2 class="section-heading">Contact us</h2>        
+        <h3 class="section-heading">Tell us what you think</h3>        
     </div>
 </div>
         
