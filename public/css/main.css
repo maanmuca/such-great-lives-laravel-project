@@ -1141,6 +1141,34 @@ and (max-width : 319px)
 /*//////////////////////////////////////////////////////Desktops and laptops//*/
 @media only screen and (min-width : 1025px)
 {
+    /*********************************************************Paola adding*****/
+    #bg_hd_contact{
+      background-image: url("../images/bg_contact.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 30px;
+    }
+    
+    #bg_hd_releases{
+  background-image: url("../images/guitarra_02.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 30px;
+}
+
+.form-contact
+{
+    background-color: #FAFAFA;
+    padding: 30px 40px 60px;
+    margin: 20px 0px 60px;
+    border: 1px solid purple;
+    clear:both;
+}
+
+    /********************************************************closing Paola*****/
+
     .linksStarWars a
     {
         color: yellow;
@@ -1294,6 +1322,19 @@ and (max-width : 319px)
 /*/////////////////////////////////////////////////////////////Large screens//*/
 @media only screen and (min-width : 1824px) 
 {
+    
+    /*********************************************************Paola adding*****/
+    #bg_hd_contact{
+      background-image: url("../images/bg_contact.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 30px;
+    }
+
+
+    /********************************************************closing Paola*****/
+    
     #sgl-logo
     {
         padding-top: 100px;
