@@ -25,7 +25,7 @@
 .mainVideoContainer
 
 {
-    background-color:rgba(74,0,74,1);
+    background-color:#2D233B;
     margin-top: -20px;
 }
 
@@ -37,7 +37,7 @@
 
 .mainVideo
 {
-    background-color:rgba(74,0,74,1);
+    background-color:#2D233B;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -76,12 +76,12 @@ p
 
 .upcomingShowsTable thead th
 {
-    color: rgba(74,0,74,1);
+    color: #2D233B;
 }
 
 .upcomingShowsTable tbody td
 {
-    color: rgba(74,0,74,1);
+    color: #2D233B;
 }
 
 #bg_footer{
@@ -136,7 +136,7 @@ p
 
 .sglMore
 {
-    background-color: rgba(74,0,74,1);
+    background-color: #2D233B;
     color: white;
     margin-bottom: 40px;
     padding-bottom: 20px;
@@ -171,7 +171,7 @@ p
     font-size: 28px;
     padding-top: 5px;
     color: white;
-    background-color:rgba(74,0,74,1);
+    background-color:#2D233B;
     width: 56px;
     height: 56px;
     vertical-align:28px;
@@ -251,7 +251,7 @@ p
         z-index: 1; /* Stay on top */
         top: 0;
         left: 0;
-        background-color: rgba(74,0,74,1);
+        background-color: #2D233B;
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 60px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -295,13 +295,13 @@ and (max-width : 319px)
     .upcomingShowsTable thead th
     {
         font-size: 12px;
-        color:rgba(74,0,74,1);
+        color:#2D233B;
     }
 
     .upcomingShowsTable tbody td
     {
         font-size: 12px;
-        color:rgba(74,0,74,1);
+        color:#2D233B;
     }
     #sgl-logo
     {
@@ -364,7 +364,7 @@ and (max-width : 319px)
         z-index: 1; /* Stay on top */
         top: 0;
         left: 0;
-        background-color:rgba(74,0,74,1);
+        background-color:#2D233B;
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 60px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -497,7 +497,7 @@ and (max-width : 319px)
         position: fixed; /* Stay in place */
         z-index: 1;
         top: 0;
-        background-color:  rgba(74,0,74,1);
+        background-color:  #2D233B;
         overflow-x: hidden; /* Disable horizontal scroll */
         /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -630,7 +630,7 @@ and (max-width : 319px)
         position: fixed; /* Stay in place */
         z-index: 1;
         top: 0;
-        background-color:  rgba(74,0,74,1);
+        background-color:  #2D233B;
         overflow-x: hidden; /* Disable horizontal scroll */
         /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -789,7 +789,7 @@ and (max-width : 319px)
         z-index: 1; /* Stay on top */
         top: 0;
         left: 0;
-        background-color:rgba(74,0,74,1);
+        background-color:#2D233B;
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 60px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -936,7 +936,7 @@ and (max-width : 319px)
         position: fixed; /* Stay in place */
         z-index: 1;
         top: 0;
-        background-color:  rgba(74,0,74,1);
+        background-color:  #2D233B;
         overflow-x: hidden; /* Disable horizontal scroll */
         /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -991,7 +991,7 @@ and (max-width : 319px)
 {
     .sglNews
     {
-        background-color:rgba(74,0,74,1);
+        background-color:#2D233B;
         color: white;
         margin-top: 20px;
         padding-bottom: 20px;
@@ -1090,7 +1090,7 @@ and (max-width : 319px)
         position: fixed; /* Stay in place */
         z-index: 1;
         top: 0;
-        background-color:  rgba(74,0,74,1);
+        background-color:  #2D233B;
         overflow-x: hidden; /* Disable horizontal scroll */
         /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -1183,7 +1183,7 @@ and (max-width : 319px)
     }
     .sglNews
     {
-        background-color: rgba(74,0,74,1);
+        background-color: #2D233B;
         color: white;
         margin-top: 20px;
         padding-bottom: 20px;
@@ -1257,7 +1257,7 @@ and (max-width : 319px)
         position: fixed; /* Stay in place */
         z-index: 1;
         top: 0;
-        background-color:  rgba(74,0,74,1);
+        background-color:  #2D233B;
         overflow-x: hidden; /* Disable horizontal scroll */
          /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -1449,7 +1449,7 @@ and (max-width : 319px)
         z-index: 1; /* Stay on top */
         top: 0;
         left: 0;
-        background-color: rgba(74,0,74,1);
+        background-color: #2D233B;
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 60px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
@@ -1563,13 +1563,13 @@ and (max-width : 319px)
 .upcomingShowsTable th
 {
 
-    color: rgba(74,0,74,1);
+    color: #2D233B;
     text-align: center;
 }
 
 .upcomingShowsTable td
 {
-    color:rgba(74,0,74,1);
+    color:#2D233B;
     text-align: center;
 }
 
