@@ -1,37 +1,37 @@
 @extends('layouts.layout')
 @section('content')
-
+    
 <!-------------------------------- Intro------ ------------------------------*-->
-
+    
 <div class="jumbotron" id="intro">
-  
-    <div class="row">
-        <div class="col-lg-offset-9 col-md-offset-9 col-sm-offset-6 col-xs-offset-5 subscribe">
-            <a href="{{url('/subscribe')}}">Subscribe !</a>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-offset-9 col-md-offset-9 col-sm-offset-6 col-xs-offset-5 subscribe">
+                <a href="{{url('/subscribe')}}">Subscribe !</a>
+            </div>
+        </div>
+        <div class="row text-center">
+            <img src="{{URL::asset('images/sgllogo_light.png')}}" id="sgl-logo" 
+                 class="img-responsive center-block"  alt="logo">
+        </div>
+        <div class="row text-center">
+            <div class="col-lg-12 socialMediaLinksDark text-center">
+                <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g">
+                    <i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
+                <a href="https://plus.google.com/106986527777902815660">
+                    <i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <div class="row text-center">
+            <a href="#"  data-toggle="tooltip" title="Video" class="col-lg-4 col-md-4 col-sm-4 col-xs-4" >
+                <img src="{{URL::asset('images/videos.png')}}" class=" center-block bigIcons"   alt="videos"></a>
+            <a href="#"  data-toggle="tooltip" title="Releases" class="col-lg-4 col-md-4 col-sm-4 col-xs-4" >
+                <img src="{{URL::asset('images/releases.png')}}"  class=" center-block bigIcons"   alt="releases"></a>
+            <a href="#"  data-toggle="tooltip" title="Photos" class="col-lg-4 col-md-4 col-sm-4 col-xs-4"  >
+                <img src="{{URL::asset('images/gallery.png')}}" class= " center-block bigIcons"   alt="gallery"></a>
         </div>
     </div>
-    <div class="row text-center">
-        <img src="{{URL::asset('images/sgllogo_light.png')}}" id="sgl-logo" 
-             class="img-responsive center-block"  alt="logo">
-    </div>
-    <div class="row text-center">
-        <div class="col-lg-12 socialMediaLinksDark text-center">
-            <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
-            <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g">
-                <i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
-            <a href="https://plus.google.com/106986527777902815660">
-                <i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
-        </div>
-    </div>
-    <div class="row text-center">
-        <a href="#"  data-toggle="tooltip" title="Video" class="col-lg-4 col-md-4 col-sm-4 col-xs-4" >
-            <img src="{{URL::asset('images/videos.png')}}" class=" center-block bigIcons"   alt="videos"></a>
-        <a href="#"  data-toggle="tooltip" title="Releases" class="col-lg-4 col-md-4 col-sm-4 col-xs-4" >
-            <img src="{{URL::asset('images/releases.png')}}"  class=" center-block bigIcons"   alt="releases"></a>
-        <a href="#"  data-toggle="tooltip" title="Photos" class="col-lg-4 col-md-4 col-sm-4 col-xs-4"  >
-            <img src="{{URL::asset('images/gallery.png')}}" class= " center-block bigIcons"   alt="gallery"></a>
-    </div>
-
 </div>
     
 <!-------------------------------- Section About ------------------------------*-->
@@ -47,12 +47,12 @@
                     to song-writing. After a few misfires - including Jon presenting some folky 
                     material - Michael finished off 'Don't Be A Stanger' followed quite soon by "Kitchen Table".
                     Soon, "Gotta Girlfriend Today" popped out. Easy. A paternership was born.</p>
-                
+                        
                 <p class="text-justify"> Matt, formerly of Michael's old band Beautiful Disaster, 
                     joined ship in late 2015 and they were on their way to the open mics!</p>
             </div>
         </div>
-        
+            
         <div class="row text-center">
             <div class="col-md-4 col-sm-4">
                 <!-- <img class=" img-responsive" src='images/jon.jpg' /> -->
@@ -106,7 +106,7 @@
                     <img src="{{URL::asset('images/sgllogostarwars.png')}}">
                 </h2>
                 <div class="main-content">
-                   <div class="title-content">
+                    <div class="title-content">
                         <p class="content-header"><br>www.suchgreatlives.com</p>
                         <br>
                         <p class="content-body">
@@ -117,7 +117,7 @@
                         </div>
                         <div class="row">
                             <div class="col-lg-12 ">
-                                    
+                                
                                 <p>The evil Galactic Empire has hunted all the Feel-Good Rock Bands into extinction.
                                     Emerging from hibernation SUCH GREAT LIVES has emerged to fill a gap.</p>
                                 <br/>
@@ -128,7 +128,7 @@
                                 <p>Come and see SUCH GREAT LIVES at their latest gig. Before the Empire Shuts them down.</p>
                                 <br/>
                                 <center>Follow us on:</center>
-                                        
+                                    
                             </div>
                             <div class="col-lg-12 socialMediaLinksDark text-center">
                                 <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
@@ -150,20 +150,22 @@
 <section id="news">
     <div class="container sglNews">
         <div class="row text-center">
-            <h2 class="section-heading">News</h2>
-        </div>
-        <div class="row text-center">
-            <div class="col-md-6 col-lg-6 col-xs-12 "><h4 class="service-heading">Last Gig</h4>
-                <p class="text-justify">Jon is our rhyhthm guitarist and lead singer. He relishes being on stage and is the infant of the group. He sits at home in the dark, however, and writes some magical tunes.Jon is our rhyhthm guitarist and lead singer. He relishes being on stage and is the infant of the group. He sits at home in the dark, however, and writes some magical tunes.Jon is our rhyhthm guitarist and lead singer. He relishes being on stage and is the infant of the group. He sits at home in the dark, however, and writes some magical tunes.</p></div>
-            <div class="col-md-6 col-lg-6  col-xs-12 "><img src="images/jon.jpg" class="img-thumbnail imageNews" alt="news"> </div>
-            <div class="row">
-                <div class="col-lg-12 socialMediaLinksDark">
-                    <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
-                    <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
-                    <a href="https://plus.google.com/106986527777902815660"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+            <div class="col-sm-12"> 
+                <h2 class="section-heading">News</h2>
+                    
+                <div class="row text-center">
+                    <div class="col-md-6 col-lg-6 col-xs-12 "><h4 class="service-heading">Last Gig</h4>
+                        <p class="text-justify">Jon is our rhyhthm guitarist and lead singer. He relishes being on stage and is the infant of the group. He sits at home in the dark, however, and writes some magical tunes.Jon is our rhyhthm guitarist and lead singer. He relishes being on stage and is the infant of the group. He sits at home in the dark, however, and writes some magical tunes.Jon is our rhyhthm guitarist and lead singer. He relishes being on stage and is the infant of the group. He sits at home in the dark, however, and writes some magical tunes.</p></div>
+                    <div class="col-md-6 col-lg-6  col-xs-12 "><img src="images/jon.jpg" class="img-thumbnail imageNews" alt="news"> </div>
+                    <div class="row">
+                        <div class="col-lg-12 socialMediaLinksDark">
+                            <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                            <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
+                            <a href="https://plus.google.com/106986527777902815660"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            
         </div>
     </div>   
 </section>
@@ -208,6 +210,7 @@
 </section>
 <!-------------------------------- Section Links ------------------------------*-->
 <section id="links">
+   <div class="jumbotron links">
     <div class="container sglMore">
         <div class="row text-center">
             <h2 class="section-heading">Links</h2>
@@ -236,5 +239,6 @@
             </div>
         </div>
     </div>
+   </div>
 </section>
 @endsection
