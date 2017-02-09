@@ -1,5 +1,8 @@
 @extends('layouts.layout')
 @section('content')
+
+<!-------------------------------- Intro------ ------------------------------*-->
+
 <div class="jumbotron" id="intro">
   
     <div class="row">
@@ -8,19 +11,25 @@
         </div>
     </div>
     <div class="row text-center">
-        <img src="{{URL::asset('images/sgllogo_light.png')}}" id="sgl-logo" class="img-responsive center-block"  alt="logo">
+        <img src="{{URL::asset('images/sgllogo_light.png')}}" id="sgl-logo" 
+             class="img-responsive center-block"  alt="logo">
     </div>
     <div class="row text-center">
         <div class="col-lg-12 socialMediaLinksDark text-center">
             <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
-            <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
-            <a href="https://plus.google.com/106986527777902815660"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+            <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g">
+                <i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
+            <a href="https://plus.google.com/106986527777902815660">
+                <i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
         </div>
     </div>
     <div class="row text-center">
-        <a href="#"  data-toggle="tooltip" title="Videos !" class="col-lg-4 col-md-4 col-sm-4 col-xs-4" ><img src="{{URL::asset('images/videos.png')}}" class=" center-block bigIcons"   alt="videos"></a>
-        <a href="#"  data-toggle="tooltip" title="Releases !" class="col-lg-4 col-md-4 col-sm-4 col-xs-4" ><img src="{{URL::asset('images/releases.png')}}"  class=" center-block bigIcons"   alt="releases"></a>
-        <a href="#"  data-toggle="tooltip" title="Photos !" class="col-lg-4 col-md-4 col-sm-4 col-xs-4"  ><img src="{{URL::asset('images/gallery.png')}}" class= " center-block bigIcons"   alt="gallery"></a>
+        <a href="#"  data-toggle="tooltip" title="Video" class="col-lg-4 col-md-4 col-sm-4 col-xs-4" >
+            <img src="{{URL::asset('images/videos.png')}}" class=" center-block bigIcons"   alt="videos"></a>
+        <a href="#"  data-toggle="tooltip" title="Releases" class="col-lg-4 col-md-4 col-sm-4 col-xs-4" >
+            <img src="{{URL::asset('images/releases.png')}}"  class=" center-block bigIcons"   alt="releases"></a>
+        <a href="#"  data-toggle="tooltip" title="Photos" class="col-lg-4 col-md-4 col-sm-4 col-xs-4"  >
+            <img src="{{URL::asset('images/gallery.png')}}" class= " center-block bigIcons"   alt="gallery"></a>
     </div>
 
 </div>
@@ -33,10 +42,14 @@
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <p class="text-justify">Michael and Jon came together in 2010 after a mutual friend pointed out they both always put their money where there mouth was when it came to song-writing. After a few misfires - including Jon presenting some folky material - Michael finished off 'Don't Be A Stanger' followed quite soon by "Kitchen Table".
+                <p class="text-justify">Michael and Jon came together in 2010 after a mutual friend 
+                    pointed out they both always put their money where there mouth was when it came 
+                    to song-writing. After a few misfires - including Jon presenting some folky 
+                    material - Michael finished off 'Don't Be A Stanger' followed quite soon by "Kitchen Table".
                     Soon, "Gotta Girlfriend Today" popped out. Easy. A paternership was born.</p>
                 
-                <p class="text-justify"> Matt, formerly of Michael's old band Beautiful Disaster, joined ship in late 2015 and they were on their way to the open mics!</p>
+                <p class="text-justify"> Matt, formerly of Michael's old band Beautiful Disaster, 
+                    joined ship in late 2015 and they were on their way to the open mics!</p>
             </div>
         </div>
         
@@ -45,28 +58,37 @@
                 <!-- <img class=" img-responsive" src='images/jon.jpg' /> -->
                 <img src="images/jon_02.png" class="img-responsive" id="singer">
                 <h4 class="service-heading">Jon</h4>
-                <p class="text-justify">Jon is our rhyhthm guitarist and lead singer. He relishes being on stage and is the infant of the group. He sits at home in the dark, however, and writes some magical tunes.</p>
+                <p class="text-justify">Jon is our rhyhthm guitarist and lead singer. He relishes 
+                    being on stage and is the infant of the group. He sits at home in the dark, 
+                    however, and writes some magical tunes.</p>
             </div>
             <div class="col-md-4 col-sm-4">
                 <img src='images/jon_02.png'  class="img-responsive"  />
                 <h4 class="service-heading">Matt</h4>
-                <p class="text-justify">Matt is our drummer and backing vocalist. He points out our boring tunes and embellishes the good ones around his drum kit. Our number one fan, he gets us access to
+                <p class="text-justify">Matt is our drummer and backing vocalist. He points out 
+                    our boring tunes and embellishes the good ones around his drum kit. Our number 
+                    one fan, he gets us access to
                     our rehearsal space and is always in a positive mood.
                 </p>
             </div>
             <div class="col-md-4 col-sm-4">
                 <img src='images/jon_02.png' class="img-responsive" />
                 <h4 class="service-heading">Michael</h4>
-                <p class="text-justify">Michael is our a five string frettless bassist and lead singer! He always presents with a lot of purple energy and commitment. Mike grew up in Canberra but
-                    has been all around the world, rock-climbing and learning Spanish. Michael has sung, played and recorded music since the early 1990s.
+                <p class="text-justify">Michael is our a five string frettless bassist and lead 
+                    singer! He always presents with a lot of purple energy and commitment. Mike 
+                    grew up in Canberra but
+                    has been all around the world, rock-climbing and learning Spanish. Michael 
+                    has sung, played and recorded music since the early 1990s.
                 </p>
             </div>
         </div>
         <div class="row text-center">
             <div class="col-lg-12 socialMediaLinksDark">
                 <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
-                <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
-                <a href="https://plus.google.com/106986527777902815660"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g">
+                    <i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
+                <a href="https://plus.google.com/106986527777902815660">
+                    <i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
             </div>
         </div>
     </div>
@@ -110,8 +132,10 @@
                             </div>
                             <div class="col-lg-12 socialMediaLinksDark text-center">
                                 <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
-                                <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
-                                <a href="https://plus.google.com/106986527777902815660"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+                                <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g">
+                                    <i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
+                                <a href="https://plus.google.com/106986527777902815660">
+                                    <i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
                             </div>
                         </div>
                         </p>
