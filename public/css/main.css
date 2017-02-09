@@ -6,10 +6,10 @@
 
 #intro{ 
     background-image: url('../images/bg_02.png');
-    background-position: center;
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 700px;
+    min-height: 900px;
 }
     
 #bg_hd_contact{
@@ -36,10 +36,72 @@
     clear:both;
 }
 
-.links{
-    background-color: red;
+/*----------------------------footer--*/
+footer {  
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
+h5{
+    font-weight: bold; 
+    font-size: 14px;
+}
+
+.footer-links { 
+    list-style-type:none;  
+    padding-left:0px; 
+    margin-left:2px;
+}
+
+.footer-links li { 
+    line-height:29px; 
+    font-size:14px;
+}
+
+.footer-links li a { 
+    color:#fff; 
+    text-decoration: none;
+}
+
+.footer-links li a:hover {
+    color:#ff670f; 
+}
+
+.copyright { 
+    min-height:40px; 
+    background-color:#000000;
+}
+
+.copyright p { 
+    text-align:left; 
+    color:grey; 
+    padding:10px 0; 
+    margin-bottom:0px;
+}
+
+.bottom_ul { 
+    list-style-type:none; 
+    float:right; 
+    margin-bottom:0px;
+}
+
+.bottom_ul li { 
+    float:left; 
+    line-height:40px;
+}
+
+.bottom_ul li:after { 
+    content:"|"; 
+    color:#FFF; 
+    margin-right:8px; 
+    margin-left:8px;
+}
+
+.bottom_ul li a { 
+    color:#FFF;  
+    font-size:15px;
+}
+/*-----------------------end of footer--*/
     /********************************************************closing Paola*****/
 
     
@@ -83,13 +145,6 @@ body{
     background-repeat: repeat;
     color:white;
     z-index: 0;
-
-}
-
-.copyright,.designed{
-    font-size: 15px;
-    color: white;
-    padding-bottom: 0px;
 }
 
 p{
@@ -113,15 +168,6 @@ p{
     color: #2D233B;
 }
 
-#bg_footer{
-    background-image: url("../images/bg_footer_04.png");
-    background-color: white;
-    background-position: top;
-    background-repeat: no-repeat;
-    margin-top: 35px;
-    max-height: 160px;
-}
-
 #container_ft{
     padding-top:5px;
 }
@@ -137,8 +183,8 @@ p{
 }
 
 .socialMediaLinks a{
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
     margin-top: 4px;
     color: white;
 }
@@ -158,7 +204,7 @@ p{
 }
 
 .sglMore{
-    background-color: hsla(0, 0%, 0%, 0.63);
+    background-color: hsla(284, 100%, 14%, 0.63);
     color: white;
     margin-bottom: 40px;
     padding-bottom: 20px;
@@ -264,7 +310,8 @@ p{
     .sidenav a {
         padding: 8px 8px 8px 8px;
         text-decoration: none;
-        font-size: 25px;
+        font-size: 18px;
+        line-height: 33px;
         color:white;
         display: block;
         transition: 0.3s
@@ -357,7 +404,7 @@ p{
     .sidenav a {
         padding: 8px 8px 8px 8px;
         text-decoration: none;
-        font-size: 25px;
+        font-size: 18px;
         color:white;
         display: block;
         transition: 0.3s
@@ -468,7 +515,7 @@ p{
     /* The navigation menu links */
     .sidenav a {
         text-decoration: none;
-        font-size: 20px;
+        font-size: 18px;
         color: white;
         margin-left: 20px;
         background-position: center;
@@ -583,7 +630,7 @@ p{
     /* The navigation menu links */
     .sidenav a {
         text-decoration: none;
-        font-size: 20px;
+        font-size: 18px;
         color: white;
         margin-left: 20px;
         background-position: center;
@@ -724,7 +771,7 @@ p{
     .sidenav a {
         padding: 8px 8px 8px 8px;
         text-decoration: none;
-        font-size: 25px;
+        font-size: 18px;
         color: white;
         display: block;
         transition: 0.3s
@@ -852,7 +899,7 @@ p{
         text-decoration: none;
         font-size: 20px;
         color: white;
-        margin-left: 20px;
+        margin-left: 18px;
         background-position: center;
         font-family: 'Acme', sans-serif;
         transition: 0.3s
@@ -986,7 +1033,7 @@ p{
         text-decoration: none;
         font-size: 20px;
         color: white;
-        margin-left: 20px;
+        margin-left: 18px;
         background-position: center;
         font-family: 'Acme', sans-serif;
         transition: 0.3s
@@ -1103,7 +1150,7 @@ p{
     /* The navigation menu links */
     .sidenav a {
         text-decoration: none;
-        font-size: 20px;
+        font-size: 18px;
         color: white;
         margin-left: 20px;
         background-position: center;
@@ -1260,7 +1307,7 @@ p{
     .sidenav a {
         padding: 8px 8px 8px 32px;
         text-decoration: none;
-        font-size: 25px;
+        font-size: 18px;
         color: white;
         display: block;
         transition: 0.3s

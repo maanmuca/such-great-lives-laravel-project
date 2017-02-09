@@ -210,7 +210,7 @@
 </section>
 <!-------------------------------- Section Links ------------------------------*-->
 <section id="links">
-   <div class="jumbotron links">
+   
     <div class="container sglMore">
         <div class="row text-center">
             <h2 class="section-heading">Links</h2>
@@ -239,6 +239,5 @@
             </div>
         </div>
     </div>
-   </div>
-</section>
+  </section>
 @endsection

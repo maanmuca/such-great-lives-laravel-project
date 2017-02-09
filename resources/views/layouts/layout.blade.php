@@ -30,7 +30,7 @@
         <a href="#" id="menu-slider">
             <i class="fa fa-bars text-center" aria-hidden="true"></i></a>
         
-         <div id="mySidenav" class="sidenav">
+        <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" id="closeNav">&times;</a>
             <li><a class="currentNavPage" href="{{url('/')}}">Home</a></li>
             <li><a class="currentNavPage" href="{{url('/')}}#about">About</a></li>
@@ -44,48 +44,63 @@
             <li><a class="currentNavPage" href="{{url('/contact')}}">Contact</a></li>
         </div>
         <div id="main">
-            @yield('content')
-            
-          <div class="jumbotron sglFooter" id="bg_footer">
-                
-                <nav class="navbar">
-                    <div class="container" id="container_ft">
-                        <div class ="row">
-                            <div class="col-md-12">
-                                <div class=" text-center">
-                                    <ol class="list-inline social-buttons">
-                                        <li><a href="#"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a></li>
-                                        <li><a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g">
-                                                <i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a></li>
-                                        <li><a href="https://plus.google.com/106986527777902815660">
-                                                <i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a></li>
-                                    </ol>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="row">
-                            <div class="col-sm-12"> 
-                                <div class="text-center">
-                                    <p class="navbar-text pull-left">
-                                        <span class="copyright">COPYRIGHT &copy; 2017 | SUCH GREAT LIVES | ALL RIGHTS RESERVED</span>
-                                    </p>
-                                    
-                                    <p class="navbar-text pull-right">
-                                        <span class="designed">Site | Design | By Marco Munoz - Paola Sanabria</span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+            @yield('content')     
+        </div>
+        <!------------------------------------------footer contents ---------------------------->       
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-offset-4 col-md-2 col-sm-6">
+                        <ul class="footer-links">
+                            <li><a href="{{url('/')}}">Home</a></li>
+                            <li><a href="{{url('/albums')}}">Photos</a></li>
+                            <li><a href="{{url('/videos')}}">Videos</a></li>
+                            <li><a href="{{url('/releases')}}">Releases</a></li>
+                        </ul>
                     </div>
-                </nav> 
-
-            </div> 
+                    <div class="col-md-3 col-sm-6">
+                        <h5>FIND US</h5>
+                        <p><i class="fa fa-map-pin"></i> Melbourne. Australia</p>
+                        <p><i class="fa fa-envelope"></i> E-mail : info@suchgreatlives.com</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 socialMediaLinksDark">
+                        <h5 class="text-center">JOIN US</h5>
+                            <a href="{{url('/subscribe')}}"><i class="fa fa-envelope-open fa-2x" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                            <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g">
+                            <i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
+                            <a href="https://plus.google.com/106986527777902815660">
+                            <i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+                        
+                    </div>
+                </div>
+            </div>
             
+        </footer>
+        <!------------------------------------------footer black block ---------------------------->
+        
+        <div class="copyright">
+            <div class="container">
+                <div class="col-md-6">
+                    <p>COPYRIGHT &copy; 2017 | SUCH GREAT LIVES | ALL RIGHTS RESERVED</p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="bottom_ul">
+                        <li>Site</li>
+                        <li>Design</li>
+                        <li>Marco Munoz</li>
+                        <li>Paola Sanabria</li>
+                    </ul>
+                </div>
+            </div>
         </div>
         
+        <!------------------------------------------scripts ---------------------------->
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+                accesskey=""integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
+        crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
         <script type="text/javascript" src="{{URL::asset('js/main.js')}}"></script>
