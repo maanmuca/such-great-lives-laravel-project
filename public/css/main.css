@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Acme');
 
-/*********************************************************Paola adding*****/
-    
+/*********************************************************Paola adding*****/ 
 
 #intro{ 
-    background-image: url('../images/bg_02.png');
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 900px;
-}
+        background-image: url('../images/bg_02.png');
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 600px; /*900px for 1903+ px screen*/
+    }
     
 #bg_hd_contact{
     background-image: url("../images/bg_contact.png");
@@ -38,8 +37,9 @@
 
 /*----------------------------footer--*/
 footer {  
-    margin-top: 50px;
+    margin-top: 80px;
     margin-bottom: 20px;
+    font-size: 13px;
 }
 
 h5{
@@ -54,8 +54,7 @@ h5{
 }
 
 .footer-links li { 
-    line-height:29px; 
-    font-size:14px;
+    line-height: 22px; 
 }
 
 .footer-links li a { 
@@ -64,12 +63,12 @@ h5{
 }
 
 .footer-links li a:hover {
-    color:#ff670f; 
+    color: #ade504;
 }
 
 .copyright { 
     min-height:40px; 
-    background-color:#000000;
+    background-color: #000000;
 }
 
 .copyright p { 
@@ -77,30 +76,39 @@ h5{
     color:grey; 
     padding:10px 0; 
     margin-bottom:0px;
+    font-size: 12px;
 }
 
-.bottom_ul { 
+.authors { 
     list-style-type:none; 
     float:right; 
     margin-bottom:0px;
+    font-size: 13px;
 }
 
-.bottom_ul li { 
+.authors li { 
     float:left; 
     line-height:40px;
+    color: grey;
 }
 
-.bottom_ul li:after { 
+.authors li:after { 
     content:"|"; 
-    color:#FFF; 
+    color: grey; 
     margin-right:8px; 
     margin-left:8px;
 }
 
-.bottom_ul li a { 
-    color:#FFF;  
-    font-size:15px;
+.footer-media a{
+    color: white;
+    text-align: left;
+    margin: 15px;
 }
+
+.footer-media a:hover{
+    color: #ade504;
+}
+
 /*-----------------------end of footer--*/
     /********************************************************closing Paola*****/
 
@@ -176,31 +184,16 @@ p{
     font-family: 'Acme', sans-serif;
 }
 
-.socialMediaLinks{
-    color: white;
-    text-align: center;
-    padding: 2px;
-}
-
-.socialMediaLinks a{
-    padding-left: 2px;
-    padding-right: 2px;
-    margin-top: 4px;
-    color: white;
-}
-
 .socialMediaLinksDark a{
     color: white;
     text-align: center;
     padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 4px;
-    padding-right: 4px;
-    margin: 16px;
+    padding-left: 1px;
+    margin: 8px;
 }
 
 .socialMediaLinksDark a:hover{
-    color: mediumpurple;
+    color: #ade504;
 }
 
 .sglMore{
@@ -275,18 +268,18 @@ p{
     }
 
     .subscribe{
-        padding-top: 60px;
+        padding-top: 30px;
     }
     
     .subscribe a{
-        padding-top: 60px;
+        padding-top: 30px;
         font-family: 'Acme', sans-serif;
         color: white;
         font-size: 24px;
     }
 
     .subscribe a:hover{
-        padding-top: 60px;
+        padding-top: 30px;
         font-family: 'Acme', sans-serif;
         color: white;
         font-size: 28px;
@@ -302,7 +295,7 @@ p{
         left: 0;
         color: hsla(0, 0%, 0%, 0.8);
         overflow-x: hidden; /* Disable horizontal scroll */
-        padding-top: 60px; /* Place content 60px from the top */
+        padding-top: 30px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
     }
 
@@ -369,18 +362,18 @@ p{
     }
 
     .subscribe{
-        padding-top: 60px;
+        padding-top: 30px;
     }
     
     .subscribe a{
-        padding-top: 60px;
+        padding-top: 30px;
         font-family: 'Acme', sans-serif;
         color: white;
         font-size: 24px;
     }
 
     .subscribe a:hover{
-        padding-top: 60px;
+        padding-top: 30px;
         font-family: 'Acme', sans-serif;
         color: white;
         font-size: 28px;
@@ -396,7 +389,7 @@ p{
         left: 0;
         background-color: hsla(0, 0%, 0%, 0.8);
         overflow-x: hidden; /* Disable horizontal scroll */
-        padding-top: 60px; /* Place content 60px from the top */
+        padding-top: 30px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
     }
 
@@ -434,6 +427,7 @@ p{
 /*//////////////////////////////////////Smartphones (portrait and landscape)//*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px)
 {
+  
     .upcomingShowsTable td{
         font-size: 6px;
     }
@@ -459,18 +453,18 @@ p{
     }
 
     .subscribe{
-        padding-top: 60px;
+        padding-top: 30px;
     }
     
     .subscribe a{
-        padding-top: 60px;
+        padding-top: 30px;
         font-family: 'Acme', sans-serif;
         color: white;
         font-size: 24px;
     }
 
     .subscribe a:hover{
-        padding-top: 60px;
+        padding-top: 30px;
         font-family: 'Acme', sans-serif;
         color: white;
         text-decoration: none;
@@ -524,7 +518,7 @@ p{
     }
 
     .sidenav a:hover {
-        color:  mediumpurple;
+        color: mediumpurple;
         /*background:  transparent url("../images/sglBtn.svg") no-repeat 0 center;*/
         background-size: 150% 150%;
         background-position: center;
@@ -578,18 +572,18 @@ p{
     }
 
     .subscribe{
-        padding-top: 60px;
+        padding-top: 30px;
     }
     
     .subscribe a{
-        padding-top: 60px;
+        padding-top: 30px;
         font-family: 'Acme', sans-serif;
         color: white;
         font-size: 24px;
     }
 
     .subscribe a:hover{
-        padding-top: 60px;
+        padding-top: 30px;
         font-family: 'Acme', sans-serif;
         color: white;
         font-size: 28px;
@@ -697,18 +691,18 @@ p{
     }
 
     .subscribe{
-        padding-top: 60px;
+        padding-top: 30px;
     }
     
     .subscribe a {
-        padding-top: 60px;
+        padding-top: 30px;
         font-family: 'Acme', sans-serif;
         color: white;
         font-size: 24px;
     }
 
     .subscribe a:hover{
-        padding-top: 60px;
+        padding-top: 30px;
         font-family: 'Acme', sans-serif;
         color: white;
         font-size: 28px;
@@ -763,7 +757,7 @@ p{
         left: 0;
         color: rgba(red, green, blue, alpha);
         overflow-x: hidden; /* Disable horizontal scroll */
-        padding-top: 60px; /* Place content 60px from the top */
+        padding-top: 30px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
     }
 
@@ -824,18 +818,18 @@ p{
     }
 
     .subscribe{
-        padding-top: 60px;
+        padding-top: 30px;
     }
     
     .subscribe a{
-        padding-top: 60px;
+        padding-top: 30px;
         font-family: 'Acme', sans-serif;
         color: white;
         font-size: 24px;
     }
 
     .subscribe a:hover{
-        padding-top: 60px;
+        padding-top: 30px;
         font-family: 'Acme', sans-serif;
         color: white;
         font-size: 28px;
@@ -971,18 +965,18 @@ p{
     }
 
     .subscribe {
-        padding-top: 60px;
+        padding-top: 30px;
     }
     
     .subscribe a{
-        padding-top: 60px;
+        padding-top: 30px;
         font-family: 'Acme', sans-serif;
         color: white;
         font-size: 24px;
     }
 
     .subscribe a:hover{
-        padding-top: 60px;
+        padding-top: 30px;
         font-family: 'Acme', sans-serif;
         color: white;
         font-size: 28px;
@@ -1071,6 +1065,14 @@ p{
 /*//////////////////////////////////////////////////////Desktops and laptops//*/
 @media only screen and (min-width : 1025px)
 {
+    #intro{ 
+        background-image: url('../images/bg_02.png');
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 700px; 
+    }
+    
     .linksStarWars a{
         color: yellow;
         padding-top: 2em;
@@ -1116,17 +1118,17 @@ p{
     }
 
     .subscribe{
-        padding-top: 60px;
+        padding-top: 30px;
     }
     .subscribe a{
-        padding-top: 60px;
+        padding-top: 30px;
         font-family: 'Acme', sans-serif;
         color: white;
         font-size: 24px;
     }
 
     .subscribe a:hover{
-        padding-top: 60px;
+        padding-top: 30px;
         font-size: 28px;
         text-decoration: none;
     }
@@ -1202,7 +1204,14 @@ p{
 /*/////////////////////////////////////////////////////////////Large screens//*/
 @media only screen and (min-width : 1824px) 
 {
-    
+    #intro{ 
+        background-image: url('../images/bg_02.png');
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 900px; /*900px for 1903+ px screen*/
+    }
+
     #sgl-logo{
         padding-top: 100px;
         width: 25%;
@@ -1229,11 +1238,11 @@ p{
     }
 
     .subscribe{
-        padding-top: 60px;
+        padding-top: 30px;
     }
     
     .subscribe a{
-        padding-top: 60px;
+        padding-top: 30px;
         font-family: myNavigationFont;
         color: white;
         font-size: 24px;
@@ -1241,7 +1250,7 @@ p{
 
     .subscribe a:hover
     {
-        padding-top: 60px;
+        padding-top: 30px;
         font-family: myNavigationFont;
         color: white;
         font-size: 28px;
@@ -1299,7 +1308,7 @@ p{
         left: 0;
         color: rgba(red, green, blue, alpha);
         overflow-x: hidden; /* Disable horizontal scroll */
-        padding-top: 60px; /* Place content 60px from the top */
+        padding-top: 30px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
     }
 

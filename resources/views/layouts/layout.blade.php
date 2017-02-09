@@ -30,7 +30,7 @@
         <a href="#" id="menu-slider">
             <i class="fa fa-bars text-center" aria-hidden="true"></i></a>
         
-        <div id="mySidenav" class="sidenav">
+        <div id="mySidenav" class=" sidenav">
             <a href="javascript:void(0)" class="closebtn" id="closeNav">&times;</a>
             <li><a class="currentNavPage" href="{{url('/')}}">Home</a></li>
             <li><a class="currentNavPage" href="{{url('/')}}#about">About</a></li>
@@ -50,28 +50,30 @@
         <footer>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-offset-4 col-md-2 col-sm-6">
-                        <ul class="footer-links">
-                            <li><a href="{{url('/')}}">Home</a></li>
-                            <li><a href="{{url('/albums')}}">Photos</a></li>
-                            <li><a href="{{url('/videos')}}">Videos</a></li>
-                            <li><a href="{{url('/releases')}}">Releases</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
+                    
+                    <div class=" col-md-offset-3 col-md-3 col-sm-6">
                         <h5>FIND US</h5>
                         <p><i class="fa fa-map-pin"></i> Melbourne. Australia</p>
                         <p><i class="fa fa-envelope"></i> E-mail : info@suchgreatlives.com</p>
                     </div>
-                    <div class="col-md-3 col-sm-6 socialMediaLinksDark">
-                        <h5 class="text-center">JOIN US</h5>
+                    <div class="col-md-3 col-sm-6 footer-media">
+                        <br /><br />
                             <a href="{{url('/subscribe')}}"><i class="fa fa-envelope-open fa-2x" aria-hidden="true"></i></a>
                             <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
                             <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g">
                             <i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
                             <a href="https://plus.google.com/106986527777902815660">
                             <i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
-                        
+                        <br /><br />
+                    </div>
+                    <div class=" col-md-2 col-sm-6 pull-left">
+                         <h5>OUR SITE</h5>
+                        <ul class="footer-links">
+                            <li><a href="{{url('/')}}">Home</a></li>
+                            <li><a href="{{url('/albums')}}">Photos</a></li>
+                            <li><a href="{{url('/videos')}}">Videos</a></li>
+                            <li><a href="{{url('/releases')}}">Releases</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -85,7 +87,7 @@
                     <p>COPYRIGHT &copy; 2017 | SUCH GREAT LIVES | ALL RIGHTS RESERVED</p>
                 </div>
                 <div class="col-md-6">
-                    <ul class="bottom_ul">
+                    <ul class="authors">
                         <li>Site</li>
                         <li>Design</li>
                         <li>Marco Munoz</li>

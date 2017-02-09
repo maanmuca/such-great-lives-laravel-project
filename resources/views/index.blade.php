@@ -7,7 +7,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-offset-9 col-md-offset-9 col-sm-offset-6 col-xs-offset-5 subscribe">
-                <a href="{{url('/subscribe')}}">Subscribe !</a>
+                <a href="{{url('/subscribe')}}">Subscribe</a>
             </div>
         </div>
         <div class="row text-center">
@@ -232,7 +232,7 @@
             </ul>
         </div>
         <div class="row">
-            <div class="col-lg-12 socialMediaLinksDark text-center">
+            <div class="col-lg-12 footer-media pull-right">
                 <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
                 <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
                 <a href="https://plus.google.com/106986527777902815660"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
