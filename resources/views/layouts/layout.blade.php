@@ -62,8 +62,6 @@
                     </div>
                     <div class="col-md-3 col-sm-6 footer-media">
                         <br /><br />
-                            <a href="{{url('/subscribe')}}">
-                                <i class="fa fa-envelope-open fa-2x" aria-hidden="true" data-toggle="tooltip" title="Subscribe"></i></a>
                             <a href="#">
                                 <i class="fa fa-facebook fa-2x" aria-hidden="true" data-toggle="tooltip" title="Facebook"></i></a>
                             <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g">

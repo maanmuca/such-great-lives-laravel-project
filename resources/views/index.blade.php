@@ -5,11 +5,7 @@
 
 <div class="jumbotron" id="intro">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-offset-9 col-md-offset-9 col-sm-offset-6 col-xs-offset-5 subscribe">
-                <a href="{{url('/subscribe')}}">Subscribe</a>
-            </div>
-        </div>
+        
         <div class="row text-center">
             <img src="{{URL::asset('images/sgllogo_light.png')}}" id="sgl-logo" 
                  class="img-responsive center-block"  alt="logo">
@@ -57,19 +53,22 @@
         </div>
             
         <div class="row">
-            <div class="col-md-4"><h4 class="sub-heading">Last Gig</h4>
+             <div class="col-lg-12">
                 <dl>
                     <dt>Facebook Post</dt>
                     <dd>New gig this week</dd>
                 </dl>
+                <hr />
                 <dl>
                     <dt>Facebook Post</dt>
                     <dd>New gig this week</dd>
                 </dl>
+                <hr />
                 <dl>
                     <dt>Facebook Post</dt>
                     <dd>New gig this week</dd>
                 </dl>
+                <hr />
             </div>
            
         </div>
@@ -140,6 +139,7 @@
         </div>
         
     </div>
+    
 </section>
 
 <!-------------------------------- Section Shows ------------------------------*-->
@@ -263,12 +263,12 @@
         </div>
         
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6 col-md-offset-3 text-center">
             <p>And more on our Such Great Lives singers YouTube channel here: </p>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-5 col-md-offset-4">
             <ul>
                 <li>
                     <a href="https://www.youtube.com/user/szabologist">
