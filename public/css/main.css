@@ -38,7 +38,7 @@ h4{
     color: white;
     padding-top: 14px;
     margin: 8px;
-    font-size: 1.3em;
+    font-size: 1.4em;
 }
 
 .icons-group a:hover{
@@ -51,7 +51,7 @@ h4{
     background-color: hsla(272, 100%, 14%, 0.2);
     color: white;
     padding-bottom: 60px; 
-    padding-top: 60px;
+    padding-top: 20px;
     padding-left: 30px; 
     padding-right: 30px;
 }
@@ -60,7 +60,7 @@ h4{
     background-color: hsla(200, 96%, 26%, 0.3);
     color: white;
     padding-bottom: 60px; 
-    padding-top: 60px;
+    padding-top: 20px;
     padding-left: 30px; 
     padding-right: 30px;
 }
@@ -78,7 +78,7 @@ h4{
     background-color: hsla(300, 96%, 18%, 0.3);
     color: white;
     padding-bottom: 60px; 
-    padding-top: 60px;
+    padding-top: 20px;
     padding-left: 30px; 
     padding-right: 30px; 
 }
@@ -87,7 +87,7 @@ h4{
     background-color: hsla(325, 96%, 12%, 0.2);
     color: white;
     padding-bottom: 60px; 
-    padding-top: 60px;
+    padding-top: 20px;
     padding-left: 30px; 
     padding-right: 30px;
 }
@@ -96,7 +96,7 @@ h4{
     background-color: hsla(186, 96%, 98%, 0.2);
     color: white;
     padding-bottom: 60px; 
-    padding-top: 60px;
+    padding-top: 20px;
     padding-left: 30px; 
     padding-right: 30px;
 }
@@ -106,7 +106,7 @@ h4{
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 600px; /*900px for 1903+ px screen*/    
+    min-height: 900px; /*900px for 1903+ px screen*/    
 }
     
 #bg_hd_contact{
@@ -1118,14 +1118,7 @@ h5{
 /*//////////////////////////////////////////////////////Desktops and laptops//*/
 @media only screen and (min-width : 1025px)
 {
-    #intro{ 
-        background-image: url('../images/bg_02.png');
-        background-position: top;
-        background-size: cover;
-        background-repeat: no-repeat;
-        min-height: 700px; 
-    }
-    
+
     .linksStarWars a{
         color: yellow;
         padding-top: 2em;
@@ -1249,14 +1242,7 @@ h5{
 /*/////////////////////////////////////////////////////////////Large screens//*/
 @media only screen and (min-width : 1824px) 
 {
-    #intro{ 
-        background-image: url('../images/bg_02.png');
-        background-position: top;
-        background-size: cover;
-        background-repeat: no-repeat;
-        min-height: 900px; /*900px for 1903+ px screen*/
-    }
-
+   
     #sgl-logo{
         padding-top: 100px;
         width: 25%;

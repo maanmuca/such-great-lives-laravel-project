@@ -77,7 +77,7 @@
 </section>
 
 <!-------------------------------- Section About ------------------------------*-->
-<section id="about" class="section-pink">
+<section id="about" class="section-blue">
     <div class="container-fluid">
         
          <div class="row pull-right">
@@ -143,7 +143,7 @@
 </section>
 
 <!-------------------------------- Section Shows ------------------------------*-->
-<section id="shows" class="section-dark-blue">
+<section id="shows" class="section-purple">
     <div class="container-fluid shows">
         
         <div class="row pull-right">
