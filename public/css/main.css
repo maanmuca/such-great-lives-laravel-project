@@ -57,13 +57,17 @@ h5{
     line-height: 22px; 
 }
 
-.footer-links li a { 
+.footer-links li a, .phone-link{ 
     color:#fff; 
     text-decoration: none;
 }
 
-.footer-links li a:hover {
-    color: #ade504;
+.phone-link:hover, .links-cont a:hover, .footer-links li a:hover, .footer-media a:hover{
+     color: #ade504;
+     text-decoration: none;
+}
+.footer-icon, .links-icons{
+    margin-right: 10px;
 }
 
 .copyright { 
@@ -104,12 +108,62 @@ h5{
     text-align: left;
     margin: 15px;
 }
-
-.footer-media a:hover{
-    color: #ade504;
+/*-----------------------home page--*/
+.links-cont{
+    background-color: hsla(284, 100%, 14%, 0.63);
+    color: white;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
 }
 
-/*-----------------------end of footer--*/
+.links-cont a{
+    color: white;
+}
+
+.links-cont ul li{
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*---------------------standard  color containers--*/
+
+.section-purple{
+    background-color: hsla(272, 100%, 14%, 0.2);
+    color: white;
+    padding: 30px;
+}
+
+.section-blue{
+    background-color: hsla(200, 96%, 26%, 0.3);
+    color: white;
+    padding: 30px;
+}
+
+.section-dark-blue{
+    background-color: hsla(243, 96%, 14%, 0.2);
+    color: white;
+    padding: 30px; 
+}
+
+.section-pink{
+    background-color: hsla(300, 96%, 18%, 0.3);
+    color: white;
+    padding: 30px; 
+}
+
+.section-red{
+    background-color: hsla(325, 96%, 12%, 0.2);
+    color: white;
+    padding: 30px; 
+}
+
+.section-white{
+    background-color: hsla(186, 96%, 98%, 0.2);
+    color: white;
+    padding: 30px; 
+}
+
     /********************************************************closing Paola*****/
 
     
@@ -194,23 +248,6 @@ p{
 
 .socialMediaLinksDark a:hover{
     color: #ade504;
-}
-
-.sglMore{
-    background-color: hsla(284, 100%, 14%, 0.63);
-    color: white;
-    margin-bottom: 40px;
-    padding-bottom: 20px;
-}
-
-.sglMore a{
-    color: white;
-}
-
-.sglMore ul li{
-    list-style: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 #sgl-logo{

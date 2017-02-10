@@ -53,17 +53,21 @@
                     
                     <div class=" col-md-offset-3 col-md-3 col-sm-6">
                         <h5>FIND US</h5>
-                        <p><i class="fa fa-map-pin"></i> Melbourne. Australia</p>
-                        <p><i class="fa fa-envelope"></i> E-mail : info@suchgreatlives.com</p>
+                        <p><i class="fa fa-envelope footer-icon"></i> E-mail : info@suchgreatlives.com</p>
+                        <p><a href="{{url('/contact')}}" class="phone-link">
+                                <i class="fa fa-phone footer-icon"></i>Contact us</a></p>
+                        <p><i class="fa fa-map-pin footer-icon"></i> Melbourne. Australia</p>
                     </div>
                     <div class="col-md-3 col-sm-6 footer-media">
                         <br /><br />
-                            <a href="{{url('/subscribe')}}"><i class="fa fa-envelope-open fa-2x" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                            <a href="{{url('/subscribe')}}">
+                                <i class="fa fa-envelope-open fa-2x" aria-hidden="true" data-toggle="tooltip" title="Subscribe"></i></a>
+                            <a href="#">
+                                <i class="fa fa-facebook fa-2x" aria-hidden="true" data-toggle="tooltip" title="Facebook"></i></a>
                             <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g">
-                            <i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
+                            <i class="fa fa-youtube fa-2x" aria-hidden="true" data-toggle="tooltip" title="YouTube"></i></a>
                             <a href="https://plus.google.com/106986527777902815660">
-                            <i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+                            <i class="fa fa-google-plus fa-2x" aria-hidden="true" data-toggle="tooltip" title="Google+"></i></a>
                         <br /><br />
                     </div>
                     <div class=" col-md-2 col-sm-6 pull-left">
