@@ -9,8 +9,47 @@
      
 @extends('layouts.layout')
 @section('content')
-    
-<section class="section-purple">
+
+<section id="news" class="section-dark-blue">
+    <div class="container-fluid">
+        
+        <div class="row pull-right">
+            <div class="col-lg-12 icons-group">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g">
+                    <i class="fa fa-youtube" aria-hidden="true"></i></a>
+                <a href="https://plus.google.com/106986527777902815660">
+                    <i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="section-heading">News</h2>
+            </div>
+        </div>
+            
+        <div class="row">
+            <div class="col-md-4"><h4 class="sub-heading">Last Gig</h4>
+                <dl>
+                    <dt>Facebook Post</dt>
+                    <dd>New gig this week</dd>
+                </dl>
+                <dl>
+                    <dt>Facebook Post</dt>
+                    <dd>New gig this week</dd>
+                </dl>
+                <dl>
+                    <dt>Facebook Post</dt>
+                    <dd>New gig this week</dd>
+                </dl>
+            </div>
+           
+        </div>
+    </div> 
+</section>
+
+<section id="" class="section-purple">
     <div class="container-fluid"> <!-- ---------------------------------must be fluid--->
         <div class="row text-center">
             <div class="col-lg-12">

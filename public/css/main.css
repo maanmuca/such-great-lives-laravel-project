@@ -3,13 +3,111 @@
 
 /*********************************************************Paola adding*****/ 
 
+ 
+body{ 
+    background-image: url('../images/bg_purple.png');
+    background-repeat: repeat;
+    color:white;
+    z-index: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section-heading{
+    font-family: 'Acme', sans-serif;
+}
+
+.sub-heading{
+    font-family: 'Acme', sans-serif;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 60px;
+    color: #fff;
+ }
+
+h4{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    color: mediumpurple;
+ }
+
+.icons-group a{
+    color: white;
+    padding-top: 14px;
+    margin: 8px;
+    font-size: 1.3em;
+}
+
+.icons-group a:hover{
+    color: #ade504;
+} 
+
+/*---------------------standard  color containers--*/
+
+.section-purple{
+    background-color: hsla(272, 100%, 14%, 0.2);
+    color: white;
+    padding-bottom: 60px; 
+    padding-top: 60px;
+    padding-left: 30px; 
+    padding-right: 30px;
+}
+
+.section-blue{
+    background-color: hsla(200, 96%, 26%, 0.3);
+    color: white;
+    padding-bottom: 60px; 
+    padding-top: 60px;
+    padding-left: 30px; 
+    padding-right: 30px;
+}
+
+.section-dark-blue{
+    background-color: hsla(243, 96%, 14%, 0.2);
+    color: white;
+    padding-bottom: 60px; 
+    padding-top: 20px;
+    padding-left: 30px; 
+    padding-right: 30px;
+}
+
+.section-pink{
+    background-color: hsla(300, 96%, 18%, 0.3);
+    color: white;
+    padding-bottom: 60px; 
+    padding-top: 60px;
+    padding-left: 30px; 
+    padding-right: 30px; 
+}
+
+.section-red{
+    background-color: hsla(325, 96%, 12%, 0.2);
+    color: white;
+    padding-bottom: 60px; 
+    padding-top: 60px;
+    padding-left: 30px; 
+    padding-right: 30px;
+}
+
+.section-white{
+    background-color: hsla(186, 96%, 98%, 0.2);
+    color: white;
+    padding-bottom: 60px; 
+    padding-top: 60px;
+    padding-left: 30px; 
+    padding-right: 30px;
+}
+
 #intro{ 
-        background-image: url('../images/bg_02.png');
-        background-position: top;
-        background-size: cover;
-        background-repeat: no-repeat;
-        min-height: 600px; /*900px for 1903+ px screen*/
-    }
+    background-image: url('../images/bg_02.png');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px; /*900px for 1903+ px screen*/    
+}
     
 #bg_hd_contact{
     background-image: url("../images/bg_contact.png");
@@ -62,7 +160,7 @@ h5{
     text-decoration: none;
 }
 
-.phone-link:hover, .links-cont a:hover, .footer-links li a:hover, .footer-media a:hover{
+.phone-link:hover, #links a:hover, .footer-links li a:hover, .footer-media a:hover{
      color: #ade504;
      text-decoration: none;
 }
@@ -109,59 +207,15 @@ h5{
     margin: 15px;
 }
 /*-----------------------home page--*/
-.links-cont{
-    background-color: hsla(284, 100%, 14%, 0.63);
-    color: white;
-    margin-bottom: 40px;
-    padding-bottom: 20px;
-}
 
-.links-cont a{
+#links a{
     color: white;
 }
 
-.links-cont ul li{
+#links ul li{
     list-style: none;
     padding-top: 10px;
     padding-bottom: 10px;
-}
-
-/*---------------------standard  color containers--*/
-
-.section-purple{
-    background-color: hsla(272, 100%, 14%, 0.2);
-    color: white;
-    padding: 30px;
-}
-
-.section-blue{
-    background-color: hsla(200, 96%, 26%, 0.3);
-    color: white;
-    padding: 30px;
-}
-
-.section-dark-blue{
-    background-color: hsla(243, 96%, 14%, 0.2);
-    color: white;
-    padding: 30px; 
-}
-
-.section-pink{
-    background-color: hsla(300, 96%, 18%, 0.3);
-    color: white;
-    padding: 30px; 
-}
-
-.section-red{
-    background-color: hsla(325, 96%, 12%, 0.2);
-    color: white;
-    padding: 30px; 
-}
-
-.section-white{
-    background-color: hsla(186, 96%, 98%, 0.2);
-    color: white;
-    padding: 30px; 
 }
 
     /********************************************************closing Paola*****/
@@ -202,21 +256,6 @@ h5{
     padding-bottom: 30px;
 }
 
-body{ 
-    background-image: url('../images/bg_purple.png');
-    background-repeat: repeat;
-    color:white;
-    z-index: 0;
-}
-
-p{
-    font-family: 'Open Sans', sans-serif;
-}
-
-.section-heading{
-    font-family: 'Acme', sans-serif;
-}
-
 .imageNews{
     width: 50%;
     height: 50%;
@@ -232,22 +271,6 @@ p{
 
 #container_ft{
     padding-top:5px;
-}
-
-.service-heading{
-    font-family: 'Acme', sans-serif;
-}
-
-.socialMediaLinksDark a{
-    color: white;
-    text-align: center;
-    padding-top: 16px;
-    padding-left: 1px;
-    margin: 8px;
-}
-
-.socialMediaLinksDark a:hover{
-    color: #ade504;
 }
 
 #sgl-logo{
@@ -969,13 +992,6 @@ p{
                    and (max-device-width : 1024px)
                    and (orientation : landscape) 
 {
-    .sglNews {
-        background-color:#2D233B;
-        color: white;
-        margin-top: 20px;
-        padding-bottom: 20px;
-        margin-bottom: 20px;
-    }
     
     #sgl-logo{
         padding-top: 25px;
@@ -1119,14 +1135,6 @@ p{
     {
         color: brown;
         padding-top: 2em;
-    }
-    
-    .sglNews{
-        background-color: #2D233B;
-        color: white;
-        margin-top: 20px;
-        padding-bottom: 20px;
-        margin-bottom: 20px;
     }
 
     #sgl-logo{
@@ -1429,18 +1437,6 @@ p{
 @font-face {
     font-family: 'starWarsFont'; /*a name to be used later*/
     src: url('../fonts/Star_Jedi_Rounded.ttf'); /*URL to font*/
-}
-
-
-#news h1
-{
-    font-family: 'Acme', sans-serif;
-    color: white;
-}
-#news p
-{
-    font-family: 'Acme', sans-serif;
-    color: white;
 }
 
 #upcomingShows h1{

@@ -15,7 +15,7 @@
                  class="img-responsive center-block"  alt="logo">
         </div>
         <div class="row text-center">
-            <div class="col-lg-12 socialMediaLinksDark text-center">
+            <div class="col-lg-12 icons-group text-center">
                 <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
                 <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g">
                     <i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
@@ -36,43 +36,66 @@
 
 
 <!-------------------------------- Section News ------------------------------*-->
-<section id="news">
-    <div class="container sglNews">
-        <div class="row text-center">
-            <div class="col-sm-12"> 
-                <h2 class="section-heading">News</h2>
-                
-                <div class="row text-center">
-                    <div class="col-md-6 col-lg-6 col-xs-12 "><h4 class="service-heading">Last Gig</h4>
-                        <p class="text-justify">Jon is our rhyhthm guitarist and lead singer. He relishes being 
-                            on stage and is the infant of the group. He sits at home in the dark, however, and 
-                            writes some magical tunes.Jon is our rhyhthm guitarist and lead singer. He relishes 
-                            being on stage and is the infant of the group. He sits at home in the dark, however, 
-                            and writes some magical tunes.Jon is our rhyhthm guitarist and lead singer. He relishes 
-                            being on stage and is the infant of the group. He sits at home in the dark, however, a
-                            nd writes some magical tunes.</p></div>
-                    <div class="col-md-6 col-lg-6  col-xs-12 "><img src="images/jon.jpg" class="img-thumbnail imageNews" alt="news"> </div>
-                    <div class="row">
-                        <div class="col-lg-12 socialMediaLinksDark">
-                            <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
-                            <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g">
-                                <i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
-                            <a href="https://plus.google.com/106986527777902815660">
-                                <i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
+
+<section id="news" class="section-dark-blue">
+    <div class="container-fluid">
+        
+        <div class="row pull-right">
+            <div class="col-lg-12 icons-group">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g">
+                    <i class="fa fa-youtube" aria-hidden="true"></i></a>
+                <a href="https://plus.google.com/106986527777902815660">
+                    <i class="fa fa-google-plus" aria-hidden="true"></i></a>
             </div>
         </div>
-    </div>   
+        
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="section-heading">News</h2>
+            </div>
+        </div>
+            
+        <div class="row">
+            <div class="col-md-4"><h4 class="sub-heading">Last Gig</h4>
+                <dl>
+                    <dt>Facebook Post</dt>
+                    <dd>New gig this week</dd>
+                </dl>
+                <dl>
+                    <dt>Facebook Post</dt>
+                    <dd>New gig this week</dd>
+                </dl>
+                <dl>
+                    <dt>Facebook Post</dt>
+                    <dd>New gig this week</dd>
+                </dl>
+            </div>
+           
+        </div>
+    </div> 
 </section>
 
 <!-------------------------------- Section About ------------------------------*-->
-<section id="about">
-    <div class="container">
-        <div class="row text-center">
-            <h2 class="section-heading">About us</h2>
+<section id="about" class="section-pink">
+    <div class="container-fluid">
+        
+         <div class="row pull-right">
+            <div class="col-lg-12 icons-group">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g">
+                    <i class="fa fa-youtube" aria-hidden="true"></i></a>
+                <a href="https://plus.google.com/106986527777902815660">
+                    <i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            </div>
         </div>
+        
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="section-heading">About us</h2>
+            </div>
+        </div>
+        
         <div class="row">
             <div class="col-lg-12">
                 <p class="text-justify">Michael and Jon came together in 2010 after a mutual friend 
@@ -115,25 +138,31 @@
                 </p>
             </div>
         </div>
-        <div class="row text-center">
-            <div class="col-lg-12 socialMediaLinksDark">
-                <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
-                <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g">
-                    <i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
-                <a href="https://plus.google.com/106986527777902815660">
-                    <i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
-            </div>
-        </div>
+        
     </div>
 </section>
 
 <!-------------------------------- Section Shows ------------------------------*-->
-<section id="shows">
-    <div class="container shows">
-        <div class="row text-center">
-            <h2 class="section-heading">Shows</h2>
+<section id="shows" class="section-dark-blue">
+    <div class="container-fluid shows">
+        
+        <div class="row pull-right">
+            <div class="col-lg-12 icons-group">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g">
+                    <i class="fa fa-youtube" aria-hidden="true"></i></a>
+                <a href="https://plus.google.com/106986527777902815660">
+                    <i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            </div>
         </div>
-        <div id="upcomingShows" class="row">
+        
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="section-heading">Shows</h2>
+            </div>
+        </div>
+        
+        <div class="row" id="upcomingShows" >
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center ">
                 <table class="table text-center upcomingShowsTable" >
                     <thead>
@@ -168,7 +197,8 @@
 
 <!-------------------------------- Section crawl star wars ------------------------------*-->
 <section id="crawl">
-    <div class="container">
+    <div class="container-fluid">
+        
         <div class="row text-center">
             <div class="star-wars-intro">
                 <p class="intro-text">
@@ -202,13 +232,7 @@
                                 <center>Follow us on:</center>
                                 
                             </div>
-                            <div class="col-lg-12 socialMediaLinksDark text-center">
-                                <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
-                                <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g">
-                                    <i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
-                                <a href="https://plus.google.com/106986527777902815660">
-                                    <i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
-                            </div>
+                           
                         </div>
                         </p>
                     </div>
@@ -219,16 +243,32 @@
 </section>
 
 <!-------------------------------- Section Links ------------------------------*-->
-    <section id="links">
-    
-    <div class="container links-cont">
-        <div class="row text-center">
-            <h2 class="section-heading">Links</h2>
+<section id="links" class="section-red">
+    <div class="container-fluid links-cont">
+        
+        <div class="row pull-right">
+            <div class="col-lg-12 icons-group">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g">
+                    <i class="fa fa-youtube" aria-hidden="true"></i></a>
+                <a href="https://plus.google.com/106986527777902815660">
+                    <i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            </div>
         </div>
+            
         <div class="row">
+            <div class="col-lg-12">
+                <h2 class="section-heading">Links</h2>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-4">
             <p>And more on our Such Great Lives singers YouTube channel here: </p>
+            </div>
         </div>
         <div class="row">
+            <div class="col-md-4">
             <ul>
                 <li>
                     <a href="https://www.youtube.com/user/szabologist">
@@ -244,12 +284,6 @@
                         </i>Mr Clean Channel</a>
                 </li>
             </ul>
-        </div>
-        <div class="row">
-            <div class="col-lg-12 footer-media pull-right">
-                <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
-                <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
-                <a href="https://plus.google.com/106986527777902815660"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
             </div>
         </div>
     </div>

@@ -31,6 +31,7 @@
             <i class="fa fa-bars text-center" aria-hidden="true"></i></a>
         
         <div id="mySidenav" class=" sidenav">
+<!--            <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>-->
             <a href="javascript:void(0)" class="closebtn" id="closeNav">&times;</a>
             <li><a class="currentNavPage" href="{{url('/')}}">Home</a></li>
             <li><a class="currentNavPage" href="{{url('/')}}#about">About</a></li>
@@ -53,8 +54,9 @@
                     
                     <div class=" col-md-offset-3 col-md-3 col-sm-6">
                         <h5>FIND US</h5>
-                        <p><i class="fa fa-envelope footer-icon"></i> E-mail : info@suchgreatlives.com</p>
-                        <p><a href="{{url('/contact')}}" class="phone-link">
+                                    <p><a href="mailto:#" class="phone-link"><i class="fa fa-envelope footer-icon">
+                                      </i> E-mail : info@suchgreatlives.com</p>
+                            <p><a href="{{url('/contact')}}" class="phone-link">
                                 <i class="fa fa-phone footer-icon"></i>Contact us</a></p>
                         <p><i class="fa fa-map-pin footer-icon"></i> Melbourne. Australia</p>
                     </div>
