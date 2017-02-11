@@ -62,7 +62,7 @@
                     </div>
                     <div class="col-md-3 col-sm-6 footer-media">
                         <br /><br />
-                            <a href="#">
+                            <a href="https://www.facebook.com/suchgreatlives">
                                 <i class="fa fa-facebook fa-2x" aria-hidden="true" data-toggle="tooltip" title="Facebook"></i></a>
                             <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g">
                             <i class="fa fa-youtube fa-2x" aria-hidden="true" data-toggle="tooltip" title="YouTube"></i></a>

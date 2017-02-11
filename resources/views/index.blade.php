@@ -12,7 +12,8 @@
         </div>
         <div class="row text-center">
             <div class="col-lg-12 icons-group text-center">
-                <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/suchgreatlives">
+                    <i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
                 <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g">
                     <i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
                 <a href="https://plus.google.com/106986527777902815660">
@@ -38,7 +39,8 @@
         
         <div class="row pull-right">
             <div class="col-lg-12 icons-group">
-                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/suchgreatlives">
+                    <i class="fa fa-facebook" aria-hidden="true"></i></a>
                 <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g">
                     <i class="fa fa-youtube" aria-hidden="true"></i></a>
                 <a href="https://plus.google.com/106986527777902815660">
@@ -81,7 +83,8 @@
         
          <div class="row pull-right">
             <div class="col-lg-12 icons-group">
-                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/suchgreatlives">
+                    <i class="fa fa-facebook" aria-hidden="true"></i></a>
                 <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g">
                     <i class="fa fa-youtube" aria-hidden="true"></i></a>
                 <a href="https://plus.google.com/106986527777902815660">
@@ -158,7 +161,8 @@
         
         <div class="row pull-right">
             <div class="col-lg-12 icons-group">
-                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/suchgreatlives">
+                    <i class="fa fa-facebook" aria-hidden="true"></i></a>
                 <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g">
                     <i class="fa fa-youtube" aria-hidden="true"></i></a>
                 <a href="https://plus.google.com/106986527777902815660">
@@ -263,7 +267,8 @@
         
         <div class="row pull-right">
             <div class="col-lg-12 icons-group">
-                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/suchgreatlives">
+                    <i class="fa fa-facebook" aria-hidden="true"></i></a>
                 <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g">
                     <i class="fa fa-youtube" aria-hidden="true"></i></a>
                 <a href="https://plus.google.com/106986527777902815660">
