@@ -138,6 +138,16 @@
             </div>
         </div>
         
+        <div class="row text-center">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 hotspot-wrapper">
+                <img src='images/jon_02.png' alt="" class="img-responsive">
+                <div class="hotspot-text">
+                    Jon 
+                </div>
+            </div>
+            
+            
+        </div>
     </div>
     
 </section>
@@ -173,6 +183,11 @@
                         </tr>
                     </thead>
                     <tbody>
+                        <tr>
+                            <td>TBA</td>
+                            <td></td>
+                            <td></td>
+                        </tr>
                         <tr>
                             <td>Melbourne</td>
                             <td>The palace</td>
