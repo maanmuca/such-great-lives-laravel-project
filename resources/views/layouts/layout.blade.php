@@ -31,6 +31,7 @@
             <i class="fa fa-bars text-center" aria-hidden="true"></i></a>
         
         <div id="mySidenav" class=" sidenav">
+<!--            <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>-->
             <a href="javascript:void(0)" class="closebtn" id="closeNav">&times;</a>
             <li><a class="currentNavPage" href="{{url('/')}}">Home</a></li>
             <li><a class="currentNavPage" href="{{url('/')}}#about">About</a></li>
@@ -53,17 +54,20 @@
                     
                     <div class=" col-md-offset-3 col-md-3 col-sm-6">
                         <h5>FIND US</h5>
-                        <p><i class="fa fa-map-pin"></i> Melbourne. Australia</p>
-                        <p><i class="fa fa-envelope"></i> E-mail : info@suchgreatlives.com</p>
+                                    <p><a href="mailto:#" class="phone-link"><i class="fa fa-envelope footer-icon">
+                                      </i> E-mail : info@suchgreatlives.com</p>
+                            <p><a href="{{url('/contact')}}" class="phone-link">
+                                <i class="fa fa-phone footer-icon"></i>Contact us</a></p>
+                        <p><i class="fa fa-map-pin footer-icon"></i> Melbourne. Australia</p>
                     </div>
                     <div class="col-md-3 col-sm-6 footer-media">
                         <br /><br />
-                            <a href="{{url('/subscribe')}}"><i class="fa fa-envelope-open fa-2x" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                            <a href="https://www.facebook.com/suchgreatlives">
+                                <i class="fa fa-facebook fa-2x" aria-hidden="true" data-toggle="tooltip" title="Facebook"></i></a>
                             <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g">
-                            <i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
+                            <i class="fa fa-youtube fa-2x" aria-hidden="true" data-toggle="tooltip" title="YouTube"></i></a>
                             <a href="https://plus.google.com/106986527777902815660">
-                            <i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+                            <i class="fa fa-google-plus fa-2x" aria-hidden="true" data-toggle="tooltip" title="Google+"></i></a>
                         <br /><br />
                     </div>
                     <div class=" col-md-2 col-sm-6 pull-left">
@@ -75,6 +79,7 @@
                             <li><a href="{{url('/releases')}}">Releases</a></li>
                         </ul>
                     </div>
+                  
                 </div>
             </div>
             

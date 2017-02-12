@@ -170,7 +170,7 @@ $(document).ready(function() {
     var thumbnailHtml = "";
 
     for (var i = 0; i < thumbnails.length; i++) {
-        thumbnailHtml += "<div class='col-lg-3 col-md-6 col-sm-12 col-xs-12 text-center thumbnailRowStyle '>";
+        thumbnailHtml += "<div class='col-lg-3 col-md-6 col-sm-12 col-xs-12 text-center'>";
         thumbnailHtml += "<img src='" + thumbnails[i] + "' onclick='changeVideoLgImage(" + i + ")' id='videoImage" + i + "' class='eachImageStyle img-responsive' >";
         thumbnailHtml += "<a id='top"+i+"'><img src='../images/you_tube_btn.png' onclick='changeVideo(" + i + ")' onmouseenter='fullOpacity(" + i + ")' id='thumbnail" + i + "' class='youTubeBtnStyle'></a>";
         thumbnailHtml += "<p class='youtubeTitle'>"+title[i]+"</p>"
