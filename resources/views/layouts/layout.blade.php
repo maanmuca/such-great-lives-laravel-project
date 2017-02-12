@@ -79,6 +79,7 @@
                             <li><a href="{{url('/releases')}}">Releases</a></li>
                         </ul>
                     </div>
+                  
                 </div>
             </div>
             

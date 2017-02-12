@@ -14,20 +14,35 @@ body, html{
 }
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Acme');
-.content-body
-{
+
+.content-body{
     font-family: 'Open Sans', sans-serif;
 }
 
+.starwarsSglTitle{
+    margin-bottom: 70px;
+}
+
+.socialMediaLinksDark a{
+    color:  #F7C803;
+    text-align: center;
+    padding-top: 16px;
+    padding-left: 1px;
+    margin: 8px;
+}
+
+.socialMediaLinksDark a:hover{
+    color: #ade504;
+}
 
 .star-wars-intro {
- /* background: url("../images/stars-bg.jpg") center center;*/
+  background: url("../images/stars-bg.jpg") center center;
   background-size: cover;
   width: 100%;
   height: 100%;
   font-family: "Droid Sans", arial, verdana, sans-serif;
   font-weight: 700;
-  color: mediumpurple;
+  color: #F7C803;
   background-color: #000;
   overflow: hidden;
   position: relative;
@@ -38,19 +53,16 @@ body, html{
   position: relative;
   max-width: 16em;
   font-size: 200%;
-  font-weight: 400;
   margin: 20% auto;
-  color: #4ee;
+  color: #F7C803;
   opacity: 0;
   z-index: 1;
   text-align: center;
-  -webkit-animation: intro 2s ease-out;
-  -moz-animation: intro 2s ease-out;
-  -ms-animation: intro 2s ease-out;
-  -o-animation: intro 2s ease-out;
-  animation: intro 2s ease-out;
-
-
+  -webkit-animation: intro 2.5s ease-out;
+  -moz-animation: intro 2.5s ease-out;
+  -ms-animation: intro 2.5s ease-out;
+  -o-animation: intro 2.5s ease-out;
+  animation: intro 2.5s ease-out;
 }
 
 .star-wars-intro .main-content{
@@ -77,30 +89,6 @@ body, html{
   bottom: 60%;
   background-image: linear-gradient(top, rgba(0,0,0,1) 0%, transparent 100%);
   pointer-events: none;
-}
-
-.star-wars-intro .space-button {
-  color: yellow;
-  border: 12px solid yellow;
-  padding: 20px;
-  background: transparent;
-  text-decoration: none;
-  margin: 0 auto;
-  display: block;
-  text-align: center;
-}
-
-.star-wars-intro .space-button:hover {
-  background-color: yellow;
-  border-color: yellow;
-  color: black;
-}
-
-.star-wars-intro .space-button:active,
-.star-wars-intro .space-button:focus {
-  background-color: yellow;
-  border-color: yellow;
-  color: black;
 }
 
 .star-wars-intro .title-content {

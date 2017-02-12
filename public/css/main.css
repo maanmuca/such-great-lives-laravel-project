@@ -29,7 +29,7 @@ h2{
 
 h4{
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 450;
     line-height: 40px;
     color: white;
  }
@@ -38,12 +38,81 @@ h4{
     color: white;
     padding-top: 14px;
     margin: 8px;
-    font-size: 1.4em;
+    font-size: 1.8em;
 }
 
 .icons-group a:hover{
     color: #ade504;
 } 
+
+/*---------------------------header-index------*/
+   
+#sgl-logo{
+    padding-top: 5%;
+    width: 15%;
+    height: auto;
+}
+    
+.header-media{
+   padding-right: 60px;
+}
+
+.header-media .header-icons a{
+    color: white;
+    padding-top: 14px;
+    margin: 8px;
+    font-size: 1.8em;
+}
+
+.header-media .header-icons a:hover{
+     color: #def6a9;
+     text-decoration: none;
+}
+
+#intro{ 
+    background-image: url('../images/bg_02.png');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 900px; /*900px for 1903+ px screen*/    
+}
+
+/*-----------------------home page--*/
+
+#links a{
+    color: white;
+}
+
+#links ul li{
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*-----------pages--------*/
+#bg_hd_contact{
+    background-image: url("../images/bg_contact.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 30px;
+}
+    
+#bg_hd_releases{
+    background-image: url("../images/guitarra_02.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 30px;
+}
+
+.form-contact{
+    background-color: #FAFAFA;
+    padding: 30px 40px 60px;
+    margin: 20px 0px 60px;
+    border: 1px solid purple;
+    clear:both;
+}
 
 /*---------------------standard  color containers--*/
 
@@ -101,71 +170,25 @@ h4{
     padding-right: 30px;
 }
 
-#intro{ 
-    background-image: url('../images/bg_02.png');
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 900px; /*900px for 1903+ px screen*/    
-}
-    
-#bg_hd_contact{
-    background-image: url("../images/bg_contact.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 30px;
-}
-    
-#bg_hd_releases{
-    background-image: url("../images/guitarra_02.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 30px;
-}
-
-.form-contact{
-    background-color: #FAFAFA;
-    padding: 30px 40px 60px;
-    margin: 20px 0px 60px;
-    border: 1px solid purple;
-    clear:both;
-}
-
 /*-----------------------animation about us-----*/
 
-.hotspot-wrapper {
+.about-wrapper {
+    padding-top: 40px;
   position: relative;
   overflow: hidden;
-  margin-bottom:20px;
+  margin-bottom:10px;
 }
-.hotspot-text {
 
-    height: 102px;
-    position: absolute;
-    bottom: -50px;
-    left:0;
-  right:0;
-    transition: all 0.2s ease;
-    background: rgba(0,0,0,.7);
-    color:#fff;
-}  
-.hotspot-wrapper:hover .hotspot-text {
-  bottom: 0;
-  left:0;
-  right:0;
-}
-.hotspot-wrapper img {
+.about-wrapper img {
     max-width:100% !important;
     clear:both;
-    -webkit-transition: all 0.7s ease;
-    transition: all 0.7s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
-.hotspot-wrapper:hover img {
-  -webkit-transform:scale(1.3);
-transform:scale(1.3);
+.about-wrapper:hover img {
+  -webkit-transform:scale(1.2);
+transform:scale(1.2);
 }
 
 /*----------------------------footer--*/
@@ -180,7 +203,7 @@ h5{
     font-size: 14px;
 }
 
-.footer-links { 
+.footer-links{ 
     list-style-type:none;  
     padding-left:0px; 
     margin-left:2px;
@@ -242,21 +265,9 @@ h5{
     margin: 15px;
     padding-left: 15px;
 }
-/*-----------------------home page--*/
-
-#links a{
-    color: white;
-}
-
-#links ul li{
-    list-style: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
 
     /********************************************************closing Paola*****/
 
-    
 .eachImageStyle{
     position: relative; top: 0; left: 0;
 }
@@ -309,12 +320,6 @@ h5{
     padding-top:5px;
 }
 
-#sgl-logo{
-    padding-top: 100px;
-    width: 50%;
-    height: 50%;
-    vertical-align: middle;
-}
 
 #menu-slider{
     position:fixed;
@@ -336,13 +341,6 @@ h5{
 {
     .upcomingShowsTable thead th{
         font-size: 8px;
-    }
-    
-    #sgl-logo{
-        padding-top: 25px;
-        width: 50%;
-        height: 50%;
-        vertical-align: middle;
     }
     
     .bigIcons{
@@ -418,13 +416,6 @@ h5{
         color:white;
     }
     
-    #sgl-logo{
-        padding-top: 25px;
-        width: 50%;
-        height: 50%;
-        vertical-align: middle;
-    }
-    
     .starWarsNews{
         background-image: url('../images/stars-bg.jpg');
         background-repeat: no-repeat;
@@ -488,13 +479,6 @@ h5{
   
     .upcomingShowsTable td{
         font-size: 6px;
-    }
-
-    #sgl-logo{
-        padding-top: 25px;
-        width: 50%;
-        height: 50%;
-        vertical-align: middle;
     }
 
     .starWarsNews{
@@ -586,12 +570,7 @@ h5{
                    and (max-device-width : 768px)
                    and (orientation : landscape)
 {
-    #sgl-logo{
-        padding-top: 25px;
-        width: 50%;
-        height: 50%;
-        vertical-align: middle;
-    }
+
     
     .bigIcons {
         width: 60%;
@@ -685,14 +664,7 @@ h5{
 /*////////////////////////////////////////////iPads (portrait and landscape)//*/
 @media only screen and (min-device-width : 768px)
 
-{
-    #sgl-logo{
-        padding-top: 25px;
-        width: 50%;
-        height: 50%;
-        vertical-align: middle;
-    }
-    
+{   
     .bigIcons{
         width: 40%;
         height: 40%;
@@ -794,13 +766,6 @@ h5{
 /*////////////////////////////////////////////////////////////////////////////*/
 @media only screen and (min-device-width : 768px) and (orientation : landscape)
 {
-    #sgl-logo{
-        padding-top: 25px;
-        width: 20%;
-        height: 20%;
-        vertical-align: middle;
-    }
-    
     .bigIcons{
         width: 60%;
         height: 60%;
@@ -915,13 +880,7 @@ h5{
                    and (max-device-width : 1024px)
                    and (orientation : landscape) 
 {
-    
-    #sgl-logo{
-        padding-top: 25px;
-        width: 20%;
-        height: 20%;
-        vertical-align: middle;
-    }
+
     .bigIcons{
         width: 40%;
         height: 40%;
@@ -1034,13 +993,6 @@ h5{
         padding-top: 2em;
     }
 
-    #sgl-logo{
-        padding-top: 25px;
-        width: 15%;
-        height: 20%;
-        vertical-align: middle;
-    }
-
     .bigIcons{
         width: 40%;
         height: 40%;
@@ -1130,13 +1082,6 @@ h5{
 /*/////////////////////////////////////////////////////////////Large screens//*/
 @media only screen and (min-width : 1824px) 
 {
-   
-    #sgl-logo{
-        padding-top: 100px;
-        width: 25%;
-        height: 25%;
-        vertical-align: middle;
-    }
 
     .bigIcons{
         width: 40%;
@@ -1213,7 +1158,7 @@ h5{
 
     /* The navigation menu links */
     .sidenav a {
-        padding: 8px 8px 8px 32px;
+        padding: 8px 8px 8px 8px;
         text-decoration: none;
         font-size: 18px;
         color: white;
