@@ -3,6 +3,16 @@
 
 /*********************************************************Paola adding*****/ 
 
+<<<<<<< HEAD
+#intro{ 
+        background-image: url('../images/bg_02.png');
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 600px; /*900px for 1903+ px screen*/
+    }
+    
+=======
  
 body{ 
     background-image: url('../images/bg_purple.png');
@@ -104,6 +114,7 @@ h4{
 }
 
 /*-----------pages--------*/
+>>>>>>> be604fd75e1e2eb9c5bc118baba5da9cbf99cc0b
 #bg_hd_contact{
     background-image: url("../images/bg_contact.png");
     background-size: cover;
@@ -129,83 +140,6 @@ h4{
     margin-bottom: 50px;
 }
 
-/*---------------------standard  color containers--*/
-
-.section-purple{
-    background-color: hsla(272, 100%, 14%, 0.2);
-    color: white;
-    padding-bottom: 60px; 
-    padding-top: 20px;
-    padding-left: 30px; 
-    padding-right: 30px;
-}
-
-.section-blue{
-    background-color: hsla(200, 96%, 26%, 0.3);
-    color: white;
-    padding-bottom: 60px; 
-    padding-top: 20px;
-    padding-left: 30px; 
-    padding-right: 30px;
-}
-
-.section-dark-blue{
-    background-color: hsla(243, 96%, 14%, 0.2);
-    color: white;
-    padding-bottom: 60px; 
-    padding-top: 20px;
-    padding-left: 30px; 
-    padding-right: 30px;
-}
-
-.section-pink{
-    background-color: hsla(300, 96%, 18%, 0.3);
-    color: white;
-    padding-bottom: 60px; 
-    padding-top: 20px;
-    padding-left: 30px; 
-    padding-right: 30px; 
-}
-
-.section-red{
-    background-color: hsla(325, 96%, 12%, 0.2);
-    color: white;
-    padding-bottom: 60px; 
-    padding-top: 20px;
-    padding-left: 30px; 
-    padding-right: 30px;
-}
-
-.section-white{
-    background-color: hsla(186, 96%, 98%, 0.2);
-    color: white;
-    padding-bottom: 60px; 
-    padding-top: 20px;
-    padding-left: 30px; 
-    padding-right: 30px;
-}
-
-/*-----------------------animation about us-----*/
-
-.about-wrapper {
-    padding-top: 40px;
-  position: relative;
-  overflow: hidden;
-  margin-bottom:10px;
-}
-
-.about-wrapper img {
-    max-width:100% !important;
-    clear:both;
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
-
-.about-wrapper:hover img {
-  -webkit-transform:scale(1.2);
-transform:scale(1.2);
-}
-
 /*----------------------------footer--*/
 footer {  
     margin-top: 80px;
@@ -218,7 +152,7 @@ h5{
     font-size: 14px;
 }
 
-.footer-links{ 
+.footer-links { 
     list-style-type:none;  
     padding-left:0px; 
     margin-left:2px;
@@ -228,17 +162,13 @@ h5{
     line-height: 22px; 
 }
 
-.footer-links li a, .phone-link{ 
+.footer-links li a { 
     color:#fff; 
     text-decoration: none;
 }
 
-.phone-link:hover, #links a:hover, .footer-links li a:hover, .footer-media a:hover{
-     color: #ade504;
-     text-decoration: none;
-}
-.footer-icon, .links-icons{
-    margin-right: 10px;
+.footer-links li a:hover {
+    color: #ade504;
 }
 
 .copyright { 
@@ -278,13 +208,23 @@ h5{
     color: white;
     text-align: left;
     margin: 15px;
-    padding-left: 15px;
 }
 
+.footer-media a:hover{
+    color: #ade504;
+}
+
+/*-----------------------end of footer--*/
     /********************************************************closing Paola*****/
 
+.youtubeTitle{
+    position: absolute; top: 90%; left: 10%;
+    font-size: 12px;
+}
+    
 .eachImageStyle{
     position: relative; top: 0; left: 0;
+    font-size: 8px;
 }
 
 .youTubeBtnStyle{
@@ -318,23 +258,77 @@ h5{
     padding-bottom: 30px;
 }
 
+body{ 
+    background-image: url('../images/bg_purple.png');
+    background-repeat: repeat;
+    color:white;
+    z-index: 0;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section-heading{
+    font-family: 'Acme', sans-serif;
+}
+
 .imageNews{
     width: 50%;
     height: 50%;
 }
 
 .upcomingShowsTable thead th{
-    color: white;
+    color: #2D233B;
 }
 
 .upcomingShowsTable tbody td{
-    color: white;
+    color: #2D233B;
 }
 
 #container_ft{
     padding-top:5px;
 }
 
+.service-heading{
+    font-family: 'Acme', sans-serif;
+}
+
+.socialMediaLinksDark a{
+    color: white;
+    text-align: center;
+    padding-top: 16px;
+    padding-left: 1px;
+    margin: 8px;
+}
+
+.socialMediaLinksDark a:hover{
+    color: #ade504;
+}
+
+.sglMore{
+    background-color: hsla(284, 100%, 14%, 0.63);
+    color: white;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
+.sglMore a{
+    color: white;
+}
+
+.sglMore ul li{
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#sgl-logo{
+    padding-top: 100px;
+    width: 50%;
+    height: 50%;
+    vertical-align: middle;
+}
 
 #menu-slider{
     position:fixed;
@@ -362,6 +356,18 @@ h5{
         min-height: 500px;    
     }
     
+<<<<<<< HEAD
+    #sgl-logo{
+        padding-top: 25px;
+        width: 50%;
+        height: 50%;
+        vertical-align: middle;
+    }
+    
+    .bigIcons{
+        width: 100%;
+        height: 100%;
+=======
     .header-media{
         padding-right: 4px;
         padding-top: 0px;
@@ -382,6 +388,7 @@ h5{
 
     .upcomingShowsTable thead th{
         font-size: 8px;
+>>>>>>> be604fd75e1e2eb9c5bc118baba5da9cbf99cc0b
     }
     
     .starWarsNews{
@@ -395,6 +402,25 @@ h5{
         width: 75%;
         height: 75%;
         padding-left: 25%;
+    }
+
+    .subscribe{
+        padding-top: 30px;
+    }
+    
+    .subscribe a{
+        padding-top: 30px;
+        font-family: 'Acme', sans-serif;
+        color: white;
+        font-size: 24px;
+    }
+
+    .subscribe a:hover{
+        padding-top: 30px;
+        font-family: 'Acme', sans-serif;
+        color: white;
+        font-size: 28px;
+        text-decoration: none;
     }
 
     .sidenav {
@@ -470,12 +496,19 @@ h5{
      
     .upcomingShowsTable thead th{
         font-size: 12px;
-        color:white;
+        color:#2D233B;
     }
 
     .upcomingShowsTable tbody td{
         font-size: 12px;
-        color:white;
+        color:#2D233B;
+    }
+    
+    #sgl-logo{
+        padding-top: 25px;
+        width: 50%;
+        height: 50%;
+        vertical-align: middle;
     }
     
     .starWarsNews{
@@ -489,6 +522,25 @@ h5{
         width: 75%;
         height: 75%;
         padding-left: 25%;
+    }
+
+    .subscribe{
+        padding-top: 30px;
+    }
+    
+    .subscribe a{
+        padding-top: 30px;
+        font-family: 'Acme', sans-serif;
+        color: white;
+        font-size: 24px;
+    }
+
+    .subscribe a:hover{
+        padding-top: 30px;
+        font-family: 'Acme', sans-serif;
+        color: white;
+        font-size: 28px;
+        text-decoration: none;
     }
 
     .sidenav {
@@ -568,6 +620,13 @@ h5{
         font-size: 6px;
     }
 
+    #sgl-logo{
+        padding-top: 25px;
+        width: 50%;
+        height: 50%;
+        vertical-align: middle;
+    }
+
     .starWarsNews{
         background-image: url('../images/stars-bg.jpg');
         background-repeat: no-repeat;
@@ -581,6 +640,24 @@ h5{
         padding-left: 25%;
     }
 
+    .subscribe{
+        padding-top: 30px;
+    }
+    
+    .subscribe a{
+        padding-top: 30px;
+        font-family: 'Acme', sans-serif;
+        color: white;
+        font-size: 24px;
+    }
+
+    .subscribe a:hover{
+        padding-top: 30px;
+        font-family: 'Acme', sans-serif;
+        color: white;
+        text-decoration: none;
+    }
+    
     #videosPage{
         margin-left: 1%;
         margin-right: 1%;
@@ -657,6 +734,20 @@ h5{
                    and (max-device-width : 768px)
                    and (orientation : landscape)
 {
+<<<<<<< HEAD
+    #sgl-logo{
+        padding-top: 25px;
+        width: 50%;
+        height: 50%;
+        vertical-align: middle;
+    }
+    
+    .bigIcons {
+        width: 60%;
+        height: 60%;
+    }
+=======
+>>>>>>> be604fd75e1e2eb9c5bc118baba5da9cbf99cc0b
     
     .starWarsNews{
         background-image: url('../images/stars-bg.jpg');
@@ -669,6 +760,25 @@ h5{
         width: 75%;
         height: 75%;
         padding-left: 25%;
+    }
+
+    .subscribe{
+        padding-top: 30px;
+    }
+    
+    .subscribe a{
+        padding-top: 30px;
+        font-family: 'Acme', sans-serif;
+        color: white;
+        font-size: 24px;
+    }
+
+    .subscribe a:hover{
+        padding-top: 30px;
+        font-family: 'Acme', sans-serif;
+        color: white;
+        font-size: 28px;
+        text-decoration: none;
     }
     
     #videosPage{
@@ -745,7 +855,22 @@ h5{
 /*////////////////////////////////////////////iPads (portrait and landscape)//*/
 @media only screen and (min-device-width : 768px)
 
+<<<<<<< HEAD
+{
+    #sgl-logo{
+        padding-top: 25px;
+        width: 50%;
+        height: 50%;
+        vertical-align: middle;
+    }
+    
+    .bigIcons{
+        width: 40%;
+        height: 40%;
+    }
+=======
 {   
+>>>>>>> be604fd75e1e2eb9c5bc118baba5da9cbf99cc0b
     
     .starWarsNews {
         background-image: url('../images/stars-bg.jpg');
@@ -758,6 +883,25 @@ h5{
         width: 75%;
         height: 75%;
         padding-left: 25%;
+    }
+
+    .subscribe{
+        padding-top: 30px;
+    }
+    
+    .subscribe a {
+        padding-top: 30px;
+        font-family: 'Acme', sans-serif;
+        color: white;
+        font-size: 24px;
+    }
+
+    .subscribe a:hover{
+        padding-top: 30px;
+        font-family: 'Acme', sans-serif;
+        color: white;
+        font-size: 28px;
+        text-decoration: none;
     }
     
     #videosPage{
@@ -843,6 +987,20 @@ h5{
 /*////////////////////////////////////////////////////////////////////////////*/
 @media only screen and (min-device-width : 768px) and (orientation : landscape)
 {
+<<<<<<< HEAD
+    #sgl-logo{
+        padding-top: 25px;
+        width: 20%;
+        height: 20%;
+        vertical-align: middle;
+    }
+    
+    .bigIcons{
+        width: 60%;
+        height: 60%;
+    }
+=======
+>>>>>>> be604fd75e1e2eb9c5bc118baba5da9cbf99cc0b
     
     .starWarsNews{
         background-image: url('../images/stars-bg.jpg');
@@ -855,6 +1013,25 @@ h5{
         width: 75%;
         height: 75%;
         padding-left: 25%;
+    }
+
+    .subscribe{
+        padding-top: 30px;
+    }
+    
+    .subscribe a{
+        padding-top: 30px;
+        font-family: 'Acme', sans-serif;
+        color: white;
+        font-size: 24px;
+    }
+
+    .subscribe a:hover{
+        padding-top: 30px;
+        font-family: 'Acme', sans-serif;
+        color: white;
+        font-size: 28px;
+        text-decoration: none;
     }
     
     #videosPage{
@@ -953,6 +1130,27 @@ h5{
                    and (max-device-width : 1024px)
                    and (orientation : landscape) 
 {
+<<<<<<< HEAD
+    .sglNews {
+        background-color:#2D233B;
+        color: white;
+        margin-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    
+    #sgl-logo{
+        padding-top: 25px;
+        width: 20%;
+        height: 20%;
+        vertical-align: middle;
+    }
+    .bigIcons{
+        width: 40%;
+        height: 40%;
+    }
+=======
+>>>>>>> be604fd75e1e2eb9c5bc118baba5da9cbf99cc0b
     
     .starWarsNews{
         background-image: url('../images/stars-bg.jpg');
@@ -967,6 +1165,25 @@ h5{
         padding-left: 25%;
     }
 
+    .subscribe {
+        padding-top: 30px;
+    }
+    
+    .subscribe a{
+        padding-top: 30px;
+        font-family: 'Acme', sans-serif;
+        color: white;
+        font-size: 24px;
+    }
+
+    .subscribe a:hover{
+        padding-top: 30px;
+        font-family: 'Acme', sans-serif;
+        color: white;
+        font-size: 28px;
+        text-decoration: none;
+    }
+    
     #videosPage{
         margin-left: 10%;
         margin-right: 10%;
@@ -1049,7 +1266,14 @@ h5{
 /*//////////////////////////////////////////////////////Desktops and laptops//*/
 @media only screen and (min-width : 1025px)
 {
-
+    #intro{ 
+        background-image: url('../images/bg_02.png');
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 700px; 
+    }
+    
     .linksStarWars a{
         color: yellow;
         padding-top: 2em;
@@ -1060,6 +1284,29 @@ h5{
         color: brown;
         padding-top: 2em;
     }
+<<<<<<< HEAD
+    
+    .sglNews{
+        background-color: #2D233B;
+        color: white;
+        margin-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    #sgl-logo{
+        padding-top: 25px;
+        width: 15%;
+        height: 20%;
+        vertical-align: middle;
+    }
+
+    .bigIcons{
+        width: 40%;
+        height: 40%;
+    }
+=======
+>>>>>>> be604fd75e1e2eb9c5bc118baba5da9cbf99cc0b
     
     .starWarsNews{
         background-image: url('../images/stars-bg.jpg');
@@ -1072,6 +1319,22 @@ h5{
         width: 75%;
         height: 75%;
         padding-left: 25%;
+    }
+
+    .subscribe{
+        padding-top: 30px;
+    }
+    .subscribe a{
+        padding-top: 30px;
+        font-family: 'Acme', sans-serif;
+        color: white;
+        font-size: 24px;
+    }
+
+    .subscribe a:hover{
+        padding-top: 30px;
+        font-size: 28px;
+        text-decoration: none;
     }
 
     #menu-slider{
@@ -1145,6 +1408,28 @@ h5{
 /*/////////////////////////////////////////////////////////////Large screens//*/
 @media only screen and (min-width : 1824px) 
 {
+<<<<<<< HEAD
+    #intro{ 
+        background-image: url('../images/bg_02.png');
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 900px; /*900px for 1903+ px screen*/
+    }
+
+    #sgl-logo{
+        padding-top: 100px;
+        width: 25%;
+        height: 25%;
+        vertical-align: middle;
+    }
+
+    .bigIcons{
+        width: 40%;
+        height: 40%;
+    }
+=======
+>>>>>>> be604fd75e1e2eb9c5bc118baba5da9cbf99cc0b
     
     .starWarsNews{
         background-image: url('../images/stars-bg.jpg');
@@ -1157,6 +1442,26 @@ h5{
         width: 75%;
         height: 75%;
         padding-left: 25%;
+    }
+
+    .subscribe{
+        padding-top: 30px;
+    }
+    
+    .subscribe a{
+        padding-top: 30px;
+        font-family: myNavigationFont;
+        color: white;
+        font-size: 24px;
+    }
+
+    .subscribe a:hover
+    {
+        padding-top: 30px;
+        font-family: myNavigationFont;
+        color: white;
+        font-size: 28px;
+        text-decoration: none;
     }
     
     #videosPage{
@@ -1216,7 +1521,7 @@ h5{
 
     /* The navigation menu links */
     .sidenav a {
-        padding: 8px 8px 8px 8px;
+        padding: 8px 8px 8px 32px;
         text-decoration: none;
         font-size: 18px;
         color: white;
@@ -1296,8 +1601,20 @@ h5{
     src: url('../fonts/Star_Jedi_Rounded.ttf'); /*URL to font*/
 }
 
-#upcomingShows h1{
+
+#news h1
+{
+    font-family: 'Acme', sans-serif;
     color: white;
+}
+#news p
+{
+    font-family: 'Acme', sans-serif;
+    color: white;
+}
+
+#upcomingShows h1{
+    color: black;
 }
 
 #upcomingShows p{
