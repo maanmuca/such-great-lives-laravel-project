@@ -111,14 +111,22 @@ h5{
 
 /*-----------------------end of footer--*/
     /********************************************************closing Paola*****/
-
-    
+.fbButtonsVideos
+{
+    position: absolute; top: 50%; left: 10%;
+    text-align: center;
+}
 .eachImageStyle{
     position: relative; top: 0; left: 0;
+    text-align: center;
 }
 
 .youTubeBtnStyle{
     position: absolute; top: 10%; left: 10%;
+}
+.youtubeTitle{
+    position: absolute; top: 90%; left: 10%;
+    font-size: 12px;
 }
 
 .youTubeBtnStyle{
@@ -133,7 +141,9 @@ h5{
 }
 
 .mainVideoContainer{
-    background-color:#2D233B;
+    background-color: hsla(284, 100%, 14%, 0.63);
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-top: -20px;
 }
 
