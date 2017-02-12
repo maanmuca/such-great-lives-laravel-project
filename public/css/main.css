@@ -54,10 +54,9 @@ h4{
 }
 
 .logo_index{
-    padding-top: 7%;
-    width: 20%;
+    margin-top: 65px;
+    width: 220px;
     height: auto;
-    margin-top: 20px;
 }
     
 .header-media{
@@ -73,7 +72,7 @@ h4{
 }
 
 .header-media .header-icons a:hover{
-     color: #def6a9;
+     color: #ade504;
      text-decoration: none;
 }
 
@@ -355,6 +354,32 @@ h5{
 /*////////////////////////////////////////////////////device-width 319px max//*/
 @media only screen and (max-device-width : 319px)
 {
+    #intro{ 
+        background-image: url('../images/bg_02.png');
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 500px;    
+    }
+    
+    .header-media{
+        padding-right: 4px;
+        padding-top: 0px;
+     }
+
+    .header-media .header-icons a{
+         color: white;
+         margin-left: 4px;
+         margin-right: 4px;
+         font-size: 1.1em;
+     }
+     
+    .logo_index{
+        margin-top: 65px;
+        width: 100px;
+        height: auto;
+    }
+
     .upcomingShowsTable thead th{
         font-size: 8px;
     }
@@ -417,6 +442,32 @@ h5{
 }
 @media only screen and (max-width : 319px)
 {
+    #intro{ 
+        background-image: url('../images/bg_02.png');
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 600px;    
+    }
+    
+    .header-media{
+        padding-right: 4px;
+        padding-top: 0px;
+    }
+
+    .header-media .header-icons a{
+         color: white;
+         margin-left: 4px;
+         margin-right: 4px;
+         font-size: 1.1em;
+    }
+     
+    .logo_index{
+        margin-top: 65px;
+        width: 100px;
+        height: auto;
+    }
+     
     .upcomingShowsTable thead th{
         font-size: 12px;
         color:white;
@@ -487,7 +538,32 @@ h5{
 /*//////////////////////////////////////Smartphones (portrait and landscape)//*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px)
 {
+    #intro{ 
+        background-image: url('../images/bg_02.png');
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 600px;    
+    }
+    
+    .header-media{
+        padding-right: 4px;
+        padding-top: 0px;
+    }
+
+    .header-media .header-icons a{
+         color: white;
+         margin-left: 4px;
+         margin-right: 4px;
+         font-size: 1.1em;
+    }
   
+    .logo_index{
+        margin-top: 65px;
+        width: 100px;
+        height: auto;
+    }
+    
     .upcomingShowsTable td{
         font-size: 6px;
     }

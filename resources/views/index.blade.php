@@ -18,9 +18,9 @@
         </div>
           
         <div class="row text-center">
-            <div class="col-lg-12">
+            <div class="col-lg-12 col-md-12 col-sm-12">
                 <a href="{{url('/')}}"><img src="{{URL::asset('images/sgllogo_light.png')}}"
-                                            class="img-responsive center-block logo_index"  alt="logo"></a>
+                                            class="center-block logo_index"  alt="logo"></a>
             </div>
         </div>
             
