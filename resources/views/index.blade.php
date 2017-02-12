@@ -1,12 +1,12 @@
 @extends('layouts.layout')
 @section('content')
-    
-<!-------------------------------- Intro------ ------------------------------*-->
-    
+
+<!-------------------------------- Intro -----------------------------------*-->
+
 <div class="jumbotron" id="intro">
     <div class="container-fluid">
         
-         <div class="row pull-right header-media">
+        <div class="row pull-right header-media">
             <div class="col-lg-12 header-icons">
                 <a href="https://www.facebook.com/suchgreatlives">
                     <i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -16,35 +16,30 @@
                     <i class="fa fa-google-plus" aria-hidden="true"></i></a>
             </div>
         </div>
-        
+          
         <div class="row text-center">
-            <div class="col-lg-12">
-                <img src="{{URL::asset('images/sgllogo_light.png')}}" id="sgl-logo" 
-                     class="img-responsive center-block"  alt="logo">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <a href="{{url('/')}}"><img src="{{URL::asset('images/sgllogo_light.png')}}"
+                                            class="center-block logo_index"  alt="logo"></a>
             </div>
         </div>
-        
+            
         <div class="row text-center">
-            <div class="col-md-4">
+            <div class="col-md-offset-3 col-md-6">
                 <a href="#"  data-toggle="tooltip" title="Video" class="col-lg-4 col-md-4 col-sm-4 col-xs-4" >
-                    <img src="{{URL::asset('images/videos.png')}}" class=" center-block bigIcons"   alt="videos"></a>
-            </div>
-            <div class="col-md-4">
-                <a href="#"  data-toggle="tooltip" title="Releases" class="col-lg-4 col-md-4 col-sm-4 col-xs-4" >
-                    <img src="{{URL::asset('images/releases.png')}}"  class=" center-block bigIcons"   alt="releases"></a>
-            </div>
-
-          <div class="col-md-4">
+                    <img src="{{URL::asset('images/videos.png')}}" class=" img-responsive  bigIcons"   alt="videos"></a>
+                <a href="#"  data-toggle="tooltip" title="Releases" class="img-responsive col-lg-4 col-md-4 col-sm-4 col-xs-4" >
+                    <img src="{{URL::asset('images/releases.png')}}"  class=" img-responsive  bigIcons"   alt="releases"></a>
                 <a href="#"  data-toggle="tooltip" title="Photos" class="col-lg-4 col-md-4 col-sm-4 col-xs-4"  >
-                    <img src="{{URL::asset('images/gallery.png')}}" class= " center-block bigIcons"   alt="gallery"></a>
-          </div>
+                    <img src="{{URL::asset('images/gallery.png')}}" class= "  bigIcons"   alt="gallery"></a>
+            </div>
+   
         </div>
     </div>
-</div>
-    
-    
+</div>  
+
 <!-------------------------------- Section News ------------------------------*-->
-    
+
 <section id="news" class="section-dark-blue">
     <div class="container-fluid">
         
@@ -58,13 +53,13 @@
                     <i class="fa fa-google-plus" aria-hidden="true"></i></a>
             </div>
         </div>
-            
+        
         <div class="row">
             <div class="col-lg-12">
                 <h2 class="section-heading">News</h2>
             </div>
         </div>
-        
+            
         <div class="row">
             <div class="col-lg-12">
                 <dl>
@@ -83,11 +78,11 @@
                 </dl>
                 <hr />
             </div>
-                
+            
         </div>
     </div> 
 </section>
-    
+
 <!-------------------------------- Section About ------------------------------*-->
 <section id="about" class="section-blue">
     <div class="container-fluid">
@@ -102,13 +97,13 @@
                     <i class="fa fa-google-plus" aria-hidden="true"></i></a>
             </div>
         </div>
-            
+        
         <div class="row">
             <div class="col-lg-12">
                 <h2 class="section-heading">About us</h2>
             </div>
         </div>
-            
+        
         <div class="row">
             <div class="col-lg-12">
                 <p class="text-justify">Michael and Jon came together in 2010 after a mutual friend 
@@ -116,17 +111,17 @@
                     to song-writing. After a few misfires - including Jon presenting some folky 
                     material - Michael finished off 'Don't Be A Stranger' followed quite soon by "Kitchen Table".
                 Soon, "Gotta Girlfriend Today" popped out. Easy. A partnership was born.</p>
-                        
+                    
                 <p class="text-justify"> Matt, formerly of Michael's old band Beautiful Disaster, 
                     joined ship in late 2015 and they were on their way to the open mics!</p>
             </div>
         </div>
-            
+        
         <div class="row text-center">
             <div class="col-md-4 col-sm-4 about-wrapper">
-                <img src='images/jon_04.png' alt="" class="img-responsive">
+                <img src='images/jon_02.png' alt="" class="img-responsive">
                 <div>
-                    <h4 class="service-heading">Jon</h4>
+                    <h4>Jon</h4>
                 </div>
                 <p class="text-justify">Jon is our rhythm guitarist and lead singer. He relishes 
                     being on stage and is the infant of the group. He sits at home in the dark, 
@@ -135,7 +130,7 @@
             <div class="col-md-4 col-sm-4 about-wrapper">
                 <img src='images/michael_02.png' alt="" class="img-responsive">
                 <div>
-                    <h4 class="service-heading">Michael</h4>
+                    <h4>Michael</h4>
                 </div>
                 <p class="text-justify">Michael is our a five string fretless bassist and lead 
                     singer! He always presents with a lot of purple energy and commitment. Mike 
@@ -147,7 +142,7 @@
             <div class="col-md-4 col-sm-4 about-wrapper">
                 <img src='images/matt_02.png' alt="" class="img-responsive">
                 <div>
-                    <h4 class="service-heading">Matt</h4>
+                    <h4>Matt</h4>
                 </div>
                 <p class="text-justify">Matt is our drummer and backing vocalist. He points out 
                     our boring tunes and embellishes the good ones around his drum kit. Our number 
@@ -156,12 +151,11 @@
                 </p>
             </div>
                 
-                
         </div>
     </div>
-        
-</section>
     
+</section>
+
 <!-------------------------------- Section Shows ------------------------------*-->
 <section id="shows" class="section-purple">
     <div class="container-fluid shows">
@@ -176,13 +170,13 @@
                     <i class="fa fa-google-plus" aria-hidden="true"></i></a>
             </div>
         </div>
-            
+        
         <div class="row">
             <div class="col-lg-12">
                 <h2 class="section-heading">Shows</h2>
             </div>
         </div>
-            
+        
         <div class="row" id="upcomingShows" >
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center ">
                 <table class="table text-center upcomingShowsTable" >
@@ -220,7 +214,7 @@
         </div>
     </div>
 </section>
-    
+
 <!-------------------------------- Section crawl star wars ------------------------------*-->
 <section id="crawl">
     <div class="container-fluid">
@@ -256,7 +250,7 @@
                                 <p>Come and see SUCH GREAT LIVES at their latest gig. Before the Empire shuts them down.</p>
                                 <br/>
                                 <center>Follow us on:</center>
-                                    
+                                
                             </div>
                             <div class="col-lg-12 socialMediaLinksDark text-center">
                                 <a href="https://www.facebook.com/suchgreatlives">
@@ -266,7 +260,7 @@
                                 <a href="https://plus.google.com/106986527777902815660">
                                     <i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
                             </div>
-    
+                                
                         </div>
                         </p>
                     </div>
@@ -275,7 +269,7 @@
         </div>
     </div>
 </section>
-    
+
 <!-------------------------------- Section Links ------------------------------*-->
 <section id="links" class="section-red">
     <div class="container-fluid links-cont">
@@ -290,13 +284,13 @@
                     <i class="fa fa-google-plus" aria-hidden="true"></i></a>
             </div>
         </div>
-        
+            
         <div class="row">
             <div class="col-lg-12">
                 <h2 class="section-heading">Links</h2>
             </div>
         </div>
-            
+        
         <div class="row">
             <div class="col-md-6 col-md-offset-3 text-center">
                 <p>And more on our Such Great Lives singers YouTube channel here: </p>
