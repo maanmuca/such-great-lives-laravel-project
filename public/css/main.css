@@ -1,20 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Acme');
 
-/*********************************************************Paola adding*****/ 
+/*********************************************************videos classes implemented*****/
 
-<<<<<<< HEAD
-#intro{ 
-        background-image: url('../images/bg_02.png');
-        background-position: top;
-        background-size: cover;
-        background-repeat: no-repeat;
-        min-height: 600px; /*900px for 1903+ px screen*/
-    }
-    
-=======
- 
-body{ 
+.youtubeTitle{
+    position: absolute; top: 90%; left: 10%;
+    font-size: 12px;
+}
+
+.eachImageStyle{
+    position: relative; top: 0; left: 0;
+    font-size: 8px;
+}
+
+.youTubeBtnStyle{
+    position: absolute; top: 10%; left: 10%;
+}
+
+.youTubeBtnStyle{
+    width: 30%;
+    height: 40%;
+    opacity: 0.6;
+}
+
+.thumbnailStyle{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.mainVideoContainer{
+    background-color:#2D233B;
+    margin-top: -20px;
+}
+
+/*********************************************************Paola adding*****/
+
+
+body{
     background-image: url('../images/bg_purple.png');
     background-repeat: repeat;
     color:white;
@@ -35,14 +57,14 @@ h2{
     font-weight: 500;
     line-height: 60px;
     color: #fff;
- }
+}
 
 h4{
     font-size: 24px;
     font-weight: 450;
     line-height: 40px;
     color: white;
- }
+}
 
 .icons-group a{
     color: white;
@@ -53,10 +75,10 @@ h4{
 
 .icons-group a:hover{
     color: #ade504;
-} 
+}
 
 /*---------------------------header-index------*/
-   
+
 #sgl-logo{
     padding-top: 0%;
     width: 12%;
@@ -68,10 +90,10 @@ h4{
     width: 220px;
     height: auto;
 }
-    
+
 .header-media{
-   padding-right: 60px;
-   padding-top: 0px;
+    padding-right: 60px;
+    padding-top: 0px;
 }
 
 .header-media .header-icons a{
@@ -82,16 +104,16 @@ h4{
 }
 
 .header-media .header-icons a:hover{
-     color: #ade504;
-     text-decoration: none;
+    color: #ade504;
+    text-decoration: none;
 }
 
-#intro{ 
+#intro{
     background-image: url('../images/bg_02.png');
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 900px; /*900px for 1903+ px screen*/    
+    min-height: 900px; /*900px for 1903+ px screen*/
 }
 
 .bigIcons{
@@ -114,7 +136,6 @@ h4{
 }
 
 /*-----------pages--------*/
->>>>>>> be604fd75e1e2eb9c5bc118baba5da9cbf99cc0b
 #bg_hd_contact{
     background-image: url("../images/bg_contact.png");
     background-size: cover;
@@ -123,7 +144,7 @@ h4{
     max-height: 300px;
 }
 
-    
+
 #bg_hd_releases{
     background-image: url("../images/guitarra_02.png");
     background-size: cover;
@@ -140,67 +161,148 @@ h4{
     margin-bottom: 50px;
 }
 
+/*---------------------standard  color containers--*/
+
+.section-purple{
+    background-color: hsla(272, 100%, 14%, 0.2);
+    color: white;
+    padding-bottom: 60px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.section-blue{
+    background-color: hsla(200, 96%, 26%, 0.3);
+    color: white;
+    padding-bottom: 60px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.section-dark-blue{
+    background-color: hsla(243, 96%, 14%, 0.2);
+    color: white;
+    padding-bottom: 60px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.section-pink{
+    background-color: hsla(300, 96%, 18%, 0.3);
+    color: white;
+    padding-bottom: 60px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.section-red{
+    background-color: hsla(325, 96%, 12%, 0.2);
+    color: white;
+    padding-bottom: 60px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.section-white{
+    background-color: hsla(186, 96%, 98%, 0.2);
+    color: white;
+    padding-bottom: 60px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/*-----------------------animation about us-----*/
+
+.about-wrapper {
+    padding-top: 40px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom:10px;
+}
+
+.about-wrapper img {
+    max-width:100% !important;
+    clear:both;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.about-wrapper:hover img {
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
 /*----------------------------footer--*/
-footer {  
+footer {
     margin-top: 80px;
     margin-bottom: 20px;
     font-size: 13px;
 }
 
 h5{
-    font-weight: bold; 
+    font-weight: bold;
     font-size: 14px;
 }
 
-.footer-links { 
-    list-style-type:none;  
-    padding-left:0px; 
+.footer-links{
+    list-style-type:none;
+    padding-left:0px;
     margin-left:2px;
 }
 
-.footer-links li { 
-    line-height: 22px; 
+.footer-links li {
+    line-height: 22px;
 }
 
-.footer-links li a { 
-    color:#fff; 
+.footer-links li a, .phone-link{
+    color:#fff;
     text-decoration: none;
 }
 
-.footer-links li a:hover {
+.phone-link:hover, #links a:hover, .footer-links li a:hover, .footer-media a:hover{
     color: #ade504;
+    text-decoration: none;
+}
+.footer-icon, .links-icons{
+    margin-right: 10px;
 }
 
-.copyright { 
-    min-height:40px; 
+.copyright {
+    min-height:40px;
     background-color: #000000;
 }
 
-.copyright p { 
-    text-align:left; 
-    color:grey; 
-    padding:10px 0; 
+.copyright p {
+    text-align:left;
+    color:grey;
+    padding:10px 0;
     margin-bottom:0px;
     font-size: 12px;
 }
 
-.authors { 
-    list-style-type:none; 
-    float:right; 
+.authors {
+    list-style-type:none;
+    float:right;
     margin-bottom:0px;
     font-size: 13px;
 }
 
-.authors li { 
-    float:left; 
+.authors li {
+    float:left;
     line-height:40px;
     color: grey;
 }
 
-.authors li:after { 
-    content:"|"; 
-    color: grey; 
-    margin-right:8px; 
+.authors li:after {
+    content:"|";
+    color: grey;
+    margin-right:8px;
     margin-left:8px;
 }
 
@@ -208,23 +310,13 @@ h5{
     color: white;
     text-align: left;
     margin: 15px;
+    padding-left: 15px;
 }
 
-.footer-media a:hover{
-    color: #ade504;
-}
+/********************************************************closing Paola*****/
 
-/*-----------------------end of footer--*/
-    /********************************************************closing Paola*****/
-
-.youtubeTitle{
-    position: absolute; top: 90%; left: 10%;
-    font-size: 12px;
-}
-    
 .eachImageStyle{
     position: relative; top: 0; left: 0;
-    font-size: 8px;
 }
 
 .youTubeBtnStyle{
@@ -258,77 +350,23 @@ h5{
     padding-bottom: 30px;
 }
 
-body{ 
-    background-image: url('../images/bg_purple.png');
-    background-repeat: repeat;
-    color:white;
-    z-index: 0;
-}
-
-p{
-    font-family: 'Open Sans', sans-serif;
-}
-
-.section-heading{
-    font-family: 'Acme', sans-serif;
-}
-
 .imageNews{
     width: 50%;
     height: 50%;
 }
 
 .upcomingShowsTable thead th{
-    color: #2D233B;
+    color: white;
 }
 
 .upcomingShowsTable tbody td{
-    color: #2D233B;
+    color: white;
 }
 
 #container_ft{
     padding-top:5px;
 }
 
-.service-heading{
-    font-family: 'Acme', sans-serif;
-}
-
-.socialMediaLinksDark a{
-    color: white;
-    text-align: center;
-    padding-top: 16px;
-    padding-left: 1px;
-    margin: 8px;
-}
-
-.socialMediaLinksDark a:hover{
-    color: #ade504;
-}
-
-.sglMore{
-    background-color: hsla(284, 100%, 14%, 0.63);
-    color: white;
-    margin-bottom: 40px;
-    padding-bottom: 20px;
-}
-
-.sglMore a{
-    color: white;
-}
-
-.sglMore ul li{
-    list-style: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-#sgl-logo{
-    padding-top: 100px;
-    width: 50%;
-    height: 50%;
-    vertical-align: middle;
-}
 
 #menu-slider{
     position:fixed;
@@ -348,38 +386,26 @@ p{
 /*////////////////////////////////////////////////////device-width 319px max//*/
 @media only screen and (max-device-width : 319px)
 {
-    #intro{ 
+    #intro{
         background-image: url('../images/bg_02.png');
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
-        min-height: 500px;    
+        min-height: 500px;
     }
-    
-<<<<<<< HEAD
-    #sgl-logo{
-        padding-top: 25px;
-        width: 50%;
-        height: 50%;
-        vertical-align: middle;
-    }
-    
-    .bigIcons{
-        width: 100%;
-        height: 100%;
-=======
+
     .header-media{
         padding-right: 4px;
         padding-top: 0px;
-     }
+    }
 
     .header-media .header-icons a{
-         color: white;
-         margin-left: 4px;
-         margin-right: 4px;
-         font-size: 1.1em;
-     }
-     
+        color: white;
+        margin-left: 4px;
+        margin-right: 4px;
+        font-size: 1.1em;
+    }
+
     .logo_index{
         margin-top: 65px;
         width: 100px;
@@ -388,9 +414,8 @@ p{
 
     .upcomingShowsTable thead th{
         font-size: 8px;
->>>>>>> be604fd75e1e2eb9c5bc118baba5da9cbf99cc0b
     }
-    
+
     .starWarsNews{
         background-image: url('../images/stars-bg.jpg');
         background-repeat: no-repeat;
@@ -402,25 +427,6 @@ p{
         width: 75%;
         height: 75%;
         padding-left: 25%;
-    }
-
-    .subscribe{
-        padding-top: 30px;
-    }
-    
-    .subscribe a{
-        padding-top: 30px;
-        font-family: 'Acme', sans-serif;
-        color: white;
-        font-size: 24px;
-    }
-
-    .subscribe a:hover{
-        padding-top: 30px;
-        font-family: 'Acme', sans-serif;
-        color: white;
-        font-size: 28px;
-        text-decoration: none;
     }
 
     .sidenav {
@@ -468,49 +474,42 @@ p{
 }
 @media only screen and (max-width : 319px)
 {
-    #intro{ 
+    #intro{
         background-image: url('../images/bg_02.png');
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
-        min-height: 600px;    
+        min-height: 600px;
     }
-    
+
     .header-media{
         padding-right: 4px;
         padding-top: 0px;
     }
 
     .header-media .header-icons a{
-         color: white;
-         margin-left: 4px;
-         margin-right: 4px;
-         font-size: 1.1em;
+        color: white;
+        margin-left: 4px;
+        margin-right: 4px;
+        font-size: 1.1em;
     }
-     
+
     .logo_index{
         margin-top: 65px;
         width: 100px;
         height: auto;
     }
-     
+
     .upcomingShowsTable thead th{
         font-size: 12px;
-        color:#2D233B;
+        color:white;
     }
 
     .upcomingShowsTable tbody td{
         font-size: 12px;
-        color:#2D233B;
+        color:white;
     }
-    
-    #sgl-logo{
-        padding-top: 25px;
-        width: 50%;
-        height: 50%;
-        vertical-align: middle;
-    }
-    
+
     .starWarsNews{
         background-image: url('../images/stars-bg.jpg');
         background-repeat: no-repeat;
@@ -522,25 +521,6 @@ p{
         width: 75%;
         height: 75%;
         padding-left: 25%;
-    }
-
-    .subscribe{
-        padding-top: 30px;
-    }
-    
-    .subscribe a{
-        padding-top: 30px;
-        font-family: 'Acme', sans-serif;
-        color: white;
-        font-size: 24px;
-    }
-
-    .subscribe a:hover{
-        padding-top: 30px;
-        font-family: 'Acme', sans-serif;
-        color: white;
-        font-size: 28px;
-        text-decoration: none;
     }
 
     .sidenav {
@@ -578,7 +558,7 @@ p{
         font-size: 36px;
         margin-left: 50px;
     }
-    
+
     #main {
         transition: margin-left .5s;
         padding: 20px;
@@ -590,41 +570,34 @@ p{
 /*//////////////////////////////////////Smartphones (portrait and landscape)//*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px)
 {
-    #intro{ 
+    #intro{
         background-image: url('../images/bg_02.png');
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
-        min-height: 600px;    
+        min-height: 600px;
     }
-    
+
     .header-media{
         padding-right: 4px;
         padding-top: 0px;
     }
 
     .header-media .header-icons a{
-         color: white;
-         margin-left: 4px;
-         margin-right: 4px;
-         font-size: 1.1em;
+        color: white;
+        margin-left: 4px;
+        margin-right: 4px;
+        font-size: 1.1em;
     }
-  
+
     .logo_index{
         margin-top: 65px;
         width: 100px;
         height: auto;
     }
-    
+
     .upcomingShowsTable td{
         font-size: 6px;
-    }
-
-    #sgl-logo{
-        padding-top: 25px;
-        width: 50%;
-        height: 50%;
-        vertical-align: middle;
     }
 
     .starWarsNews{
@@ -640,24 +613,6 @@ p{
         padding-left: 25%;
     }
 
-    .subscribe{
-        padding-top: 30px;
-    }
-    
-    .subscribe a{
-        padding-top: 30px;
-        font-family: 'Acme', sans-serif;
-        color: white;
-        font-size: 24px;
-    }
-
-    .subscribe a:hover{
-        padding-top: 30px;
-        font-family: 'Acme', sans-serif;
-        color: white;
-        text-decoration: none;
-    }
-    
     #videosPage{
         margin-left: 1%;
         margin-right: 1%;
@@ -720,35 +675,21 @@ p{
         font-size: 36px;
         margin-left: 50px;
     }
-    
+
     #main {
         transition: margin-left .5s;
         padding: 20px;
         margin-left:0px ;
     }
-    
+
 }
 
 /*////////////////////////////////////////////////////////////////////////////*/
 @media only screen and (min-device-width : 480px)
-                   and (max-device-width : 768px)
-                   and (orientation : landscape)
+and (max-device-width : 768px)
+and (orientation : landscape)
 {
-<<<<<<< HEAD
-    #sgl-logo{
-        padding-top: 25px;
-        width: 50%;
-        height: 50%;
-        vertical-align: middle;
-    }
-    
-    .bigIcons {
-        width: 60%;
-        height: 60%;
-    }
-=======
->>>>>>> be604fd75e1e2eb9c5bc118baba5da9cbf99cc0b
-    
+
     .starWarsNews{
         background-image: url('../images/stars-bg.jpg');
         background-repeat: no-repeat;
@@ -762,25 +703,6 @@ p{
         padding-left: 25%;
     }
 
-    .subscribe{
-        padding-top: 30px;
-    }
-    
-    .subscribe a{
-        padding-top: 30px;
-        font-family: 'Acme', sans-serif;
-        color: white;
-        font-size: 24px;
-    }
-
-    .subscribe a:hover{
-        padding-top: 30px;
-        font-family: 'Acme', sans-serif;
-        color: white;
-        font-size: 28px;
-        text-decoration: none;
-    }
-    
     #videosPage{
         margin-left: 10%;
         margin-right: 10%;
@@ -830,7 +752,7 @@ p{
         background-position: center;
         margin-left: 20px;
     }
-    
+
     .sidenav li{
         list-style: none;
         text-align: center;
@@ -843,7 +765,7 @@ p{
         font-size: 36px;
         margin-left: 50px;
     }
-    
+
     #main {
         transition: margin-left .5s;
         padding: 20px;
@@ -855,23 +777,8 @@ p{
 /*////////////////////////////////////////////iPads (portrait and landscape)//*/
 @media only screen and (min-device-width : 768px)
 
-<<<<<<< HEAD
 {
-    #sgl-logo{
-        padding-top: 25px;
-        width: 50%;
-        height: 50%;
-        vertical-align: middle;
-    }
-    
-    .bigIcons{
-        width: 40%;
-        height: 40%;
-    }
-=======
-{   
->>>>>>> be604fd75e1e2eb9c5bc118baba5da9cbf99cc0b
-    
+
     .starWarsNews {
         background-image: url('../images/stars-bg.jpg');
         background-repeat: no-repeat;
@@ -885,25 +792,6 @@ p{
         padding-left: 25%;
     }
 
-    .subscribe{
-        padding-top: 30px;
-    }
-    
-    .subscribe a {
-        padding-top: 30px;
-        font-family: 'Acme', sans-serif;
-        color: white;
-        font-size: 24px;
-    }
-
-    .subscribe a:hover{
-        padding-top: 30px;
-        font-family: 'Acme', sans-serif;
-        color: white;
-        font-size: 28px;
-        text-decoration: none;
-    }
-    
     #videosPage{
         margin-left: 10%;
         margin-right: 10%;
@@ -934,11 +822,11 @@ p{
     #videosPage:hover{
         opacity: 1;
     }
-    
+
     #releasesPage:hover{
         opacity: 1;
     }
-    
+
     #photosPage:hover{
         opacity: 1;
     }
@@ -987,21 +875,7 @@ p{
 /*////////////////////////////////////////////////////////////////////////////*/
 @media only screen and (min-device-width : 768px) and (orientation : landscape)
 {
-<<<<<<< HEAD
-    #sgl-logo{
-        padding-top: 25px;
-        width: 20%;
-        height: 20%;
-        vertical-align: middle;
-    }
-    
-    .bigIcons{
-        width: 60%;
-        height: 60%;
-    }
-=======
->>>>>>> be604fd75e1e2eb9c5bc118baba5da9cbf99cc0b
-    
+
     .starWarsNews{
         background-image: url('../images/stars-bg.jpg');
         background-repeat: no-repeat;
@@ -1015,25 +889,6 @@ p{
         padding-left: 25%;
     }
 
-    .subscribe{
-        padding-top: 30px;
-    }
-    
-    .subscribe a{
-        padding-top: 30px;
-        font-family: 'Acme', sans-serif;
-        color: white;
-        font-size: 24px;
-    }
-
-    .subscribe a:hover{
-        padding-top: 30px;
-        font-family: 'Acme', sans-serif;
-        color: white;
-        font-size: 28px;
-        text-decoration: none;
-    }
-    
     #videosPage{
         margin-left: 10%;
         margin-right: 10%;
@@ -1065,11 +920,11 @@ p{
     #videosPage:hover{
         opacity: 1;
     }
-    
+
     #releasesPage:hover{
         opacity: 1;
     }
-    
+
     #photosPage:hover{
         opacity: 1;
     }
@@ -1117,7 +972,7 @@ p{
         font-size: 36px;
         margin-left: 50px;
     }
-    
+
     #main {
         transition: margin-left .5s;
         padding: 20px;
@@ -1127,31 +982,10 @@ p{
 
 /*/////////////////////////////////////////////////////////iPads (landscape)//*/
 @media only screen and (min-device-width : 768px)
-                   and (max-device-width : 1024px)
-                   and (orientation : landscape) 
+and (max-device-width : 1024px)
+and (orientation : landscape)
 {
-<<<<<<< HEAD
-    .sglNews {
-        background-color:#2D233B;
-        color: white;
-        margin-top: 20px;
-        padding-bottom: 20px;
-        margin-bottom: 20px;
-    }
-    
-    #sgl-logo{
-        padding-top: 25px;
-        width: 20%;
-        height: 20%;
-        vertical-align: middle;
-    }
-    .bigIcons{
-        width: 40%;
-        height: 40%;
-    }
-=======
->>>>>>> be604fd75e1e2eb9c5bc118baba5da9cbf99cc0b
-    
+
     .starWarsNews{
         background-image: url('../images/stars-bg.jpg');
         background-repeat: no-repeat;
@@ -1165,25 +999,6 @@ p{
         padding-left: 25%;
     }
 
-    .subscribe {
-        padding-top: 30px;
-    }
-    
-    .subscribe a{
-        padding-top: 30px;
-        font-family: 'Acme', sans-serif;
-        color: white;
-        font-size: 24px;
-    }
-
-    .subscribe a:hover{
-        padding-top: 30px;
-        font-family: 'Acme', sans-serif;
-        color: white;
-        font-size: 28px;
-        text-decoration: none;
-    }
-    
     #videosPage{
         margin-left: 10%;
         margin-right: 10%;
@@ -1266,14 +1081,7 @@ p{
 /*//////////////////////////////////////////////////////Desktops and laptops//*/
 @media only screen and (min-width : 1025px)
 {
-    #intro{ 
-        background-image: url('../images/bg_02.png');
-        background-position: top;
-        background-size: cover;
-        background-repeat: no-repeat;
-        min-height: 700px; 
-    }
-    
+
     .linksStarWars a{
         color: yellow;
         padding-top: 2em;
@@ -1284,30 +1092,7 @@ p{
         color: brown;
         padding-top: 2em;
     }
-<<<<<<< HEAD
-    
-    .sglNews{
-        background-color: #2D233B;
-        color: white;
-        margin-top: 20px;
-        padding-bottom: 20px;
-        margin-bottom: 20px;
-    }
 
-    #sgl-logo{
-        padding-top: 25px;
-        width: 15%;
-        height: 20%;
-        vertical-align: middle;
-    }
-
-    .bigIcons{
-        width: 40%;
-        height: 40%;
-    }
-=======
->>>>>>> be604fd75e1e2eb9c5bc118baba5da9cbf99cc0b
-    
     .starWarsNews{
         background-image: url('../images/stars-bg.jpg');
         background-repeat: no-repeat;
@@ -1321,26 +1106,10 @@ p{
         padding-left: 25%;
     }
 
-    .subscribe{
-        padding-top: 30px;
-    }
-    .subscribe a{
-        padding-top: 30px;
-        font-family: 'Acme', sans-serif;
-        color: white;
-        font-size: 24px;
-    }
-
-    .subscribe a:hover{
-        padding-top: 30px;
-        font-size: 28px;
-        text-decoration: none;
-    }
-
     #menu-slider{
         display: none;
     }
-    
+
     .sidenav {
         height: 100%; /* 100% Full-height */
         width: 150px; /* 0 width - change this with JavaScript */
@@ -1349,7 +1118,7 @@ p{
         top: 0;
         color: rgba(red, green, blue, alpha);
         overflow-x: hidden; /* Disable horizontal scroll */
-         /* Place content 60px from the top */
+        /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
     }
 
@@ -1377,13 +1146,13 @@ p{
         background-size: 100% 100%;
         margin-left: 40px;*/
     }
-    
+
     .sidenav li{
         list-style: none;
         margin-left: 0px;
         text-align: center;
-       /* background: url('../images/sglBtn.png') no-repeat;
-        background-size: contain;*/
+        /* background: url('../images/sglBtn.png') no-repeat;
+         background-size: contain;*/
     }
 
     .sidenav li:hover{
@@ -1398,7 +1167,7 @@ p{
         font-size: 36px;
         margin-left: 50px;
     }
-    
+
     #main {
         transition: margin-left .5s;
         margin-left:150px ;
@@ -1406,31 +1175,9 @@ p{
 }
 
 /*/////////////////////////////////////////////////////////////Large screens//*/
-@media only screen and (min-width : 1824px) 
+@media only screen and (min-width : 1824px)
 {
-<<<<<<< HEAD
-    #intro{ 
-        background-image: url('../images/bg_02.png');
-        background-position: top;
-        background-size: cover;
-        background-repeat: no-repeat;
-        min-height: 900px; /*900px for 1903+ px screen*/
-    }
 
-    #sgl-logo{
-        padding-top: 100px;
-        width: 25%;
-        height: 25%;
-        vertical-align: middle;
-    }
-
-    .bigIcons{
-        width: 40%;
-        height: 40%;
-    }
-=======
->>>>>>> be604fd75e1e2eb9c5bc118baba5da9cbf99cc0b
-    
     .starWarsNews{
         background-image: url('../images/stars-bg.jpg');
         background-repeat: no-repeat;
@@ -1444,26 +1191,6 @@ p{
         padding-left: 25%;
     }
 
-    .subscribe{
-        padding-top: 30px;
-    }
-    
-    .subscribe a{
-        padding-top: 30px;
-        font-family: myNavigationFont;
-        color: white;
-        font-size: 24px;
-    }
-
-    .subscribe a:hover
-    {
-        padding-top: 30px;
-        font-family: myNavigationFont;
-        color: white;
-        font-size: 28px;
-        text-decoration: none;
-    }
-    
     #videosPage{
         margin-left: 10%;
         margin-right: 10%;
@@ -1494,15 +1221,15 @@ p{
     #videosPage:hover{
         opacity: 1;
     }
-    
+
     #releasesPage:hover{
         opacity: 1;
     }
-    
+
     #photosPage:hover{
         opacity: 1;
     }
-   
+
     #menu-slider {
         display: none;
     }
@@ -1521,7 +1248,7 @@ p{
 
     /* The navigation menu links */
     .sidenav a {
-        padding: 8px 8px 8px 32px;
+        padding: 8px 8px 8px 8px;
         text-decoration: none;
         font-size: 18px;
         color: white;
@@ -1542,7 +1269,7 @@ p{
         font-size: 36px;
         margin-left: 50px;
     }
-    
+
     #main {
         transition: margin-left .5s;
         padding: 20px;
@@ -1552,7 +1279,7 @@ p{
 
 /*/////////////////////////////////////////////////////////////iPhone 4///////*/
 @media only screen and (-webkit-min-device-pixel-ratio : 1.5),
-       only screen and (min-device-pixel-ratio : 1.5) 
+only screen and (min-device-pixel-ratio : 1.5)
 {
     /* Styles */
 }
@@ -1601,20 +1328,8 @@ p{
     src: url('../fonts/Star_Jedi_Rounded.ttf'); /*URL to font*/
 }
 
-
-#news h1
-{
-    font-family: 'Acme', sans-serif;
-    color: white;
-}
-#news p
-{
-    font-family: 'Acme', sans-serif;
-    color: white;
-}
-
 #upcomingShows h1{
-    color: black;
+    color: white;
 }
 
 #upcomingShows p{
@@ -1719,7 +1434,7 @@ p{
 
 /* General styles and layout */
 .starWarsBody {
-  /* background: #000 url(../images/bg.jpg);*/
+    /* background: #000 url(../images/bg.jpg);*/
 
 }
 
@@ -1765,18 +1480,3 @@ img {
     text-transform: uppercase;
     top: 29%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
