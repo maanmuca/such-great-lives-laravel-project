@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Acme');
 
-/*********************************************************videos classes implemented*****/
+/***********************************************videos classes implemented*****/
 
 .youtubeTitle{
     position: absolute; top: 90%; left: 10%;
@@ -86,7 +86,7 @@ h4{
 }
 
 .logo_index{
-    margin-top: 65px;
+    margin-top: 60px;
     width: 220px;
     height: auto;
 }
@@ -109,17 +109,28 @@ h4{
 }
 
 #intro{
-    background-image: url('../images/bg_02.png');
+    background-image: url('../images/bg_03.png');
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 900px; /*900px for 1903+ px screen*/
+    min-height: 920px; /*700px for 1903+ px screen*/
+    position: relative;
+}
+
+#intro .section-intro{
+    position: absolute;
+    bottom: 0;
+    padding: 0px 0px;     
+    width: 100%;
+    color: #fff;
+    background: hsla(284, 96%, 6%, 0.6);
 }
 
 .bigIcons{
-    width: 80%;
-    height: 80%;
-    padding-top: 280%;
+    width: 40%;
+    height: auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 
@@ -387,11 +398,11 @@ h5{
 @media only screen and (max-device-width : 319px)
 {
     #intro{
-        background-image: url('../images/bg_02.png');
-        background-position: top;
+        background-image: url('../images/bg_03.png');
+        background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        min-height: 500px;
+        min-height: 400px;
     }
 
     .header-media{
@@ -475,11 +486,11 @@ h5{
 @media only screen and (max-width : 319px)
 {
     #intro{
-        background-image: url('../images/bg_02.png');
-        background-position: top;
+        background-image: url('../images/bg_03.png');
+        background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        min-height: 600px;
+        min-height: 400px;
     }
 
     .header-media{
@@ -571,11 +582,11 @@ h5{
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px)
 {
     #intro{
-        background-image: url('../images/bg_02.png');
-        background-position: top;
+        background-image: url('../images/bg_03.png');
+        background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        min-height: 600px;
+        min-height: 400px;
     }
 
     .header-media{
@@ -1177,7 +1188,18 @@ and (orientation : landscape)
 /*/////////////////////////////////////////////////////////////Large screens//*/
 @media only screen and (min-width : 1824px)
 {
+    #sgl-logo{
+        padding-top: 0%;
+        width: 12%;
+        height: auto;
+    }
 
+    .logo_index{
+        margin-top: 60px;
+        width: 300px;
+        height: auto;
+    }
+    
     .starWarsNews{
         background-image: url('../images/stars-bg.jpg');
         background-repeat: no-repeat;

@@ -24,14 +24,14 @@
             </div>
         </div>
             
-        <div class="row text-center">
-            <div class="col-md-offset-3 col-md-6">
-                <a href="#"  data-toggle="tooltip" title="Video" class="col-lg-4 col-md-4 col-sm-4 col-xs-4" >
-                    <img src="{{URL::asset('images/videos.png')}}" class=" img-responsive  bigIcons"   alt="videos"></a>
-                <a href="#"  data-toggle="tooltip" title="Releases" class="img-responsive col-lg-4 col-md-4 col-sm-4 col-xs-4" >
-                    <img src="{{URL::asset('images/releases.png')}}"  class=" img-responsive  bigIcons"   alt="releases"></a>
-                <a href="#"  data-toggle="tooltip" title="Photos" class="col-lg-4 col-md-4 col-sm-4 col-xs-4"  >
-                    <img src="{{URL::asset('images/gallery.png')}}" class= "  bigIcons"   alt="gallery"></a>
+        <div class="row section-intro">
+            <div class="col-md-offset-4 col-md-4 text-center">
+                <a href="{{url('/videos')}}"  data-toggle="tooltip" title="Video" class="col-lg-4 col-md-4 col-sm-4 col-xs-4" >
+                    <img src="{{URL::asset('images/videos.png')}}" class="bigIcons"   alt="videos"></a>
+                <a href="{{url('/releases')}}"  data-toggle="tooltip" title="Releases" class="img-responsive col-lg-4 col-md-4 col-sm-4 col-xs-4" >
+                    <img src="{{URL::asset('images/releases.png')}}"  class="bigIcons"   alt="releases"></a>
+                <a href="{{url('/photos')}}"  data-toggle="tooltip" title="Photos" class="col-lg-4 col-md-4 col-sm-4 col-xs-4"  >
+                    <img src="{{URL::asset('images/gallery.png')}}" class= "bigIcons"   alt="gallery"></a>
             </div>
    
         </div>
