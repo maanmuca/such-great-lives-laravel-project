@@ -21,8 +21,8 @@ $(window).resize(function()
             $(".sidenav").css("width", "0px");
         });
 
-        $("#myVideo").attr("width","672");
-        $("#myVideo").attr("height","372");
+//        $("#myVideo").attr("width","672");
+//        $("#myVideo").attr("height","372");
     }
     if(width<768)
     {
@@ -32,8 +32,8 @@ $(window).resize(function()
             $(".sidenav").css("width", "0px");
         });
 
-        $("#myVideo").attr("width","448");
-        $("#myVideo").attr("height","248");
+//        $("#myVideo").attr("width","448");
+//        $("#myVideo").attr("height","248");
     }
 
     if(width<480)
@@ -56,8 +56,8 @@ $(window).resize(function()
             $(".sidenav").css("width", "0px");
         });
 
-        $("#myVideo").attr("width","180");
-        $("#myVideo").attr("height","100");
+//        $("#myVideo").attr("width","180");
+//        $("#myVideo").attr("height","100");
     }
     else
     {
@@ -81,8 +81,8 @@ $(document).ready(function() {
 
         if(width<1024)
         {
-            $("#myVideo").attr("width","672");
-            $("#myVideo").attr("height","372");
+//            $("#myVideo").attr("width","672");
+//            $("#myVideo").attr("height","372");
 
             $("#closeNav").click(function () {
                 $(".sidenav").css("width", "0px");
@@ -254,6 +254,7 @@ var videoId =["Oh3d0wSKDBY","JMewgpPTMrE","zZ6Fb1z8Y4Y","YavdHwUwm94","eM5VRZgSK
     "FSXwPpdT61c","Xk-igObV4MI","sWgBu_6tiE8","H9H9BAa-kIA","xrGuK6Vg8o0","K5APe7Rd6Xc","XNhyhm2380Q","fenfL18jx3s",
     "Ser9KH-j6w0","XBvH6jU-EOo","7pAjJ_vWFS8","2gqkyMjG5uM","ciO5W4xBpoA","RoOnWZmqzFM","OyXPvJHqKBE","mZjzvAvqNR4",
     "eEhwhZcfIgU","jtL8WLARpyA","5WUtIN5fsqE","_nRrXkvna0o","L7T9djJrWJQ","lNiSVNNE_Tg","j__KAElQ-o8","vo9kZasoXC4"];
+
 function  changeVideo(i)
 {
         $("html, body").animate({ scrollTop: 0 }, 600);

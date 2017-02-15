@@ -1,37 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Acme');
 
-/*********************************************************videos classes implemented*****/
-
-.youtubeTitle{
-    position: absolute; top: 90%; left: 10%;
-    font-size: 12px;
-}
-
-.eachImageStyle{
-    position: relative; top: 0; left: 0;
-    font-size: 8px;
-}
-
-.youTubeBtnStyle{
-    position: absolute; top: 10%; left: 10%;
-}
-
-.youTubeBtnStyle{
-    width: 30%;
-    height: 40%;
-    opacity: 0.6;
-}
-
-.thumbnailStyle{
-    margin-left: 0px;
-    margin-right: 0px;
-}
-
-.mainVideoContainer{
-    background-color:#2D233B;
-    margin-top: -20px;
-}
 
 /*********************************************************Paola adding*****/
 
@@ -314,46 +283,43 @@ h5{
 }
 
 /********************************************************closing Paola*****/
+/*********************************************************videos classes implemented*****/
+iframe{
+    width: 100%;
+    min-height: 600px;
+    border: 5px;
+    margin-bottom: 20px;
+/*    frameborder="5"*/
+}
+.youtubeTitle{
+    position: absolute; top: 90%; 
+    padding-top: 25px;
+    font-size: 13px;
+}
 
 .eachImageStyle{
     position: relative; top: 0; left: 0;
+    padding-top: 55px;
 }
 
 .youTubeBtnStyle{
-    position: absolute; top: 10%; left: 10%;
-}
-
-.youTubeBtnStyle{
+    position: absolute; top: 40%; left: 40%;
     width: 30%;
     height: 40%;
     opacity: 0.6;
 }
 
-.thumbnailStyle{
+/*.thumbnailStyle{
     margin-left: 0px;
     margin-right: 0px;
-}
+}*/
 
-.mainVideoContainer{
-    background-color:#2D233B;
-    margin-top: -20px;
-}
+/*.mainVideo{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}*/
 
-#no{
-    color: white;
-    font-size: 32px;
-}
-
-.mainVideo{
-    background-color:#2D233B;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.imageNews{
-    width: 50%;
-    height: 50%;
-}
+/*----------------------------------Table news*/
 
 .upcomingShowsTable thead th{
     color: white;
