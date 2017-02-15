@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Acme');
 
-<<<<<<< HEAD
-=======
+
 /***********************************************videos classes implemented*****/
 
 .youtubeTitle{
@@ -34,7 +33,6 @@
     background-color:#2D233B;
     margin-top: -20px;
 }
->>>>>>> 789df8be79aec8a9716d9f506da7275faeb747e7
 
 /*********************************************************Paola adding*****/
 
@@ -112,7 +110,7 @@ h4{
 }
 
 #intro{
-    background-image: url('../images/bg_03.png');
+    background-image: url('../images/bg_02.png');
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -398,7 +396,7 @@ iframe{
 @media only screen and (max-device-width : 319px)
 {
     #intro{
-        background-image: url('../images/bg_03.png');
+        background-image: url('../images/bg_02.png');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -486,7 +484,7 @@ iframe{
 @media only screen and (max-width : 319px)
 {
     #intro{
-        background-image: url('../images/bg_03.png');
+        background-image: url('../images/bg_02.png');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -582,7 +580,7 @@ iframe{
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px)
 {
     #intro{
-        background-image: url('../images/bg_03.png');
+        background-image: url('../images/bg_02.png');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
