@@ -65,21 +65,14 @@
             
         <div class="row">
             <div class="col-lg-12">
-                <dl>
+
+                    @foreach($posts['posts'] as $message)
                     <dt>Facebook Post</dt>
-                    <dd>New gig this week</dd>
-                </dl>
-                <hr />
-                <dl>
-                    <dt>Facebook Post</dt>
-                    <dd>New gig this week</dd>
-                </dl>
-                <hr />
-                <dl>
-                    <dt>Facebook Post</dt>
-                    <dd>New gig this week</dd>
-                </dl>
-                <hr />
+                    <dl>
+                        {{$message['id'] }}
+                    </dl>
+                    <hr />
+                    @endforeach
             </div>
             
         </div>

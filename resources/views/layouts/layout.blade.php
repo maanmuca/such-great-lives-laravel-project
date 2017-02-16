@@ -29,7 +29,6 @@
     <body>
         <a href="#" id="menu-slider">
             <i class="fa fa-bars text-center" aria-hidden="true"></i></a>
-        
         <div id="mySidenav" class=" sidenav">
 <!--            <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>-->
             <a href="javascript:void(0)" class="closebtn" id="closeNav">&times;</a>

@@ -178,6 +178,38 @@ $(document).ready(function() {
     }
     $("#myThumbnails").html(thumbnailHtml);
 
+   /* window.fbAsyncInit = function() {
+        FB.init({
+            appId      : '1858518364430034',
+            xfbml      : true,
+            version    : 'v2.8'
+        });
+        FB.AppEvents.logPageView();
+    };
+
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+    ShowMyName();
+
+    function ShowMyName() {
+        FB.api(
+            "/419230241763612/feed",
+            function (response) {
+                if (response && !response.error)
+                {
+                    alert(response.length);
+                }
+            }
+        );
+    }*/
+
+
 
    /* var channelId ="UCd6sEEFIAg7SPoM5fBujc8g";
     var APIKey ="AIzaSyAc9K34Rzx7sPBKcpKjWjhF7i9IK11Q6-o";

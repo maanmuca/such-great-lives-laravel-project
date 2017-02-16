@@ -33,4 +33,4 @@ Route::get('game', 'NavController@game');
 Route::get('/contact', 'NavController@contact');
 
  //subscribe
-Route::get('subscribe', 'NavController@subscribe'); 
+Route::get('subscribe', 'NavController@subscribe');
