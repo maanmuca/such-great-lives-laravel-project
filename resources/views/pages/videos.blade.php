@@ -1,6 +1,7 @@
 @extends('layouts.layout')
 @section('content')     
 
+
  <iframe 
     src="https://www.youtube.com/embed/KpkJtkNEGSk?list=PL-wgEWifvs_XbC70_fAPDWR4NcFHVgJie" 
     allowfullscreen class="fullscreen-video" id="myVideo">   

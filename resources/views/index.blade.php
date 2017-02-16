@@ -3,7 +3,7 @@
 
 <!-------------------------------- Intro -----------------------------------*-->
 
-<div class="jumbotron" id="intro">
+<div id="intro">
     <div class="container-fluid">
         
         <div class="row pull-right header-media">
