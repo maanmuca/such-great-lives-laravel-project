@@ -122,7 +122,7 @@
         
         <div class="row text-center">
             <div class="col-md-4 col-sm-4 about-wrapper">
-                <img src='images/jon_02.png' alt="" class="img-responsive">
+                <img src='images/jon.png' alt="" class="img-responsive">
                 <div>
                     <h4>Jon</h4>
                 </div>
@@ -131,7 +131,7 @@
                     however, and writes some magical tunes.</p>
             </div>
             <div class="col-md-4 col-sm-4 about-wrapper">
-                <img src='images/michael_02.png' alt="" class="img-responsive">
+                <img src='images/michael.png' alt="" class="img-responsive">
                 <div>
                     <h4>Michael</h4>
                 </div>
@@ -143,7 +143,7 @@
                 </p>
             </div>
             <div class="col-md-4 col-sm-4 about-wrapper">
-                <img src='images/matt_02.png' alt="" class="img-responsive">
+                <img src='images/matt.png' alt="" class="img-responsive">
                 <div>
                     <h4>Matt</h4>
                 </div>
@@ -274,7 +274,7 @@
 </section>
 
 <!-------------------------------- Section Links ------------------------------*-->
-<section id="links" class="section-red">
+<section id="links" class="section-white">
     <div class="container-fluid links-cont">
         
         <div class="row pull-right">

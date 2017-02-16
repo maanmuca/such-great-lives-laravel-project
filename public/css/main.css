@@ -63,8 +63,14 @@ h2{
 h4{
     font-size: 24px;
     font-weight: 400;
-    line-height: 40px;
+    line-height: 25px;
     color: white;
+    text-align: left;
+}
+
+h5{
+    font-size: 18px;
+    text-align: left;  
 }
 
 .icons-group a{
@@ -267,6 +273,42 @@ h4{
     -webkit-transform:scale(1.2);
     transform:scale(1.2);
 }
+
+/*------------------------------releases page---*/
+
+
+.releases-wrapper {
+    padding-top: 16px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom:10px;
+}
+
+.releases-wrapper img {
+    max-width:100% !important;
+    clear:both;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    padding:5px;
+    border: 1px solid white;
+}
+
+.releases-wrapper:hover img {
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+}
+
+.songs li{
+    font-size: 12px;
+    text-align: left;
+}
+
+.mins li{
+    font-size: 12px;
+    text-align: left;
+    list-style-type:none;
+}
+
 
 /*----------------------------footer--*/
 footer {
