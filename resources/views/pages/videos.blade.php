@@ -3,10 +3,9 @@
 
  <iframe 
     src="https://www.youtube.com/embed/KpkJtkNEGSk?list=PL-wgEWifvs_XbC70_fAPDWR4NcFHVgJie" 
-    allowfullscreen class="fullscreen-video" id="myVideo">           
+    allowfullscreen class="fullscreen-video" id="myVideo">   
 </iframe> 
                
-
 
 <section id="" class="section-dark-blue">
     <div class="container-fluid"> <!-- ---------------------------------must be fluid--->

@@ -10,7 +10,7 @@
 @extends('layouts.layout')
 @section('content')
     
-<div class="jumbotron" id="bg_hd_contact">
+<div class="jumbotron" id="bg_hd_game">
     <div class="container-fluid">
         
         <div class="row pull-right header-media">
@@ -36,11 +36,11 @@
     </div>
 </div>      
     
-<section id="" class="section-pink">
+<section id="" class="section-red">
     <div class="container-fluid"> <!-- ---------------------------------must be fluid--->
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="section-heading">Releases</h2>
+                <h2 class="section-heading">Game</h2>
             </div>
         </div>
             

@@ -53,7 +53,7 @@
                         <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
+                        <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone" required>
                     </div>
                     <div class="form-group">
                         <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>

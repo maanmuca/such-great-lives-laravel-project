@@ -105,7 +105,8 @@ h4{
 }
 
 .header-media .header-icons a:hover{
-    color: #ade504;
+    opacity: 0.6; 
+    filter: alpha(opacity=30);
     text-decoration: none;
 }
 
@@ -127,11 +128,19 @@ h4{
     background: hsla(284, 96%, 6%, 0.6);
 }
 
-.bigIcons{
+.bigIcons {
     width: 40%;
     height: auto;
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    opacity: 1; 
+    filter: alpha(opacity=100);
+}
+
+.bigIcons:hover{
+    opacity: 0.3; 
+    filter: alpha(opacity=30);
+    content: "15";
 }
 
 
@@ -148,6 +157,14 @@ h4{
 }
 
 /*-----------pages--------*/
+#bg_hd_game{
+    background-image: url("../images/game_02.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    max-height: 300px;
+}
+
 #bg_hd_contact{
     background-image: url("../images/bg_contact.png");
     background-size: cover;
@@ -158,11 +175,11 @@ h4{
 
 
 #bg_hd_releases{
-    background-image: url("../images/guitarra_02.png");
+    background-image: url("../images/releases_hd.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 30px;
+    min-height: 300px;
 }
 
 .form-contact{
