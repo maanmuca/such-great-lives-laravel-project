@@ -15,10 +15,10 @@
 Route::get('/', 'NavController@index');
 
 //albums
-Route::get('albums', 'NavController@albums');
+Route::get('/albums', 'NavController@albums');
 
 //photos
-Route::get('photos', 'NavController@photos');
+Route::get('photos/{id}', 'NavController@photos');
 
 //videos
 Route::get('videos', 'NavController@videos');

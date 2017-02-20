@@ -16,21 +16,23 @@
             </div>
         </div>
         <div class="row">
-            @if (count($arrayUrl) > 0)
-                @foreach($arrayUrl as $url)
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 nopadding">
-                        <div class="hovereffect">
-                            <img  width="250" height="250"  src="{{$url}}" alt="">
-                            <div class="overlay">
-                                <p>
-                                <a href="album.html"><h5>Album Such</h5></a>
-                                <p>Share on</p>
-                                <a href="#"><i class="fa fa-facebook"  aria-hidden="true"></i></a>
-                                <a href="#"><i class="fa fa-google-plus"  aria-hidden="true"></i></a>
-                                </p>
+            @if (count($albums) > 0)
+                @foreach($albums['albums'] as $album)
+                    <a href="photos/{{$album['id']}}">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 nopadding">
+                            <div class="hovereffect">
+                                <img src="{{$album['picture']['url']}}" height="250" width="250"/>
+                                <div class="overlay">
+                                    <p>
+                                   <h5>{{$album['name']}}</h5>
+                                    <p>Share on</p>
+                                    <a href="#"><i class="fa fa-facebook"  aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus"  aria-hidden="true"></i></a>
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 @endforeach
             @endif
         </div>

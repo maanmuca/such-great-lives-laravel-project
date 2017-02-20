@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Acme');
+/************************carousel************************/
+.buttonsPhotos
+{
+   margin: 10px;
+}
+
+.myFacebookShareButton
+{
+    color: white;
+}
 /************************gallery ************************/
 
 .nopadding {
