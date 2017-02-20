@@ -65,14 +65,18 @@
             
         <div class="row">
             <div class="col-lg-12">
-
+                @if (count($posts)>0)
                     @foreach($posts['posts'] as $message)
-                    <dt>Facebook Post</dt>
-                    <dl>
-                        {{$message['id'] }}
-                    </dl>
-                    <hr />
+                        <dt>Facebook Post</dt>
+                        <dl>
+                            {{$message['message'] }}
+                        </dl>
+                        <dl>
+                            {{$message['created_time']['date'] }}
+                        </dl>
+                        <hr />
                     @endforeach
+                @endif
             </div>
             
         </div>

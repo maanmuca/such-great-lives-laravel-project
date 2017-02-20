@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
+use League\Flysystem\Exception;
+use Psy\Exception\ErrorException;
 use SammyK\LaravelFacebookSdk;
 use Illuminate\Support\Facades\App;
 
@@ -19,7 +21,8 @@ class NavController extends Controller
 {
       //home (about, news, shows,links)
 
-	public function index(){
+	public function index()
+    {
        $fb = new \Facebook\Facebook([
             'app_id' => env('FACEBOOK_APP_IP'),
             'app_secret' => env('FACEBOOK_APP_SECRET'),
@@ -27,102 +30,111 @@ class NavController extends Controller
             'default_access_token' => env('APP_TOKEN')
         ]);
 
-        try {
-            $response = $fb->get('suchgreatlives?fields=posts.limit(3){message,created_time}');
-        } catch(\Facebook\Exceptions\FacebookResponseException $e) {
-            echo 'Graph returned an error: ' . $e->getMessage();
-            exit;
-        } catch(\Facebook\Exceptions\FacebookSDKException $e) {
-            echo 'Facebook SDK returned an error: ' . $e->getMessage();
-            exit;
+
+        try
+        {
+            $response = $fb->get('suchgreatlives?fields=posts.limit(1){message,created_time}');
+            $posts= $response->getGraphAlbum();
+            //echo "<script>alert('".$posts."')</script>";
+            return view('index')->with('posts', json_decode($posts, true));
+
         }
-        $posts= $response->getGraphAlbum();
-        return view('index')->with('posts', json_decode($posts, true));
+        catch(\Facebook\Exceptions\FacebookResponseException $e) {
+            /*echo 'Graph returned an error: ' . $e->getMessage();
+            exit;*/
+
+        } catch(\Facebook\Exceptions\FacebookSDKException $e) {
+           /* echo 'Facebook SDK returned an error: ' . $e->getMessage();
+            exit;*/
+        }
+
 	}
         
         //albums
-        public function albums(){
-            $fb = new \Facebook\Facebook([
-                'app_id' => env('FACEBOOK_APP_IP'),
-                'app_secret' => env('FACEBOOK_APP_SECRET'),
-                'default_graph_version' => 'v2.8',
-                'default_access_token' => env('APP_TOKEN')
-            ]);
+    public function albums()
+    {
+        $fb = new \Facebook\Facebook([
+            'app_id' => env('FACEBOOK_APP_IP'),
+            'app_secret' => env('FACEBOOK_APP_SECRET'),
+            'default_graph_version' => 'v2.8',
+            'default_access_token' => env('APP_TOKEN')
+        ]);
 
-            try {
-                // Get the \Facebook\GraphNodes\GraphUser object for the current user.
-                // If you provided a 'default_access_token', the '{access-token}' is optional.
-                $response = $fb->get('suchgreatlives?fields=albums{cover_photo,picture{url}}');
-            } catch(\Facebook\Exceptions\FacebookResponseException $e) {
-                // When Graph returns an error
-                echo 'Graph returned an error: ' . $e->getMessage();
-                exit;
-            } catch(\Facebook\Exceptions\FacebookSDKException $e) {
-                // When validation fails or other local issues
-                echo 'Facebook SDK returned an error: ' . $e->getMessage();
-                exit;
-            }
-
-            $albums = $response->getGraphAlbum();
-
-            $arrayLinksAlbum = json_decode($albums, true);
-            $arraylength =count($arrayLinksAlbum['albums']);
-            $arrayIds = [];
-            $arrayUrl = [];
+        try
+        {
+            $response = $fb->get('suchgreatlives?fields=id,albums{name,picture{url}}');
 
 
-
-          for ($x = 0; $x <$arraylength; $x++)
-            {
-                $arrayIds[$x] =$arrayLinksAlbum['albums'][$x]['cover_photo']['id'];
-                $arrayUrl[$x] =$arrayLinksAlbum['albums'][$x]['picture']['url'];
-                $arrayAlbums[$x]=[$arrayIds[$x],$arrayUrl[$x]];
-            }
-            echo "<script>alert('".$arrayAlbums[0][0]."')</script>";
-
-            /*echo "<script>alert('".$arrayLinksAlbum['albums'][0]['cover_photo']['id']."')</script>";
-            echo "<script>alert('".$arrayLinksAlbum['albums'][0]['picture']['url']."')</script>";
-            echo "<script>alert('".$arrayLinksAlbum['albums'][1]['picture']['url']."')</script>";
-            echo "<script>alert('".$arraylength."')</script>";
-            echo "<script>alert('".$arrayIds[0]."')</script>";*/
-
-
-
-          //return  View::make('pages.albums', compact($arrayUrl,$arrayIds));
-          return view('pages.albums')->with('arrayUrl', $arrayUrl);
-          //return view('pages.albums', compact($arrayUrl,$arrayIds));
+        } catch(\Facebook\Exceptions\FacebookResponseException $e) {
+            // When Graph returns an error
+            echo 'Graph returned an error: ' . $e->getMessage();
+            exit;
+        } catch(\Facebook\Exceptions\FacebookSDKException $e) {
+            // When validation fails or other local issues
+            echo 'Facebook SDK returned an error: ' . $e->getMessage();
+            exit;
         }
+
+        $albums = $response->getGraphAlbum();
+        //echo "<script>alert('".$albums."')</script>";
+        return view('pages.albums')->with('albums',json_decode($albums, true));
+
+    }
 
         //photos
-        public function photos(){
+    public function photos($idAlbum){
+        $fb = new \Facebook\Facebook([
+            'app_id' => env('FACEBOOK_APP_IP'),
+            'app_secret' => env('FACEBOOK_APP_SECRET'),
+            'default_graph_version' => 'v2.8',
+            'default_access_token' => env('APP_TOKEN')
+        ]);
+
+        try
+        {
+            $query = $idAlbum."?fields=photos{id,images}";
+            //echo "<script>alert('". $query ."')</script>";
+            $response = $fb->get($query);
 
 
-            return View();
+        } catch(\Facebook\Exceptions\FacebookResponseException $e) {
+            // When Graph returns an error
+            echo 'Graph returned an error: ' . $e->getMessage();
+            exit;
+        } catch(\Facebook\Exceptions\FacebookSDKException $e) {
+            // When validation fails or other local issues
+            echo 'Facebook SDK returned an error: ' . $e->getMessage();
+            exit;
         }
-        
-        //videos
-        public function videos(){
-            return View('pages.videos');
-        }
-        
-        //releases
-        public function releases(){
-            return View('pages.releases');
-        }
-        
-        //game
-        public function game(){
-            return View('pages.game');
-        }
-        
-         //contact
-        public function contact(){
-            return View('pages.contact');
-        }
-        
-        //subscribe
-        public function subscribe(){
-            return View('pages.subscribe');
-        }
-        
+        $photos = $response->getGraphAlbum();
+        //echo "<script>alert('".$photos."')</script>";
+
+        return view('pages.photos')->with('photos',json_decode($photos, true));
+    }
+
+    //videos
+    public function videos(){
+        return View('pages.videos');
+    }
+
+    //releases
+    public function releases(){
+        return View('pages.releases');
+    }
+
+    //game
+    public function game(){
+        return View('pages.game');
+    }
+
+     //contact
+    public function contact(){
+        return View('pages.contact');
+    }
+
+    //subscribe
+    public function subscribe(){
+        return View('pages.subscribe');
+    }
+
 }
