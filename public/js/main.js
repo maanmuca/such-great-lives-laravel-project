@@ -13,35 +13,103 @@ $(window).resize(function()
 
         $("#menu-slider").css("right","10%");
         $("#menu-slider").css("top","80%");
-    if(width<1024)
+    $("#menu-slider").click(function()
+    {
+        $(".sidenav").css("width","150px");
+        $("#menu-slider").css("display","none");
+    });
+
+
+
+
+
+    if(width<320)
     {
         $(".sidenav").css("width", "0px");
 
         $("#closeNav").click(function () {
             $(".sidenav").css("width", "0px");
+            $("#menu-slider").css("display","initial");
         });
-
-//        $("#myVideo").attr("width","672");
-//        $("#myVideo").attr("height","372");
-    }
-    if(width<768)
-    {
-        $(".sidenav").css("width", "0px");
-
-        $("#closeNav").click(function () {
-            $(".sidenav").css("width", "0px");
-        });
-
-//        $("#myVideo").attr("width","448");
-//        $("#myVideo").attr("height","248");
+        $("#menu-slider").css("display","initial");
     }
 
-    if(width<480)
+    if(width<481)
     {
         $(".sidenav").css("width", "0px");
+        $("#mysidenav").css("width", "0px");
 
         $("#closeNav").click(function () {
             $(".sidenav").css("width", "0px");
+            $("#menu-slider").css("display","initial");
+        });
+        $("#menu-slider").css("display","initial");
+    }
+    if(width<=768)
+    {
+        $(".sidenav").css("width", "0px");
+        $("#main").css("margin-left","0px");
+
+        $("#closeNav").click(function () {
+            $(".sidenav").css("width", "0px");
+            $("#menu-slider").css("display","initial");
+        });
+        $("#menu-slider").css("display","initial");
+    }
+
+    if(width<1024 && width>768)
+    {
+        $(".sidenav").css("width", "150px");
+        $("#main").css("margin-left","150px");
+        $("#menu-slider").css("display","none");
+
+    }
+    if(width>1024)
+    {
+        $(".sidenav").css("width", "150px");
+        $("#main").css("margin-left","150px");
+        $("#menu-slider").css("display","none");
+    }
+
+});
+
+$(document).ready(function() {
+    var width = $(window).width();
+    //alert(width);
+    var positionLeftMenu=width-200;
+    var height = $(window).height();
+    var positionTopMenu =height-100;
+
+        $("#menu-slider").css("right","10%");
+        $("#menu-slider").css("top","80%");
+    $("#menu-slider").click(function()
+    {
+        $(".sidenav").css("width","150px");
+        $("#menu-slider").css("display","none");
+    });
+
+    if(width<769)
+    {
+        $(".sidenav").css("width", "0px");
+        $("#main").css("margin-left","0px");
+
+        $("#closeNav").click(function () {
+            $(".sidenav").css("width", "0px");
+            $("#menu-slider").css("display","initial");
+        });
+
+        $("#myVideo").attr("width","448");
+        $("#myVideo").attr("height","248");
+    }
+
+    if(width<481)
+    {
+        $(".sidenav").css("width", "0px");
+        $("#mysidenav").css("width", "0px");
+
+        $("#closeNav").click(function () {
+            $(".sidenav").css("width", "0px");
+            $("#menu-slider").css("display","initial");
         });
 
         $("#myVideo").attr("width","269");
@@ -54,38 +122,24 @@ $(window).resize(function()
 
         $("#closeNav").click(function () {
             $(".sidenav").css("width", "0px");
+            $("#menu-slider").css("display","initial");
         });
 
-//        $("#myVideo").attr("width","180");
-//        $("#myVideo").attr("height","100");
+        $(".myVideoStyle").attr("width","180");
+        $(".myVideoStyle").attr("height","100");
     }
-    else
+    if(width<1024 && width>768)
     {
         $(".sidenav").css("width", "150px");
+        $("#main").css("margin-left","150px");
     }
-});
+    if(width>1024)
+    {
+        $(".sidenav").css("width", "150px");
+        $("#main").css("margin-left","150px");
+    }
 
-$(document).ready(function() {
-    var width = $(window).width();
-    //alert(width);
-    var positionLeftMenu=width-200;
-    var height = $(window).height();
-    var positionTopMenu =height-100;
 
-        $("#menu-slider").css("right","10%");
-        $("#menu-slider").css("top","80%");
-        $("#menu-slider").click(function()
-        {
-           $(".sidenav").css("width","150px");
-        });
-
-        if(width<1024)
-        {
-
-            $("#closeNav").click(function () {
-                $(".sidenav").css("width", "0px");
-            });
-        }
 
     var title =[ "Such Great Lives - Nien Nunb (Rehearsal)"
         ,"Such Great Lives - Gato Negro (live)"
@@ -209,7 +263,7 @@ function  changeVideo(i)
 
 function changeVideoLgImage(i)
 {
-        $('#top'+i).animate({ scrollTop: 0 }, 600);
+        $("html, body").animate({ scrollTop: 0 }, 600);
         $("#myVideo").attr("src","https://www.youtube.com/embed/"+videoId[i]+"?list=PL-wgEWifvs_XbC70_fAPDWR4NcFHVgJie");
         $("#myVideo")[0].src += "&autoplay=1";
 }

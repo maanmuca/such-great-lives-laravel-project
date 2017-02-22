@@ -1,12 +1,9 @@
 @extends('layouts.layout')
-@section('content')     
-
-
- <iframe 
-    src="https://www.youtube.com/embed/-psicPaFTMA?list=PL-wgEWifvs_XbC70_fAPDWR4NcFHVgJie" 
-    allowfullscreen class="fullscreen-video" id="myVideo">   
-</iframe> 
-         
+@section('content')
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe  class="embed-responsive-item" src="https://www.youtube.com/embed/KpkJtkNEGSk?list=PL-wgEWifvs_XbC70_fAPDWR4NcFHVgJie" frameborder="0" id="myVideo"></iframe>
+</div>
+               
 
 <section id="" class="section-dark-blue">
     <div class="container-fluid"> <!-- ---------------------------------must be fluid--->
@@ -39,5 +36,4 @@
         </div>
     </div>
 </section>
-
 @endsection

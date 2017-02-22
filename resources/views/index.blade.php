@@ -76,6 +76,12 @@
                         </dl>
                         <hr />
                     @endforeach
+                    @else
+                    <dt>Facebook Post</dt>
+                    <dl>
+                        No news Today :( :p :( :p
+                    </dl>
+                    <hr />
                 @endif
             </div>
             
