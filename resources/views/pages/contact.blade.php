@@ -64,8 +64,8 @@
                         </textarea>
                     </div>          
                 </form>
-                
-                <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit</button>     
+
+                <button type="button" id="submit" name="submit" class="btn btn-primary pull-right btn-submit">Submit</button>     
             </div>
         </div>
     </div>
