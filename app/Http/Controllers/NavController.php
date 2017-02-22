@@ -1,6 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
+use Facebook\Exceptions\FacebookOtherException;
+use Facebook\Exceptions\FacebookResponseException;
 use Illuminate\Http\Request;
 use League\Flysystem\Exception;
 use Psy\Exception\ErrorException;
@@ -40,12 +42,13 @@ class NavController extends Controller
 
         }
         catch(\Facebook\Exceptions\FacebookResponseException $e) {
-            /*echo 'Graph returned an error: ' . $e->getMessage();
-            exit;*/
+            echo 'Graph returned an error: ' . $e->getMessage();
+            exit;
 
         } catch(\Facebook\Exceptions\FacebookSDKException $e) {
-           /* echo 'Facebook SDK returned an error: ' . $e->getMessage();
-            exit;*/
+            echo 'Facebook SDK returned an error: ' . $e->getMessage();
+            exit;
+
         }
 
 	}
@@ -62,7 +65,7 @@ class NavController extends Controller
 
         try
         {
-            $response = $fb->get('suchgreatlives?fields=id,albums{name,picture{url}}');
+            $response = $fb->get('suchgreatlives?fields=albums{name,photos{images}}');
 
 
         } catch(\Facebook\Exceptions\FacebookResponseException $e) {
@@ -76,7 +79,7 @@ class NavController extends Controller
         }
 
         $albums = $response->getGraphAlbum();
-        //echo "<script>alert('".$albums."')</script>";
+        echo "<script>alert('".$albums."')</script>";
         return view('pages.albums')->with('albums',json_decode($albums, true));
 
     }
