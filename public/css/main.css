@@ -2,19 +2,16 @@
 @import url('https://fonts.googleapis.com/css?family=Acme');
 @import url('https://fonts.googleapis.com/css?family=Sansita');
 /************************buttonsAlbumsPage************************/
-.buttonsAlbum
-{
+.buttonsAlbum{
    margin:10px;
 }
 
 /************************carousel************************/
-.buttonsPhotos
-{
+.buttonsPhotos{
    margin: 10px;
 }
 
-.myFacebookShareButton
-{
+.myFacebookShareButton{
     color: white;
 }
 /************************gallery ************************/
@@ -190,10 +187,15 @@ h5{
     text-align: left;  
 }
 
-.icons-group a{
+.media{
+    padding-right: 0px;
+    padding-top: 10px;
+}
+
+.media .icons-group a{
     color: white;
-    padding-top: 14px;
-    margin: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
     font-size: 1.8em;
 }
 
@@ -253,7 +255,7 @@ h5{
 }
 
 .bigIcons {
-    width: 40%;
+    width: 60px;
     height: auto;
     padding-bottom: 15px;
     padding-top: 15px;
@@ -264,7 +266,6 @@ h5{
 .bigIcons:hover{
     opacity: 0.3; 
     filter: alpha(opacity=30);
-    content: "15";
 }
 
 
@@ -278,6 +279,14 @@ h5{
     list-style: none;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.upcomingShowsTable th{
+    text-align: center;
+}
+
+.upcomingShowsTable td{
+    text-align: center;
 }
 
 /*-----------pages--------*/
@@ -308,10 +317,26 @@ h5{
 
 .form-contact{
     background-color: hsla(186, 96%, 98%, 0.2);
-    padding: 60px 60px 40px 60px;
+    padding: 60px 60px 80px 60px;
     clear:both;
     margin-top: 20px;
     margin-bottom: 50px;
+}
+
+form{
+    padding-bottom: 15px;
+}
+
+.btn-primary.btn-submit{
+    background: none;
+    background-color: hsla(243, 96%, 14%, 0.5);
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.btn-primary.btn-submit:hover{
+   background-color: hsla(300, 96%, 18%, 0.3);
+   border-color: #fff;
 }
 
 /*---------------------standard  color containers--*/
@@ -533,6 +558,8 @@ h5{
     color: white;
 }
 
+
+
 #container_ft{
     padding-top:5px;
 }
@@ -553,9 +580,38 @@ h5{
     border: solid white 2px;
 }
 
-/*////////////////////////////////////////////////////device-width 319px max//*/
+/*111111111////////////////////////////////////////////////////device-width 319px max//*/
 @media only screen and (max-device-width : 319px)
 {
+    .section-blue, .section-dark-blue, .section-pink, .section-purple, 
+    .section-red, .section-white{
+        padding-bottom: 30px;
+        padding-top: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    body{
+        font-size: 13px;
+    }
+    
+    h2{
+        font-size: 25px;
+        font-weight: 300;
+        line-height: 50px;
+    }
+
+    h4{
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 25px;
+    }
+
+    h5{
+        font-size: 16px;
+        text-align: left;  
+    }
+    
     #intro{
         background-image: url('../images/bg_03.png');
         background-position: center;
@@ -566,19 +622,30 @@ h5{
 
     .header-media{
         padding-right: 4px;
-        padding-top: 0px;
+        padding-top: 8px;
     }
 
     .header-media .header-icons a{
         color: white;
         margin-left: 4px;
         margin-right: 4px;
-        font-size: 1.1em;
+        font-size: 1.2em;
+    }
+    
+    .media{
+        padding-right: 0px;
+        padding-top: 8px;
+    }
+    
+    .media .icons-group a{
+        padding-top: 0px;
+        margin-left: 2px;
+        font-size: 1.2em;
     }
 
     .logo_index{
-        margin-top: 65px;
-        width: 100px;
+        margin-top: 90px;
+        width: 120px;
         height: auto;
     }
 
@@ -641,10 +708,52 @@ h5{
         padding: 20px;
         margin-left:0px ;
     }
+    
+    .form-contact{
+        padding: 25px 10px 50px 10px;
+    }
+    
+    form{
+        padding-bottom: 4px;
+    }
 
+    .bigIcons {
+      width: 35px;
+    }
+    
+    
 }
 @media only screen and (max-width : 319px)
 {
+    .section-blue, .section-dark-blue, .section-pink, .section-purple, 
+    .section-red, .section-white{
+        padding-bottom: 30px;
+        padding-top: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    body{
+        font-size: 13px;
+    }
+    
+    h2{
+        font-size: 25px;
+        font-weight: 300;
+        line-height: 50px;
+    }
+
+    h4{
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 25px;
+    }
+
+    h5{
+        font-size: 16px;
+        text-align: left;  
+    }
+    
     #intro{
         background-image: url('../images/bg_03.png');
         background-position: center;
@@ -655,19 +764,30 @@ h5{
 
     .header-media{
         padding-right: 4px;
-        padding-top: 0px;
+        padding-top: 8px;
     }
 
     .header-media .header-icons a{
         color: white;
         margin-left: 4px;
         margin-right: 4px;
-        font-size: 1.1em;
+        font-size: 1.2em;
+    }
+    
+    .media{
+        padding-right: 0px;
+        padding-top: 8px;
+    }
+    
+    .media .icons-group a{
+        padding-top: 0px;
+        margin-left: 2px;
+        font-size: 1.2em;
     }
 
     .logo_index{
-        margin-top: 65px;
-        width: 100px;
+        margin-top: 90px;
+        width: 120px;
         height: auto;
     }
 
@@ -737,10 +857,51 @@ h5{
         padding: 20px;
         margin-left:0px ;
     }
+    
+    .form-contact{
+        padding: 25px 10px 50px 10px;
+    }
+    
+    form{
+        padding-bottom: 4px;
+    }
+    
+    .bigIcons {
+      width: 35px;
+    }
 
 }
 @media only screen and (min-width : 320px) and (max-width : 480px)
 {
+    .section-blue, .section-dark-blue, .section-pink, .section-purple, 
+    .section-red, .section-white{
+        padding-bottom: 30px;
+        padding-top: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    body{
+        font-size: 13px;
+    }
+    
+    h2{
+        font-size: 25px;
+        font-weight: 300;
+        line-height: 50px;
+    }
+
+    h4{
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 25px;
+    }
+
+    h5{
+        font-size: 16px;
+        text-align: left;  
+    }
+    
     #intro{
         background-image: url('../images/bg_03.png');
         background-position: center;
@@ -751,19 +912,30 @@ h5{
 
     .header-media{
         padding-right: 4px;
-        padding-top: 0px;
+        padding-top: 8px;
     }
 
     .header-media .header-icons a{
         color: white;
         margin-left: 4px;
         margin-right: 4px;
-        font-size: 1.1em;
+        font-size: 1.2em;
+    }
+    
+    .media{
+        padding-right: 0px;
+        padding-top: 8px;
+    }
+    
+    .media .icons-group a{
+        padding-top: 0px;
+        margin-left: 2px;
+        font-size: 1.2em;
     }
 
     .logo_index{
-        margin-top: 65px;
-        width: 100px;
+        margin-top: 90px;
+        width: 120px;
         height: auto;
     }
 
@@ -827,12 +999,53 @@ h5{
         padding: 20px;
         margin-left:0px ;
     }
+    
+    .form-contact{
+        padding: 25px 10px 50px 10px;
+    }
+    
+    form{
+        padding-bottom: 4px;
+    }
+    
+    .bigIcons {
+      width: 35px;
+    }
 
 }
 
 /*//////////////////////////////////////Smartphones (portrait and landscape)//*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px)
 {
+    .section-blue, .section-dark-blue, .section-pink, .section-purple, 
+    .section-red, .section-white{
+        padding-bottom: 30px;
+        padding-top: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    body{
+        font-size: 13px;
+    }
+    
+    h2{
+        font-size: 25px;
+        font-weight: 300;
+        line-height: 50px;
+    }
+
+    h4{
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 25px;
+    }
+
+    h5{
+        font-size: 16px;
+        text-align: left;  
+    }
+    
     #intro{
         background-image: url('../images/bg_03.png');
         background-position: center;
@@ -843,19 +1056,30 @@ h5{
 
     .header-media{
         padding-right: 4px;
-        padding-top: 0px;
+        padding-top: 8px;
     }
 
     .header-media .header-icons a{
         color: white;
         margin-left: 4px;
         margin-right: 4px;
-        font-size: 1.1em;
+        font-size: 1.2em;
+    }
+    
+    .media{
+        padding-right: 0px;
+        padding-top: 8px;
+    }
+    
+    .media .icons-group a{
+        padding-top: 0px;
+        margin-left: 2px;
+        font-size: 1.2em;
     }
 
     .logo_index{
-        margin-top: 65px;
-        width: 100px;
+        margin-top: 90px;
+        width: 120px;
         height: auto;
     }
 
@@ -919,15 +1143,24 @@ h5{
         padding: 20px;
         margin-left:0px ;
     }
+    
+    .bigIcons {
+        width: 35px;
+    }
 
 }
 
-/*////////////////////////////////////////////////////////////////////////////*/
+/*3333333////////////////////////////////////////////////////////////////////////////*/
 @media only screen and (min-device-width : 481px)
 and (max-device-width : 768px)
 and (orientation : landscape)
 {
-
+    .logo_index{
+        margin-top: 70px;
+        width: 180px;
+        height: auto;
+    }
+    
     .starWarsNews{
         background-image: url('../images/stars-bg.jpg');
         background-repeat: no-repeat;
@@ -962,7 +1195,6 @@ and (orientation : landscape)
         display: block;
         transition: 0.3s;
         font-family: 'Sansita', sans-serif;
-
     }
 
     .sidenav li{
@@ -982,6 +1214,10 @@ and (orientation : landscape)
         transition: margin-left .5s;
         padding: 20px;
         margin-left:0px ;
+    }
+    
+    .bigIcons {
+        width: 50px;
     }
 }
 
@@ -989,7 +1225,12 @@ and (orientation : landscape)
 @media only screen and (min-width : 481px)
 and (max-width : 768px)
 {
-
+    .logo_index{
+        margin-top: 70px;
+        width: 180px;
+        height: auto;
+    }
+    
     .starWarsNews{
         background-image: url('../images/stars-bg.jpg');
         background-repeat: no-repeat;
@@ -1044,6 +1285,10 @@ and (max-width : 768px)
         transition: margin-left .5s;
         padding: 20px;
         margin-left:0px ;
+    }
+    
+    .bigIcons {
+        width: 50px;
     }
 }
 
@@ -1054,6 +1299,11 @@ and (max-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape)
 {
+    .logo_index{
+        margin-top: 70px;
+        width: 180px;
+        height: auto;
+    }
 
     .starWarsNews{
         background-image: url('../images/stars-bg.jpg');
@@ -1111,12 +1361,22 @@ and (orientation : landscape)
         margin-left:150px;
         margin-right:-30px;
     }
+    
+    .bigIcons {
+        width: 50px;
+    }
 }
 
 /*/////////////////////////////////////////////////////////iPads (landscape)//*/
 @media only screen and (min-width : 769px)
 and (max-width : 1024px)
 {
+    .logo_index{
+        margin-top: 70px;
+        width: 180px;
+        height: auto;
+    }
+    
     iframe
     {
         width: 100%;
@@ -1183,12 +1443,22 @@ and (max-width : 1024px)
         margin-left:150px;
         margin-right:-30px;
     }
+    
+    .bigIcons {
+        width: 50px;
+    }
 }
 
 /*//////////////////////////////////////////////////////Desktops and laptops//*/
 @media only screen and (min-width : 1025px)
 and (max-width : 1823px)
 {
+    .logo_index{
+        margin-top: 70px;
+        width: 240px;
+        height: auto;
+    }
+    
     #intro{
         background-image: url('../images/bg_03.png');
         background-position: top;
@@ -1274,11 +1544,35 @@ and (max-width : 1823px)
         width: 800px;
         height: 200px;
     }
+    
+    .bigIcons {
+        width: 50px;
+    }
 }
 
 /*/////////////////////////////////////////////////////////////Large screens//*/
 @media only screen and (min-width : 1824px)
 {
+    .section-blue, .section-dark-blue, .section-pink, .section-purple, 
+    .section-red, .section-white{
+        padding-bottom: 80px;
+        padding-top: 50px;
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+    
+    body{
+        font-size: 15px;
+    }
+    
+    h2{
+        line-height: 70px;
+    }
+
+    h4{
+        line-height: 45px;
+    }
+    
     #intro{
         background-image: url('../images/bg_03.png');
         background-position: top;
@@ -1290,13 +1584,35 @@ and (max-width : 1823px)
     
     #sgl-logo{
         padding-top: 0%;
-        width: 12%;
+        width: 8%;
         height: auto;
+    }
+    
+    .header-media{
+        padding-right: 180px;
+        padding-top: 60px;
+    }
+
+    .header-media .header-icons a{
+        margin-left: 4px;
+        margin-right: 4px;
+        font-size: 1.8em;
+    }
+    
+    .media{
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+
+    .media .icons-group a{
+        margin-left: 8px;
+        margin-right: 8px;
+        font-size: 1.8em;
     }
 
     .logo_index{
-        margin-top: 60px;
-        width: 300px;
+        margin-top: 70px;
+        width: 270px;
         height: auto;
     }
     
@@ -1356,6 +1672,10 @@ and (max-width : 1823px)
         padding: 20px;
         margin-left: 250px;
     }
+    
+    .bigIcons {
+      width: 50px;
+    }
 }
 
 /*/////////////////////////////////////////////////////////////iPhone 4///////*/
@@ -1368,24 +1688,6 @@ only screen and (min-device-pixel-ratio : 1.5)
 @font-face {
     font-family: 'starWarsFont'; /*a name to be used later*/
     src: url('../fonts/Star_Jedi_Rounded.ttf'); /*URL to font*/
-}
-
-#upcomingShows h1{
-    color: white;
-}
-
-#upcomingShows p{
-    color: black;
-}
-
-.upcomingShowsTable th{
-    color: #2D233B;
-    text-align: center;
-}
-
-.upcomingShowsTable td{
-    color:#2D233B;
-    text-align: center;
 }
 
 .star {

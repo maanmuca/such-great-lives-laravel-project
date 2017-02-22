@@ -25,7 +25,7 @@
         </div>
             
         <div class="row section-intro">
-            <div class="col-md-offset-4 col-md-4 text-center">
+            <div class="col-md-offset-4 col-md-4 col-sm-offset-2 col-sm-8 text-center">
                 <a href="{{url('/videos')}}"  class="col-lg-4 col-md-4 col-sm-4 col-xs-4" >
                     <img src="{{URL::asset('images/videos.png')}}" class="bigIcons"   alt="videos">
                 </a>
@@ -46,7 +46,7 @@
 <section id="news" class="section-dark-blue">
     <div class="container-fluid">
         
-        <div class="row pull-right">
+        <div class="row pull-right media">
             <div class="col-lg-12 icons-group">
                 <a href="https://www.facebook.com/suchgreatlives">
                     <i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -93,7 +93,7 @@
 <section id="about" class="section-blue">
     <div class="container-fluid">
         
-        <div class="row pull-right">
+        <div class="row pull-right media">
             <div class="col-lg-12 icons-group">
                 <a href="https://www.facebook.com/suchgreatlives">
                     <i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -127,7 +127,7 @@
             <div class="col-md-4 col-sm-4 about-wrapper">
                 <img src='images/jon.png' alt="" class="img-responsive">
                 <div>
-                    <h4>Jon</h4>
+                    <h4 class="sub-heading">Jon</h4>
                 </div>
                 <p class="text-justify">Jon is our rhythm guitarist and lead singer. He relishes 
                     being on stage and is the infant of the group. He sits at home in the dark, 
@@ -136,7 +136,7 @@
             <div class="col-md-4 col-sm-4 about-wrapper">
                 <img src='images/michael.png' alt="" class="img-responsive">
                 <div>
-                    <h4>Michael</h4>
+                    <h4 class="sub-heading">Michael</h4>
                 </div>
                 <p class="text-justify">Michael is our a five string fretless bassist and lead 
                     singer! He always presents with a lot of purple energy and commitment. Mike 
@@ -148,7 +148,7 @@
             <div class="col-md-4 col-sm-4 about-wrapper">
                 <img src='images/matt.png' alt="" class="img-responsive">
                 <div>
-                    <h4>Matt</h4>
+                    <h4 class="sub-heading">Matt</h4>
                 </div>
                 <p class="text-justify">Matt is our drummer and backing vocalist. He points out 
                     our boring tunes and embellishes the good ones around his drum kit. Our number 
@@ -166,7 +166,7 @@
 <section id="shows" class="section-purple">
     <div class="container-fluid shows">
         
-        <div class="row pull-right">
+        <div class="row pull-right media">
             <div class="col-lg-12 icons-group">
                 <a href="https://www.facebook.com/suchgreatlives">
                     <i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -277,10 +277,10 @@
 </section>
 
 <!-------------------------------- Section Links ------------------------------*-->
-<section id="links" class="section-white">
+<section id="links" class="section-dark-blue">
     <div class="container-fluid links-cont">
         
-        <div class="row pull-right">
+        <div class="row pull-right media">
             <div class="col-lg-12 icons-group">
                 <a href="https://www.facebook.com/suchgreatlives">
                     <i class="fa fa-facebook" aria-hidden="true"></i></a>
