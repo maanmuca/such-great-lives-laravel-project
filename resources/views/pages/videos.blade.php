@@ -8,7 +8,7 @@
 <section id="" class="section-dark-blue">
     <div class="container-fluid"> <!-- ---------------------------------must be fluid--->
         
-         <div class="row pull-right">
+         <div class="row pull-right media">
             <div class="col-lg-12 icons-group">
                 <a href="https://www.facebook.com/suchgreatlives">
                     <i class="fa fa-facebook" aria-hidden="true"></i></a>

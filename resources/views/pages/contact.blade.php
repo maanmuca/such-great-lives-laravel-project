@@ -23,14 +23,15 @@
             </div>
         </div>
             
-        <!--  Logo image-->
+      
         <div class="row text-center">
-            <div class="col-lg-12">
+            <div class="col-lg-12 col-md-12 col-sm-12">
                 <a href="{{url('/')}}">
-                    <img src="{{URL::asset('images/sgllogo_light.png')}}" id="sgl-logo" 
-                         class="img-responsive center-block"  alt="logo"></a>
+                    <img src="{{URL::asset('images/logo_header.png')}}"
+                         class="center-block logo_header"  alt="logo"></a>
             </div>
         </div>
+        
         
     </div>
 </div>      

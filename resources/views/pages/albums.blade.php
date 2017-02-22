@@ -10,11 +10,7 @@
 @extends('layouts.layout')
 @section('content')
     <div class="container" id="topAlbums">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2 class="section-heading">Albums</h2>
-            </div>
-        </div>
+
         <div class="row">
             @if (count($albums) > 0)
                 @foreach($albums['albums'] as $album)

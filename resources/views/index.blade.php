@@ -6,8 +6,8 @@
 <div id="intro">
     <div class="container-fluid">
         
-        <div class="row pull-right header-media">
-            <div class="col-lg-12 header-icons">
+       <div class="row pull-right hd-media-index">
+            <div class="col-lg-12 hd-icons-index">
                 <a href="https://www.facebook.com/suchgreatlives">
                     <i class="fa fa-facebook" aria-hidden="true"></i></a>
                 <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g">
@@ -17,10 +17,12 @@
             </div>
         </div>
           
+           <!--  Logo image-->
         <div class="row text-center">
             <div class="col-lg-12 col-md-12 col-sm-12">
-                <a href="{{url('/')}}"><img src="{{URL::asset('images/sgllogo_light.png')}}"
-                                            class="center-block logo_index"  alt="logo"></a>
+                <a href="{{url('/')}}">
+                    <img src="{{URL::asset('images/logo_index.png')}}"
+                         class="center-block logo_index"  alt="logo"></a>
             </div>
         </div>
             

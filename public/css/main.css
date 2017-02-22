@@ -187,6 +187,27 @@ h5{
     text-align: left;  
 }
 
+.sidenav a {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Sansita', sans-serif;
+}
+
+.sidenav a:hover {
+    text-decoration: none; 
+    color: purple;
+}
+
+.sidenav li{
+    margin-left: 35px;
+    list-style: none;
+    text-align: left;
+}
+
 .media{
     padding-right: 0px;
     padding-top: 10px;
@@ -196,21 +217,15 @@ h5{
     color: white;
     margin-left: 8px;
     margin-right: 8px;
-    font-size: 1.8em;
+    font-size: 1.4em;
 }
 
-.icons-group a:hover{
-    color: #ade504;
+.icons-group a:hover, #links a:hover{
+    color: #9acd32;
+    text-decoration: none;  
 }
 
 /*---------------------------header-index------*/
-
-#sgl-logo{
-    padding-top: 0%;
-    width: 12%;
-    height: auto;
-    margin-bottom: 30px;
-}
 
 .logo_index{
     margin-top: 60px;
@@ -227,12 +242,28 @@ h5{
     color: white;
     margin-left: 8px;
     margin-right: 8px;
-    font-size: 1.8em;
+    font-size: 1.4em;
 }
 
 .header-media .header-icons a:hover{
-    opacity: 0.6; 
-    filter: alpha(opacity=30);
+    color: #9acd32;
+    text-decoration: none;
+}
+
+.hd-media-index{
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.hd-media-index .hd-icons-index a{
+    color: white;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 1.4em;
+}
+
+.hd-media-index .hd-icons-index a:hover{
+    color: #9acd32;
     text-decoration: none;
 }
 
@@ -264,7 +295,7 @@ h5{
 }
 
 .bigIcons:hover{
-    opacity: 0.3; 
+    opacity: 0.4; 
     filter: alpha(opacity=30);
 }
 
@@ -290,30 +321,38 @@ h5{
 }
 
 /*-----------pages--------*/
+.logo_header{
+    margin-top: 40px;
+    width: 140px;
+    height: auto;
+}
+
 #bg_hd_game{
-    background-image: url("../images/game_10.png");
-    background-size: cover;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    max-height: 300px;
-}
-
-#bg_hd_contact{
-    background-image: url("../images/contact_05.png");
-    background-size: cover;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    max-height: 300px;
-}
-
-
-#bg_hd_releases{
-    background-image: url("../images/releases_hd.png");
+    background-image: url("../images/game.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     min-height: 300px;
 }
+
+#bg_hd_contact{
+    background-image: url("../images/contact.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+}
+
+
+#bg_hd_releases{
+    background-image: url("../images/releases.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+}
+
+
 
 .form-contact{
     background-color: hsla(186, 96%, 98%, 0.2);
@@ -479,8 +518,8 @@ h5{
     text-decoration: none;
 }
 
-.phone-link:hover, #links a:hover, .footer-links li a:hover, .footer-media a:hover{
-    color: #ade504;
+.phone-link:hover, .footer-links li a:hover, .footer-media a:hover{
+    color: #9acd32;
     text-decoration: none;
 }
 .footer-icon, .links-icons{
@@ -591,6 +630,10 @@ h5{
         padding-right: 5px;
     }
     
+    #bg_hd_game, #bg_hd_contact, #bg_hd_releases{
+        min-height: 90px;
+    }
+    
     body{
         font-size: 13px;
     }
@@ -621,11 +664,15 @@ h5{
     }
 
     .header-media{
+        display: none;
+    }
+    
+    .hd-media-index{
         padding-right: 4px;
         padding-top: 8px;
     }
 
-    .header-media .header-icons a{
+    .hd-media-index .hd-icons-index a{
         color: white;
         margin-left: 4px;
         margin-right: 4px;
@@ -646,6 +693,12 @@ h5{
     .logo_index{
         margin-top: 90px;
         width: 120px;
+        height: auto;
+    }
+    
+    .logo_header{
+        margin-top: 20px;
+        width: 50px;
         height: auto;
     }
 
@@ -679,22 +732,7 @@ h5{
         background-color: hsla(243, 96%, 14%, 0.75);
     }
 
-    /* The navigation menu links */
-    .sidenav a {
-        padding: 8px 8px 8px 8px;
-        text-decoration: none;
-        font-size: 20px;
-        color: white;
-        display: block;
-        transition: 0.3s;
-        font-family: 'Sansita', sans-serif;
-
-    }
-
-    .sidenav li{
-        list-style: none;
-        text-align: center;
-    }
+   
 
     .sidenav .closebtn {
         position: absolute;
@@ -733,6 +771,10 @@ h5{
         padding-right: 5px;
     }
     
+    #bg_hd_game, #bg_hd_contact, #bg_hd_releases{
+        min-height: 90px;
+    }
+    
     body{
         font-size: 13px;
     }
@@ -761,13 +803,17 @@ h5{
         background-repeat: no-repeat;
         min-height: 400px;
     }
-
+    
     .header-media{
+        display: none;
+    }
+
+    .hd-media-index{
         padding-right: 4px;
         padding-top: 8px;
     }
 
-    .header-media .header-icons a{
+    .hd-media-index .hd-icons-index a{
         color: white;
         margin-left: 4px;
         margin-right: 4px;
@@ -788,6 +834,12 @@ h5{
     .logo_index{
         margin-top: 90px;
         width: 120px;
+        height: auto;
+    }
+    
+     .logo_header{
+        margin-top: 20px;
+        width: 50px;
         height: auto;
     }
 
@@ -827,23 +879,6 @@ h5{
         background-color: hsla(243, 96%, 14%, 0.75);
     }
 
-    /* The navigation menu links */
-    .sidenav a {
-        padding: 8px 8px 8px 8px;
-        text-decoration: none;
-        font-size: 20px;
-        color: white;
-        display: block;
-        transition: 0.3s;
-        font-family: 'Sansita', sans-serif;
-
-    }
-
-    .sidenav li{
-        list-style: none;
-        text-align: center;
-    }
-
     .sidenav .closebtn {
         position: absolute;
         top: 0;
@@ -881,6 +916,10 @@ h5{
         padding-right: 5px;
     }
     
+    #bg_hd_game, #bg_hd_contact, #bg_hd_releases{
+        min-height: 90px;
+    }
+    
     body{
         font-size: 13px;
     }
@@ -911,11 +950,15 @@ h5{
     }
 
     .header-media{
+        display: none;
+    }
+    
+    .hd-media-index{
         padding-right: 4px;
         padding-top: 8px;
     }
 
-    .header-media .header-icons a{
+    .hd-media-index .hd-icons-index a{
         color: white;
         margin-left: 4px;
         margin-right: 4px;
@@ -936,6 +979,12 @@ h5{
     .logo_index{
         margin-top: 90px;
         width: 120px;
+        height: auto;
+    }
+    
+     .logo_header{
+        margin-top: 20px;
+        width: 50px;
         height: auto;
     }
 
@@ -967,23 +1016,6 @@ h5{
         padding-top: 30px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
         background-color: hsla(243, 96%, 14%, 0.75);
-    }
-
-    /* The navigation menu links */
-    .sidenav a {
-        padding: 8px 8px 8px 8px;
-        text-decoration: none;
-        font-size: 20px;
-        color: white;
-        display: block;
-        transition: 0.3s;
-        font-family: 'Sansita', sans-serif;
-
-    }
-
-    .sidenav li{
-        list-style: none;
-        text-align: center;
     }
 
     .sidenav .closebtn {
@@ -1025,6 +1057,10 @@ h5{
         padding-right: 5px;
     }
     
+    #bg_hd_game, #bg_hd_contact, #bg_hd_releases{
+        min-height: 90px;
+    }
+    
     body{
         font-size: 13px;
     }
@@ -1055,11 +1091,15 @@ h5{
     }
 
     .header-media{
+        display: none;
+    }
+    
+    .hd-media-index{
         padding-right: 4px;
         padding-top: 8px;
     }
 
-    .header-media .header-icons a{
+    .hd-media-index .hd-icons-index a{
         color: white;
         margin-left: 4px;
         margin-right: 4px;
@@ -1080,6 +1120,12 @@ h5{
     .logo_index{
         margin-top: 90px;
         width: 120px;
+        height: auto;
+    }
+    
+     .logo_header{
+        margin-top: 20px;
+        width: 50px;
         height: auto;
     }
 
@@ -1113,23 +1159,6 @@ h5{
         background-color: hsla(243, 96%, 14%, 0.75);
     }
 
-    /* The navigation menu links */
-    .sidenav a {
-        padding: 8px 8px 8px 8px;
-        text-decoration: none;
-        font-size: 20px;
-        color: white;
-        display: block;
-        transition: 0.3s;
-        font-family: 'Sansita', sans-serif;
-
-    }
-
-    .sidenav li{
-        list-style: none;
-        text-align: center;
-    }
-
     .sidenav .closebtn {
         position: absolute;
         top: 0;
@@ -1161,6 +1190,12 @@ and (orientation : landscape)
         height: auto;
     }
     
+    .logo_header{
+        margin-top: 70px;
+        width: 100px;
+        height: auto;
+    }
+    
     .starWarsNews{
         background-image: url('../images/stars-bg.jpg');
         background-repeat: no-repeat;
@@ -1184,22 +1219,6 @@ and (orientation : landscape)
         padding-top: 30px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
         background-color: hsla(243, 96%, 14%, 0.75);
-    }
-
-    /* The navigation menu links */
-    .sidenav a {
-        padding: 8px 8px 8px 8px;
-        text-decoration: none;
-        font-size: 20px;
-        color: white;
-        display: block;
-        transition: 0.3s;
-        font-family: 'Sansita', sans-serif;
-    }
-
-    .sidenav li{
-        list-style: none;
-        text-align: center;
     }
 
     .sidenav .closebtn {
@@ -1231,6 +1250,12 @@ and (max-width : 768px)
         height: auto;
     }
     
+    .logo_header{
+        margin-top: 70px;
+        width: 100px;
+        height: auto;
+    }
+    
     .starWarsNews{
         background-image: url('../images/stars-bg.jpg');
         background-repeat: no-repeat;
@@ -1254,23 +1279,6 @@ and (max-width : 768px)
         padding-top: 30px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
         background-color: hsla(243, 96%, 14%, 0.75);
-    }
-
-    /* The navigation menu links */
-    .sidenav a {
-        padding: 8px 8px 8px 8px;
-        text-decoration: none;
-        font-size: 20px;
-        color: white;
-        display: block;
-        transition: 0.3s;
-        font-family: 'Sansita', sans-serif;
-
-    }
-
-    .sidenav li{
-        list-style: none;
-        text-align: center;
     }
 
     .sidenav .closebtn {
@@ -1304,6 +1312,12 @@ and (orientation : landscape)
         width: 180px;
         height: auto;
     }
+    
+    .logo_header{
+        margin-top: 70px;
+        width: 100px;
+        height: auto;
+    }
 
     .starWarsNews{
         background-image: url('../images/stars-bg.jpg');
@@ -1329,23 +1343,6 @@ and (orientation : landscape)
         padding-top: 30px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
         background-color: hsla(243, 96%, 14%, 0.75);
-    }
-
-    /* The navigation menu links */
-    .sidenav a {
-        padding: 8px 8px 8px 8px;
-        text-decoration: none;
-        font-size: 20px;
-        color: white;
-        display: block;
-        transition: 0.3s;
-        font-family: 'Sansita', sans-serif;
-
-    }
-
-    .sidenav li{
-        list-style: none;
-        text-align: center;
     }
 
     .sidenav .closebtn {
@@ -1374,6 +1371,12 @@ and (max-width : 1024px)
     .logo_index{
         margin-top: 70px;
         width: 180px;
+        height: auto;
+    }
+    
+    .logo_header{
+        margin-top: 70px;
+        width: 100px;
         height: auto;
     }
     
@@ -1412,23 +1415,6 @@ and (max-width : 1024px)
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
     }
 
-    /* The navigation menu links */
-    .sidenav a {
-        padding: 8px 8px 8px 8px;
-        text-decoration: none;
-        font-size: 20px;
-        color: white;
-        display: block;
-        transition: 0.3s;
-        font-family: 'Sansita', sans-serif;
-
-    }
-
-    .sidenav li{
-        list-style: none;
-        text-align: center;
-    }
-
     .sidenav .closebtn {
         position: absolute;
         top: 0;
@@ -1454,8 +1440,14 @@ and (max-width : 1024px)
 and (max-width : 1823px)
 {
     .logo_index{
-        margin-top: 70px;
-        width: 240px;
+        margin-top: 50px;
+        width: 200px;
+        height: auto;
+    }
+    
+    .logo_header{
+        margin-top: 30px;
+        width: 140px;
         height: auto;
     }
     
@@ -1506,23 +1498,6 @@ and (max-width : 1823px)
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 30px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-    }
-
-    /* The navigation menu links */
-    .sidenav a {
-        padding: 8px 8px 8px 8px;
-        text-decoration: none;
-        font-size: 20px;
-        color: white;
-        display: block;
-        transition: 0.3s;
-        font-family: 'Sansita', sans-serif;
-
-    }
-
-    .sidenav li{
-        list-style: none;
-        text-align: center;
     }
 
     .sidenav .closebtn {
@@ -1582,21 +1557,15 @@ and (max-width : 1823px)
         position: relative;
     }
     
-    #sgl-logo{
-        padding-top: 0%;
-        width: 8%;
-        height: auto;
-    }
-    
-    .header-media{
+    .hd-media-index{
         padding-right: 180px;
         padding-top: 60px;
     }
 
-    .header-media .header-icons a{
+    .hd-media-index .hd-icons-index a{
         margin-left: 4px;
         margin-right: 4px;
-        font-size: 1.8em;
+        font-size: 1.4em;
     }
     
     .media{
@@ -1607,7 +1576,7 @@ and (max-width : 1823px)
     .media .icons-group a{
         margin-left: 8px;
         margin-right: 8px;
-        font-size: 1.8em;
+        font-size: 1.4em;
     }
 
     .logo_index{
@@ -1642,21 +1611,6 @@ and (max-width : 1823px)
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 30px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-    }
-
-    /* The navigation menu links */
-    .sidenav a {
-        padding: 8px 8px 8px 8px;
-        text-decoration: none;
-        font-size: 18px;
-        color: white;
-        display: block;
-        transition: 0.3s
-    }
-
-    .sidenav li{
-        list-style: none;
-        text-align: center;
     }
 
     .sidenav .closebtn {

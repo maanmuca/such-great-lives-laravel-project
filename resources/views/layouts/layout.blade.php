@@ -47,7 +47,7 @@
             <li><a class="currentNavPage" href="{{url('/albums')}}">Photos</a></li>
             <li><a class="currentNavPage" href="{{url('/videos')}}">Videos</a></li>
             <li><a class="currentNavPage" href="{{url('/releases')}}">Releases</a></li>
-            <li><a class="currentNavPage" href="{{url('/game')}}">Game</a></li>
+<!--            <li><a class="currentNavPage" href="{{url('/game')}}">Game</a></li>-->
             <li><a class="currentNavPage" href="{{url('/')}}#links">Links</a></li>
             <li><a class="currentNavPage" href="{{url('/contact')}}">Contact</a></li>
         </div>
