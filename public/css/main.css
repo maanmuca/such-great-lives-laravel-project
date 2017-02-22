@@ -158,17 +158,17 @@ body{
 }
 
 .section-heading{
-    /*font-family: 'Acme', sans-serif;*/
-    font-family: 'Sansita', sans-serif;
+      font-family: 'Acme', sans-serif;
+/*    font-family: 'Sansita', sans-serif;*/
 }
 
 .sub-heading{
-    /*font-family: 'Acme', sans-serif;*/
-    font-family: 'Sansita', sans-serif;
+      font-family: 'Acme', sans-serif;
+/*    font-family: 'Sansita', sans-serif;*/
 }
 
 h2{
-    font-size: 40px;
+    font-size: 34px;
     font-weight: 500;
     line-height: 60px;
     color: #fff;
@@ -183,23 +183,25 @@ h4{
 }
 
 h5{
-    font-size: 18px;
+    font-size: 14px;
+    font-weight: 100;
     text-align: left;  
 }
 
 .sidenav a {
     padding: 8px 8px 8px 8px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
     color: white;
     display: block;
     transition: 0.3s;
-    font-family: 'Sansita', sans-serif;
+    font-family: 'Acme', sans-serif;
+    font-weight: 100;
 }
 
 .sidenav a:hover {
     text-decoration: none; 
-    color: purple;
+    color: #9acd32;
 }
 
 .sidenav li{

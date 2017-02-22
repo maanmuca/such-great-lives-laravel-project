@@ -52,14 +52,14 @@
             
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="section-heading">Releases</h2>
+                <h2 class="section-heading">RELEASES</h2>
             </div>
         </div>
             
         <div class="row">
             <div class="col-md-offset-1 col-md-4 col-sm-4 releases-wrapper">
-                <h4 class="sub-heading">3.3 [ Soon ]</h4>
-                <h5>[ 2017 ]</h5>
+                <h4 class="sub-heading">3.3</h4>
+                <h5>[ SOON ]</h5>
             </div>
         </div>
         <div class="row text-center">
@@ -68,10 +68,10 @@
             </div>
                 
             <div class="col-md-offset-1 col-md-4 col-sm-4 releases-wrapper">
-                <p class="text-justify">Forthcoming, featuring such tracks as 
-                    NO RETREAT, SMARTPHONE, and WAITING FOR EPISODE SEVEN. 
-                    Will it ever be released?
-                </p>
+                <p class="text-justify">Our forthcoming album is brimming with 
+                    originality. It is set to feature such live
+                    favourites as NO RETREAT, NIEN NUNB, and SMARTPHONE. </p>
+                <p class="text-justify"> Please stay tuned! </p>
                 <ol class="songs pull-left">
                     <li>Waiting For Episode 7</li>
                     <li>Life Coach</li>
@@ -123,8 +123,11 @@
             </div>
                 
             <div class="col-md-offset-1 col-md-4 col-sm-4 releases-wrapper">
-                <p class="text-justify">Recorded at Jon's house. Drums provided 
-                    by David LLoyd. The big one folks!
+                <p class="text-justify">Recorded at Jon's House in the long 
+                    Australian winter of 2014. Drums kindly provided by
+                    David LLoyd. </p>
+                <p  class="text-justify">This is the big one folks! Our best album. 
+                    It deserves to be on your shelf!
                 </p>
                 <ol class="songs pull-left">
                     <li>I'll Take You To The Bush</li>
@@ -146,7 +149,7 @@
                 <ul class="mins pull-right">
                     <li>(3.15)</li>
                     <li>(3.07)</li>
-                    <li>(3.43)</li>
+                    <li>(3.45)</li>
                     <li>(3.01)</li>
                     <li>(2.53)</li>
                     <li>(2.57)</li>
@@ -179,10 +182,11 @@
             </div>
             
             <div class="col-md-offset-1 col-md-4 col-sm-4 releases-wrapper">
-                <p class="text-justify">Purchase the first album, under the name "Szabologist & 
-                    Bamptonoid". There's no drums but there's a lot of fun to be had. Many numbers 
-                    are staples of their 
-                    live set even to this day.
+                <p class="text-justify">Why not purchase our first album? 
+                    You know most of the songs already. There are no drums and a 
+                    bit of noise on the masters, but there's also a real lot of 
+                    fun to be had. Many numbers are staples of our live set even 
+                    to this day. 
                 </p>
                 <ol class="songs pull-left">
                     <li>Don't Be A Stranger</li>
@@ -201,7 +205,7 @@
                     <li>Lieverd</li>
                     <li>33.3 </li>
                     <li>Pleasure</li>
-                    <li>John's Schlong</li>
+                    <li>John's Schlong (Purple Pineapple)</li>
                 </ol> 
                     
                 <ul class="mins pull-right">

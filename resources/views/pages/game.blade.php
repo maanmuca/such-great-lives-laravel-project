@@ -40,7 +40,7 @@
     <div class="container-fluid"> <!-- ---------------------------------must be fluid--->
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="section-heading">Game</h2>
+                <h2 class="section-heading">GAME</h2>
             </div>
         </div>
             

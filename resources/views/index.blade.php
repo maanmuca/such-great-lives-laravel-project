@@ -61,7 +61,7 @@
         
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="section-heading">News</h2>
+                <h2 class="section-heading">NEWS</h2>
             </div>
         </div>
             
@@ -108,20 +108,23 @@
         
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="section-heading">About us</h2>
+                <h2 class="section-heading">ABOUT US</h2>
             </div>
         </div>
         
         <div class="row">
             <div class="col-lg-12">
-                <p class="text-justify">Michael and Jon came together in 2010 after a mutual friend 
-                    pointed out they both always put their money where there mouth was when it came 
-                    to song-writing. After a few misfires - including Jon presenting some folky 
-                    material - Michael finished off 'Don't Be A Stranger' followed quite soon by "Kitchen Table".
-                Soon, "Gotta Girlfriend Today" popped out. Easy. A partnership was born.</p>
+                <p class="text-justify">In 2010 Michael and Jon came together 
+                    after a mutual friend pointed out they both were both prolific 
+                    authors of great bedroom pop-rock songs.  
+                    After a few misfires - including Jon presenting some folky 
+                    material - Michael finished off Jon's 'Don't Be a Stranger', 
+                    followed quite soon after by "Kitchen Table".  More and more 
+                    tunes popped out. A partnership was born.</p>
                     
-                <p class="text-justify"> Matt, formerly of Michael's old band Beautiful Disaster, 
-                    joined ship in late 2015 and they were on their way to the open mics!</p>
+                <p class="text-justify"> Matt - formerly of Michael's old group 
+                    Beautiful Disaster - joined ship in late 2015 and they were 
+                    on their way to the open mics!</p>
             </div>
         </div>
         
@@ -129,33 +132,37 @@
             <div class="col-md-4 col-sm-4 about-wrapper">
                 <img src='images/jon.png' alt="" class="img-responsive">
                 <div>
-                    <h4 class="sub-heading">Jon</h4>
+                    <h4 class="sub-heading">JON</h4>
                 </div>
-                <p class="text-justify">Jon is our rhythm guitarist and lead singer. He relishes 
-                    being on stage and is the infant of the group. He sits at home in the dark, 
-                    however, and writes some magical tunes.</p>
+                <p class="text-justify">Jon is our rhythm guitarist and lead singer. 
+                    He relishes being on stage but is the infant of the group.
+                    Since his early 20's he's been sitting at home in the dark 
+                    writing some magical tunes.</p>
+                <p class="text-justify">He loves the
+                    Fauves and lives with his Lovely Latina wife.
+                </p>
             </div>
             <div class="col-md-4 col-sm-4 about-wrapper">
                 <img src='images/michael.png' alt="" class="img-responsive">
                 <div>
-                    <h4 class="sub-heading">Michael</h4>
+                    <h4 class="sub-heading">MICHAEL</h4>
                 </div>
-                <p class="text-justify">Michael is our a five string fretless bassist and lead 
-                    singer! He always presents with a lot of purple energy and commitment. Mike 
-                    grew up in Canberra but
-                    has been all around the world, rock-climbing and learning Spanish. Michael 
-                    has sung, played and recorded music since the early 1990s.
+                <p class="text-justify">Michael is our five-string fretless bassist 
+                    and lead singer! He is always presents with his purple energy. 
+                    The band's leader grew up in Canberra but has been all around 
+                    the world, rock-climbing and learning Spanish. Michael has sung, 
+                    played and recorded music since the mid-1990s.
                 </p>
             </div>
             <div class="col-md-4 col-sm-4 about-wrapper">
                 <img src='images/matt.png' alt="" class="img-responsive">
                 <div>
-                    <h4 class="sub-heading">Matt</h4>
+                    <h4 class="sub-heading">MATT</h4>
                 </div>
-                <p class="text-justify">Matt is our drummer and backing vocalist. He points out 
-                    our boring tunes and embellishes the good ones around his drum kit. Our number 
-                    one fan, he gets us access to
-                    our rehearsal space and is always in a positive mood.
+                <p class="text-justify">Matt is our drummer and enduring backing 
+                    vocalist. He points out our boring tunes and embellishes all 
+                    the good ones with his kit. Our number one fan, he gets us 
+                    access to our rehearsal space and is always in a positive mood.
                 </p>
             </div>
                 
@@ -181,7 +188,7 @@
         
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="section-heading">Shows</h2>
+                <h2 class="section-heading">SHOWS</h2>
             </div>
         </div>
         
@@ -295,7 +302,7 @@
             
         <div class="row">
             <div class="col-lg-12">
-                <h2 class="section-heading">Links</h2>
+                <h2 class="section-heading">LINKS</h2>
             </div>
         </div>
         

@@ -40,16 +40,16 @@
         <div id="mySidenav" class="sidenav">
 <!--            <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>-->
             <a href="javascript:void(0)" class="closebtn" id="closeNav">&times;</a>
-            <li><a class="currentNavPage" href="{{url('/')}}">Home</a></li>
-            <li><a class="currentNavPage" href="{{url('/')}}#about">About</a></li>
-            <li><a class="currentNavPage" href="{{url('/')}}#news">News</a></li>
-            <li><a class="currentNavPage" href="{{url('/')}}#shows">Shows</a></li>
-            <li><a class="currentNavPage" href="{{url('/albums')}}">Photos</a></li>
-            <li><a class="currentNavPage" href="{{url('/videos')}}">Videos</a></li>
-            <li><a class="currentNavPage" href="{{url('/releases')}}">Releases</a></li>
-<!--            <li><a class="currentNavPage" href="{{url('/game')}}">Game</a></li>-->
-            <li><a class="currentNavPage" href="{{url('/')}}#links">Links</a></li>
-            <li><a class="currentNavPage" href="{{url('/contact')}}">Contact</a></li>
+            <li><a class="currentNavPage" href="{{url('/')}}">HOME</a></li>
+            <li><a class="currentNavPage" href="{{url('/')}}#about">ABOUT</a></li>
+            <li><a class="currentNavPage" href="{{url('/')}}#news">NEWS</a></li>
+            <li><a class="currentNavPage" href="{{url('/')}}#shows">SHOWS</a></li>
+            <li><a class="currentNavPage" href="{{url('/albums')}}">PHOTOS</a></li>
+            <li><a class="currentNavPage" href="{{url('/videos')}}">VIDEOS</a></li>
+            <li><a class="currentNavPage" href="{{url('/releases')}}">RELEASES</a></li>
+<!--            <li><a class="currentNavPage" href="{{url('/game')}}">GAME</a></li>-->
+            <li><a class="currentNavPage" href="{{url('/')}}#links">LINKS</a></li>
+            <li><a class="currentNavPage" href="{{url('/contact')}}">CONTACT</a></li>
         </div>
         <div id="main">
             @yield('content')     
