@@ -591,16 +591,6 @@ h5{
 
 /*----------------------------------Table news*/
 
-.upcomingShowsTable thead th{
-    color: white;
-}
-
-.upcomingShowsTable tbody td{
-    color: white;
-}
-
-
-
 #container_ft{
     padding-top:5px;
 }
@@ -662,7 +652,7 @@ h5{
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        min-height: 400px;
+        min-height: 350px;
     }
 
     .header-media{
@@ -693,21 +683,25 @@ h5{
     }
 
     .logo_index{
-        margin-top: 90px;
-        width: 120px;
+        margin-top: 80px;
+        width: 80px;
         height: auto;
     }
     
     .logo_header{
-        margin-top: 20px;
+        margin-top: 15px;
         width: 50px;
         height: auto;
     }
 
     .upcomingShowsTable thead th{
-        font-size: 14px;
+        font-size: 12px;
     }
 
+    .upcomingShowsTable tbody td{
+        font-size: 11px;
+    }
+    
     .starWarsNews{
         background-image: url('../images/stars-bg.jpg');
         background-repeat: no-repeat;
@@ -731,10 +725,8 @@ h5{
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 30px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-        background-color: hsla(243, 96%, 14%, 0.75);
+        background-color: rgba(28,25,25,0.9);
     }
-
-   
 
     .sidenav .closebtn {
         position: absolute;
@@ -803,7 +795,7 @@ h5{
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        min-height: 400px;
+        min-height: 350px;
     }
     
     .header-media{
@@ -834,25 +826,23 @@ h5{
     }
 
     .logo_index{
-        margin-top: 90px;
-        width: 120px;
+        margin-top: 80px;
+        width: 80px;
         height: auto;
     }
     
      .logo_header{
-        margin-top: 20px;
+        margin-top: 15px;
         width: 50px;
         height: auto;
     }
 
     .upcomingShowsTable thead th{
         font-size: 12px;
-        color:white;
     }
 
     .upcomingShowsTable tbody td{
-        font-size: 12px;
-        color:white;
+        font-size: 11px;
     }
 
     .starWarsNews{
@@ -878,7 +868,7 @@ h5{
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 30px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-        background-color: hsla(243, 96%, 14%, 0.75);
+        background-color: rgba(28,25,25,0.9);
     }
 
     .sidenav .closebtn {
@@ -979,8 +969,8 @@ h5{
     }
 
     .logo_index{
-        margin-top: 90px;
-        width: 120px;
+        margin-top: 100px;
+        width: 90px;
         height: auto;
     }
     
@@ -990,8 +980,12 @@ h5{
         height: auto;
     }
 
-    .upcomingShowsTable td{
-        font-size: 14px;
+    .upcomingShowsTable thead th{
+        font-size: 12px;
+    }
+
+    .upcomingShowsTable tbody td{
+        font-size: 11px;
     }
 
     .starWarsNews{
@@ -1017,7 +1011,7 @@ h5{
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 30px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-        background-color: hsla(243, 96%, 14%, 0.75);
+        background-color: rgba(28,25,25,0.9);
     }
 
     .sidenav .closebtn {
@@ -1120,8 +1114,8 @@ h5{
     }
 
     .logo_index{
-        margin-top: 90px;
-        width: 120px;
+        margin-top: 100px;
+        width: 90px;
         height: auto;
     }
     
@@ -1131,8 +1125,12 @@ h5{
         height: auto;
     }
 
-    .upcomingShowsTable td{
-        font-size: 6px;
+    .upcomingShowsTable thead th{
+        font-size: 12px;
+    }
+
+    .upcomingShowsTable tbody td{
+        font-size: 11px;
     }
 
     .starWarsNews{
@@ -1158,7 +1156,7 @@ h5{
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 30px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-        background-color: hsla(243, 96%, 14%, 0.75);
+        background-color: rgba(28,25,25,0.9);
     }
 
     .sidenav .closebtn {
@@ -1186,16 +1184,52 @@ h5{
 and (max-device-width : 768px)
 and (orientation : landscape)
 {
+    #bg_hd_game, #bg_hd_contact, #bg_hd_releases{
+        min-height: 170px;
+    }
+
     .logo_index{
-        margin-top: 70px;
-        width: 180px;
+        margin-top: 80px;
+        width: 120px;
         height: auto;
     }
     
     .logo_header{
-        margin-top: 70px;
-        width: 100px;
+        margin-top: 60px;
+        width: 80px;
         height: auto;
+    }
+    
+    .header-media{
+        padding-right: 30px;
+        padding-top: 8px;
+    }
+
+    .header-media .header-icons a{
+        margin-left: 8px;
+        margin-right: 8px;
+        font-size: 1.3em;
+    }
+    
+    .hd-media-index{
+        padding-right: 30px;
+        padding-top: 12px;
+    }
+
+    .hd-media-index .hd-icons-index a{
+        color: white;
+        margin-left: 4px;
+        margin-right: 4px;
+        font-size: 1.3em;
+    }
+    
+    #intro{
+        background-image: url('../images/bg_03.png');
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 500px; 
+        position: relative;
     }
     
     .starWarsNews{
@@ -1220,7 +1254,7 @@ and (orientation : landscape)
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 30px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-        background-color: hsla(243, 96%, 14%, 0.75);
+        background-color: rgba(28,25,25,0.9);
     }
 
     .sidenav .closebtn {
@@ -1246,16 +1280,52 @@ and (orientation : landscape)
 @media only screen and (min-width : 481px)
 and (max-width : 768px)
 {
+    #bg_hd_game, #bg_hd_contact, #bg_hd_releases{
+        min-height: 180px;
+    }
+    
     .logo_index{
-        margin-top: 70px;
-        width: 180px;
+        margin-top: 80px;
+        width: 120px;
         height: auto;
     }
     
     .logo_header{
-        margin-top: 70px;
-        width: 100px;
+        margin-top: 60px;
+        width: 80px;
         height: auto;
+    }
+    
+    .header-media{
+        padding-right: 30px;
+        padding-top: 8px;
+    }
+    
+    .hd-media-index{
+        padding-right: 30px;
+        padding-top: 12px;
+    }
+
+    .hd-media-index .hd-icons-index a{
+        color: white;
+        margin-left: 4px;
+        margin-right: 4px;
+        font-size: 1.3em;
+    }
+    
+    #intro{
+        background-image: url('../images/bg_03.png');
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 500px; 
+        position: relative;
+    }
+
+    .header-media .header-icons a{
+        margin-left: 8px;
+        margin-right: 8px;
+        font-size: 1.3em;
     }
     
     .starWarsNews{
@@ -1280,7 +1350,7 @@ and (max-width : 768px)
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 30px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-        background-color: hsla(243, 96%, 14%, 0.75);
+        background-color: rgba(28,25,25,0.9);
     }
 
     .sidenav .closebtn {
@@ -1309,16 +1379,52 @@ and (max-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape)
 {
+    #bg_hd_game, #bg_hd_contact, #bg_hd_releases{
+        min-height: 190px;
+    }
+    
     .logo_index{
-        margin-top: 70px;
-        width: 180px;
+        margin-top: 40px;
+        width: 120px;
         height: auto;
     }
     
     .logo_header{
-        margin-top: 70px;
-        width: 100px;
+        margin-top: 30px;
+        width: 90px;
         height: auto;
+    }
+    
+    .header-media{
+        padding-right: 30px;
+        padding-top: 8px;
+    }
+
+    .header-media .header-icons a{
+        margin-left: 8px;
+        margin-right: 8px;
+        font-size: 1.3em;
+    }
+    
+    .hd-media-index{
+        padding-right: 30px;
+        padding-top: 12px;
+    }
+
+    .hd-media-index .hd-icons-index a{
+        color: white;
+        margin-left: 4px;
+        margin-right: 4px;
+        font-size: 1.3em;
+    }
+    
+    #intro{
+        background-image: url('../images/bg_03.png');
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 500px; 
+        position: relative;
     }
 
     .starWarsNews{
@@ -1344,7 +1450,7 @@ and (orientation : landscape)
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 30px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-        background-color: hsla(243, 96%, 14%, 0.75);
+        background-color: rgba(28,25,25,0.9);
     }
 
     .sidenav .closebtn {
@@ -1354,6 +1460,7 @@ and (orientation : landscape)
         font-size: 36px;
         margin-left: 50px;
     }
+    
     #main {
         transition: margin-left .5s;
         padding-right: 20px;
@@ -1370,16 +1477,52 @@ and (orientation : landscape)
 @media only screen and (min-width : 769px)
 and (max-width : 1024px)
 {
+    #bg_hd_game, #bg_hd_contact, #bg_hd_releases{
+        min-height: 190px;
+    }
+    
     .logo_index{
-        margin-top: 70px;
-        width: 180px;
+        margin-top: 40px;
+        width: 120px;
         height: auto;
     }
     
     .logo_header{
-        margin-top: 70px;
-        width: 100px;
+        margin-top: 30px;
+        width: 130px;
         height: auto;
+    }
+    
+    .header-media{
+        padding-right: 30px;
+        padding-top: 8px;
+    }
+
+    .header-media .header-icons a{
+        margin-left: 8px;
+        margin-right: 8px;
+        font-size: 1.3em;
+    }
+    
+    .hd-media-index{
+        padding-right: 30px;
+        padding-top: 12px;
+    }
+
+    .hd-media-index .hd-icons-index a{
+        color: white;
+        margin-left: 4px;
+        margin-right: 4px;
+        font-size: 1.3em;
+    }
+    
+    #intro{
+        background-image: url('../images/bg_03.png');
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 500px; 
+        position: relative;
     }
     
     iframe
@@ -1443,13 +1586,13 @@ and (max-width : 1823px)
 {
     .logo_index{
         margin-top: 50px;
-        width: 200px;
+        width: 180px;
         height: auto;
     }
     
     .logo_header{
         margin-top: 30px;
-        width: 140px;
+        width: 125px;
         height: auto;
     }
     
@@ -1458,7 +1601,7 @@ and (max-width : 1823px)
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
-        min-height: 650px; 
+        min-height: 630px; 
         position: relative;
     }
 
@@ -1583,7 +1726,7 @@ and (max-width : 1823px)
 
     .logo_index{
         margin-top: 70px;
-        width: 270px;
+        width: 260px;
         height: auto;
     }
     

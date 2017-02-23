@@ -193,8 +193,8 @@
         </div>
         
         <div class="row" id="upcomingShows" >
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center ">
-                <table class="table text-center upcomingShowsTable" >
+            <div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center ">
+                <table class="table table-condensed text-center upcomingShowsTable" >
                     <thead>
                         <tr>
                             <th>City/Town</th>

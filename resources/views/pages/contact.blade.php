@@ -38,6 +38,19 @@
     
 <section id="" class="section-dark-blue">
     <div class="container-fluid"> <!-- ---------------------------------must be fluid--->
+        
+        
+        <div class="row pull-right media">
+            <div class="col-lg-12 icons-group">
+                <a href="https://www.facebook.com/suchgreatlives">
+                    <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g">
+                    <i class="fa fa-youtube" aria-hidden="true"></i></a>
+                <a href="https://plus.google.com/106986527777902815660">
+                    <i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        
         <div class="row">
             <div class="col-lg-12">
                 <h2 class="section-heading">Contact us</h2>
