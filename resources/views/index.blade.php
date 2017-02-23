@@ -237,10 +237,11 @@
                     <div class="title-content">
                         <p class="content-header"><br>www.suchgreatlives.com</p>
                         <br>
-                        <p class="content-body">
+                        <p class="content-body text-center">
                         <div class="row ">
-                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 starwarsSglTitle">
-                                <img src="{{URL::asset('images/sgllogostarwars.png')}}" class="img-responsive">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <img src="{{URL::asset('images/sgllogostarwars.png')}}"  class="img-responsive sglLogoStarWars">
+                                </br>
                             </div>
                         </div>
                         <div class="row">

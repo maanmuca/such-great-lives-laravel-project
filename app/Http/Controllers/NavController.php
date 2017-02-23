@@ -35,7 +35,7 @@ class NavController extends Controller
 
         try
         {
-            $response = $fb->get('suchgreatlives?fields=posts.limit(1){message,created_time}');
+            $response = $fb->get('suchgreatlives?fields=posts.limit(3){message,created_time}');
             $posts= $response->getGraphAlbum();
             //echo "<script>alert('".$posts."')</script>";
             return view('index')->with('posts', json_decode($posts, true));
