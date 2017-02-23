@@ -29,12 +29,12 @@
     <body>
         <div id="fb-root"></div>
         <script>(function(d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id)) return;
-                js = d.createElement(s); js.id = id;
-                js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8&appId=1858518364430034";
-                fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));</script>
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8&appId=1858518364430034";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
         <a href="#" id="menu-slider">
             <i class="fa fa-bars text-center" aria-hidden="true"></i></a>
         <div id="mySidenav" class="sidenav">
@@ -47,7 +47,7 @@
             <li><a class="currentNavPage" href="{{url('/albums')}}">PHOTOS</a></li>
             <li><a class="currentNavPage" href="{{url('/videos')}}">VIDEOS</a></li>
             <li><a class="currentNavPage" href="{{url('/releases')}}">RELEASES</a></li>
-<!--            <li><a class="currentNavPage" href="{{url('/game')}}">GAME</a></li>-->
+            <!--            <li><a class="currentNavPage" href="{{url('/game')}}">GAME</a></li>-->
             <li><a class="currentNavPage" href="{{url('/')}}#links">LINKS</a></li>
             <li><a class="currentNavPage" href="{{url('/contact')}}">CONTACT</a></li>
         </div>
@@ -59,34 +59,52 @@
             <div class="container">
                 <div class="row">
                     
-                    <div class=" col-md-offset-3 col-md-3 col-sm-6">
+                    <div class=" ft-contact col-md-offset-3 col-md-3 col-sm-offset-1 col-sm-4">
                         <h5>FIND US</h5>
-                                    <p><a href="mailto:#" class="phone-link"><i class="fa fa-envelope footer-icon">
-                                      </i> E-mail : info@suchgreatlives.com</p>
-                            <p><a href="{{url('/contact')}}" class="phone-link">
+                        <p><a href="mailto:#" class="phone-link"><i class="fa fa-envelope footer-icon">
+                                </i> E-mail : info@suchgreatlives.com</p>
+                        <p><a href="{{url('/contact')}}" class="phone-link">
                                 <i class="fa fa-phone footer-icon"></i>Contact us</a></p>
                         <p><i class="fa fa-map-pin footer-icon"></i> Melbourne. Australia</p>
                     </div>
-                    <div class="col-md-3 col-sm-6 footer-media">
+                    <div class="col-md-3 col-sm-4 footer-media">
                         <br /><br />
-                            <a href="https://www.facebook.com/suchgreatlives">
-                                <i class="fa fa-facebook fa-2x" aria-hidden="true" data-toggle="tooltip" title="Facebook"></i></a>
-                            <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g">
+                        <a href="https://www.facebook.com/suchgreatlives">
+                            <i class="fa fa-facebook fa-2x" aria-hidden="true" data-toggle="tooltip" title="Facebook"></i></a>
+                        <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g">
                             <i class="fa fa-youtube fa-2x" aria-hidden="true" data-toggle="tooltip" title="YouTube"></i></a>
-                            <a href="https://plus.google.com/106986527777902815660">
+                        <a href="https://plus.google.com/106986527777902815660">
                             <i class="fa fa-google-plus fa-2x" aria-hidden="true" data-toggle="tooltip" title="Google+"></i></a>
                         <br /><br />
                     </div>
-                    <div class=" col-md-2 col-sm-6 pull-left">
-                         <h5>OUR SITE</h5>
-                        <ul class="footer-links">
-                            <li><a href="{{url('/')}}">Home</a></li>
-                            <li><a href="{{url('/albums')}}">Photos</a></li>
-                            <li><a href="{{url('/videos')}}">Videos</a></li>
-                            <li><a href="{{url('/releases')}}">Releases</a></li>
-                        </ul>
+                    <div class=" col-md-2 col-sm-3 pull-left">
+                        <h5 class="align-title">OUR SITE</h5>
+                        <table class="footer-links">
+                            <tbody>
+                                <tr>
+                                    <td><a href="{{url('/')}}">Home</a></td>
+                                    <td><a href="{{url('/videos')}}">Videos</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="{{url('/')}}#about">About</a></td> 
+                                    <td><a href="{{url('/releases')}}">Releases</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="{{url('/')}}#news">News</a></td>
+                                    <td><a href="{{url('/')}}#links">Links</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="{{url('/')}}#shows">Shows</a></td>
+                                    <td><a href="{{url('/contact')}}">Contact</a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="{{url('/albums')}}">Photos</a></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                  
+                    
                 </div>
             </div>
             
@@ -94,17 +112,14 @@
         <!------------------------------------------footer black block ---------------------------->
         
         <div class="copyright">
-            <div class="container">
-                <div class="col-md-6">
-                    <p>COPYRIGHT &copy; 2017 | SUCH GREAT LIVES | ALL RIGHTS RESERVED</p>
-                </div>
-                <div class="col-md-6">
-                    <ul class="authors">
-                        <li>Site</li>
-                        <li>Design</li>
-                        <li>Marco Munoz</li>
-                        <li>Paola Sanabria</li>
-                    </ul>
+            <div class="container-fluid">
+                <div class="row text-center">
+                    <div class="col-lg-6 col-md-6 col-sm-6 ">
+                        <p>COPYRIGHT &copy; 2017 | SUCH GREAT LIVES </p>
+                    </div>
+                    <div class="col-lg-offset-1 col-lg-5 col-md-6 col-sm-6">
+                        <p>SITE | DESIGN | MARCO MUNOZ | PAOLA SANABRIA</p>
+                    </div>
                 </div>
             </div>
         </div>

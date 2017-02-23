@@ -116,34 +116,31 @@
 
 /***********************************************videos classes implemented*****/
 
-.youtubeTitle{
-    position: absolute; top: 90%; left: 10%;
-    font-size: 12px;
-}
-
-.eachImageStyle{
-    position: relative; top: 0; left: 0;
-    font-size: 8px;
-}
-
-.youTubeBtnStyle{
-    position: absolute; top: 10%; left: 10%;
-}
-
-.youTubeBtnStyle{
-    width: 30%;
-    height: 40%;
-    opacity: 0.6;
-}
-
 .thumbnailStyle{
     margin-left: 0px;
     margin-right: 0px;
 }
 
 .mainVideoContainer{
-    background-color:#2D233B;
     margin-top: -20px;
+}
+
+.youtubeTitle{
+    position: absolute; top: 90%; 
+    padding-top: 25px;
+    font-size: 13px;
+}
+
+.eachImageStyle{
+    position: relative; top: 0; left: 0;
+    padding-top: 55px;
+}
+
+.youTubeBtnStyle{
+    position: absolute; top: 40%; left: 40%;
+    width: 30%;
+    height: 40%;
+    opacity: 0.6;
 }
 
 /*********************************************************Paola adding*****/
@@ -496,8 +493,8 @@ form{
 /*----------------------------footer--*/
 footer {
     margin-top: 80px;
-    margin-bottom: 20px;
-    font-size: 13px;
+    margin-bottom: 40px;
+    font-size: 12px;
 }
 
 h5{
@@ -511,16 +508,21 @@ h5{
     margin-left:2px;
 }
 
-.footer-links li {
+.footer-links tbody td{
     line-height: 22px;
+    padding-left: 20px;
 }
 
-.footer-links li a, .phone-link{
+.align-title, .ft-contact p, .ft-contact h5{
+    padding-left: 20px;
+}
+
+.footer-links tbody td a, .phone-link{
     color:#fff;
     text-decoration: none;
 }
 
-.phone-link:hover, .footer-links li a:hover, .footer-media a:hover{
+.phone-link:hover, .footer-media a:hover, .footer-links tbody td a:hover{
     color: #9acd32;
     text-decoration: none;
 }
@@ -531,34 +533,16 @@ h5{
 .copyright {
     min-height:40px;
     background-color: #000000;
+    padding-top: 12px;
+    padding-bottom: 15px;
 }
 
 .copyright p {
-    text-align:left;
     color:grey;
-    padding:10px 0;
+    text-align: center;
+    padding-top: 10px;
     margin-bottom:0px;
     font-size: 12px;
-}
-
-.authors {
-    list-style-type:none;
-    float:right;
-    margin-bottom:0px;
-    font-size: 13px;
-}
-
-.authors li {
-    float:left;
-    line-height:40px;
-    color: grey;
-}
-
-.authors li:after {
-    content:"|";
-    color: grey;
-    margin-right:8px;
-    margin-left:8px;
 }
 
 .footer-media a{
@@ -569,24 +553,6 @@ h5{
 }
 
 /********************************************************closing Paola*****/
-/*********************************************************videos classes implemented*****/
-.youtubeTitle{
-    position: absolute; top: 90%; 
-    padding-top: 25px;
-    font-size: 13px;
-}
-
-.eachImageStyle{
-    position: relative; top: 0; left: 0;
-    padding-top: 55px;
-}
-
-.youTubeBtnStyle{
-    position: absolute; top: 40%; left: 40%;
-    width: 30%;
-    height: 40%;
-    opacity: 0.6;
-}
 
 
 /*----------------------------------Table news*/
@@ -616,8 +582,8 @@ h5{
 {
     .section-blue, .section-dark-blue, .section-pink, .section-purple, 
     .section-red, .section-white{
-        padding-bottom: 30px;
-        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-top: 10px;
         padding-left: 5px;
         padding-right: 5px;
     }
@@ -627,11 +593,11 @@ h5{
     }
     
     body{
-        font-size: 13px;
+        font-size: 12px;
     }
     
     h2{
-        font-size: 25px;
+        font-size: 20px;
         font-weight: 300;
         line-height: 50px;
     }
@@ -643,9 +609,16 @@ h5{
     }
 
     h5{
-        font-size: 16px;
+        font-size: 12px;
         text-align: left;  
     }
+    
+    footer {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 11px;
+    }
+    
     
     #intro{
         background-image: url('../images/bg_03.png');
@@ -653,6 +626,11 @@ h5{
         background-size: cover;
         background-repeat: no-repeat;
         min-height: 350px;
+    }
+    
+    .copyright p {
+        font-size: 9px;
+        padding-top: 3px;
     }
 
     .header-media{
@@ -673,7 +651,7 @@ h5{
     
     .media{
         padding-right: 0px;
-        padding-top: 8px;
+        padding-top: 0px;
     }
     
     .media .icons-group a{
@@ -725,16 +703,19 @@ h5{
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 30px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-        background-color: rgba(28,25,25,0.9);
+/*        background-color: rgba(28,25,25,0.9);*/
+        background-image: url('../images/bg_sidenav.png');
     }
 
     .sidenav .closebtn {
+        color: #9acd32;
         position: absolute;
         top: 0;
-        right: 25px;
-        font-size: 36px;
+        right: 3px;
+        font-size: 40px;
         margin-left: 50px;
     }
+    
     #main {
         transition: margin-left .5s;
         padding: 20px;
@@ -759,8 +740,8 @@ h5{
 {
     .section-blue, .section-dark-blue, .section-pink, .section-purple, 
     .section-red, .section-white{
-        padding-bottom: 30px;
-        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-top:10px;
         padding-left: 5px;
         padding-right: 5px;
     }
@@ -770,11 +751,11 @@ h5{
     }
     
     body{
-        font-size: 13px;
+        font-size: 12px;
     }
     
     h2{
-        font-size: 25px;
+        font-size: 22px;
         font-weight: 300;
         line-height: 50px;
     }
@@ -786,8 +767,19 @@ h5{
     }
 
     h5{
-        font-size: 16px;
+        font-size: 12px;
         text-align: left;  
+    }
+    
+    footer {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 11px;
+    }
+    
+    .copyright p{
+        font-size: 9px;
+        padding-top: 3px;
     }
     
     #intro{
@@ -816,7 +808,7 @@ h5{
     
     .media{
         padding-right: 0px;
-        padding-top: 8px;
+        padding-top: 0px;
     }
     
     .media .icons-group a{
@@ -868,14 +860,16 @@ h5{
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 30px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-        background-color: rgba(28,25,25,0.9);
+/*        background-color: rgba(28,25,25,0.9);*/
+        background-image: url('../images/bg_sidenav.png');
     }
 
     .sidenav .closebtn {
+        color: #9acd32;
         position: absolute;
         top: 0;
-        right: 25px;
-        font-size: 36px;
+        right: 3px;
+        font-size: 40px;
         margin-left: 50px;
     }
 
@@ -913,11 +907,11 @@ h5{
     }
     
     body{
-        font-size: 13px;
+        font-size: 12px;
     }
     
     h2{
-        font-size: 25px;
+        font-size: 22px;
         font-weight: 300;
         line-height: 50px;
     }
@@ -929,8 +923,19 @@ h5{
     }
 
     h5{
-        font-size: 16px;
+        font-size: 12px;
         text-align: left;  
+    }
+    
+    footer {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 11px;
+    }
+    
+    .copyright p {
+        font-size: 9px;
+        padding-top: 3px;
     }
     
     #intro{
@@ -959,7 +964,7 @@ h5{
     
     .media{
         padding-right: 0px;
-        padding-top: 8px;
+        padding-top: 0px;
     }
     
     .media .icons-group a{
@@ -1011,14 +1016,16 @@ h5{
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 30px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-        background-color: rgba(28,25,25,0.9);
+/*        background-color: rgba(28,25,25,0.9);*/
+        background-image: url('../images/bg_sidenav.png');
     }
 
     .sidenav .closebtn {
+        color: #9acd32;
         position: absolute;
         top: 0;
-        right: 25px;
-        font-size: 36px;
+        right: 3px;
+        font-size: 40px;
         margin-left: 50px;
     }
 
@@ -1058,11 +1065,11 @@ h5{
     }
     
     body{
-        font-size: 13px;
+        font-size: 12px;
     }
     
     h2{
-        font-size: 25px;
+        font-size: 22px;
         font-weight: 300;
         line-height: 50px;
     }
@@ -1074,8 +1081,19 @@ h5{
     }
 
     h5{
-        font-size: 16px;
+        font-size: 12px;
         text-align: left;  
+    }
+    
+    footer {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 11px;
+    }
+    
+    .copyright p{
+        font-size: 9px;
+        padding-top: 3px;
     }
     
     #intro{
@@ -1104,7 +1122,7 @@ h5{
     
     .media{
         padding-right: 0px;
-        padding-top: 8px;
+        padding-top: 0px;
     }
     
     .media .icons-group a{
@@ -1156,14 +1174,16 @@ h5{
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 30px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-        background-color: rgba(28,25,25,0.9);
+/*        background-color: rgba(28,25,25,0.9);*/
+        background-image: url('../images/bg_sidenav.png');
     }
 
     .sidenav .closebtn {
+        color: #9acd32;
         position: absolute;
         top: 0;
-        right: 25px;
-        font-size: 36px;
+        right: 3px;
+        font-size: 40px;
         margin-left: 50px;
     }
 
@@ -1223,6 +1243,11 @@ and (orientation : landscape)
         font-size: 1.3em;
     }
     
+    .copyright p{
+        font-size: 11px;
+        padding-top: 3px;
+    }
+    
     #intro{
         background-image: url('../images/bg_03.png');
         background-position: top;
@@ -1254,14 +1279,16 @@ and (orientation : landscape)
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 30px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-        background-color: rgba(28,25,25,0.9);
+/*        background-color: rgba(28,25,25,0.9);*/
+        background-image: url('../images/bg_sidenav.png');
     }
 
     .sidenav .closebtn {
+        color: #9acd32;
         position: absolute;
         top: 0;
-        right: 25px;
-        font-size: 36px;
+        right: 3px;
+        font-size: 40px;
         margin-left: 50px;
     }
 
@@ -1313,6 +1340,11 @@ and (max-width : 768px)
         font-size: 1.3em;
     }
     
+    .copyright p{
+        font-size: 11px;
+        padding-top: 3px;
+    }
+    
     #intro{
         background-image: url('../images/bg_03.png');
         background-position: top;
@@ -1350,14 +1382,16 @@ and (max-width : 768px)
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 30px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-        background-color: rgba(28,25,25,0.9);
+/*        background-color: rgba(28,25,25,0.9);*/
+        background-image: url('../images/bg_sidenav.png');
     }
 
     .sidenav .closebtn {
+        color: #9acd32;
         position: absolute;
         top: 0;
-        right: 25px;
-        font-size: 36px;
+        right: 3px;
+        font-size: 40px;
         margin-left: 50px;
     }
 
@@ -1418,6 +1452,11 @@ and (orientation : landscape)
         font-size: 1.3em;
     }
     
+    .copyright p{
+        font-size: 11px;
+        padding-top: 3px;
+    }
+    
     #intro{
         background-image: url('../images/bg_03.png');
         background-position: top;
@@ -1450,14 +1489,16 @@ and (orientation : landscape)
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 30px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-        background-color: rgba(28,25,25,0.9);
+/*        background-color: rgba(28,25,25,0.9);*/
+        background-image: url('../images/bg_sidenav.png');
     }
 
     .sidenav .closebtn {
+        color: #9acd32;
         position: absolute;
         top: 0;
-        right: 25px;
-        font-size: 36px;
+        right: 3px;
+        font-size: 40px;
         margin-left: 50px;
     }
     
@@ -1516,6 +1557,11 @@ and (max-width : 1024px)
         font-size: 1.3em;
     }
     
+    .copyright p{
+        font-size: 11px;
+        padding-top: 3px;
+    }
+    
     #intro{
         background-image: url('../images/bg_03.png');
         background-position: top;
@@ -1561,10 +1607,11 @@ and (max-width : 1024px)
     }
 
     .sidenav .closebtn {
+        color: #9acd32;
         position: absolute;
         top: 0;
-        right: 25px;
-        font-size: 36px;
+        right: 3px;
+        font-size: 40px;
         margin-left: 50px;
         display: none;
     }
@@ -1594,6 +1641,11 @@ and (max-width : 1823px)
         margin-top: 30px;
         width: 125px;
         height: auto;
+    }
+    
+    .copyright {
+        padding-top: 2px;
+        padding-bottom: 5px;
     }
     
     #intro{
@@ -1646,10 +1698,11 @@ and (max-width : 1823px)
     }
 
     .sidenav .closebtn {
+        color: #9acd32;
         position: absolute;
         top: 0;
-        right: 25px;
-        font-size: 36px;
+        right: 3px;
+        font-size: 40px;
         margin-left: 50px;
         display: none;
     }
@@ -1691,6 +1744,14 @@ and (max-width : 1823px)
 
     h4{
         line-height: 45px;
+    }
+    .copyright {
+        padding-top: 2px;
+        padding-bottom: 5px;
+    }
+
+    .copyright p{
+        font-size: 13px;
     }
     
     #intro{
@@ -1759,10 +1820,11 @@ and (max-width : 1823px)
     }
 
     .sidenav .closebtn {
+        color: #9acd32;
         position: absolute;
         top: 0;
-        right: 25px;
-        font-size: 36px;
+        right: 3px;
+        font-size: 40px;
         margin-left: 50px;
     }
 

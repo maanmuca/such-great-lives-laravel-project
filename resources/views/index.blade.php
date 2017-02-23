@@ -107,7 +107,7 @@
         </div>
         
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <h2 class="section-heading">ABOUT US</h2>
             </div>
         </div>
@@ -187,7 +187,7 @@
         </div>
         
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <h2 class="section-heading">SHOWS</h2>
             </div>
         </div>
@@ -287,7 +287,7 @@
 
 <!-------------------------------- Section Links ------------------------------*-->
 <section id="links" class="section-dark-blue">
-    <div class="container-fluid links-cont">
+    <div class="container-fluid">
         
         <div class="row pull-right media">
             <div class="col-lg-12 icons-group">
@@ -301,18 +301,18 @@
         </div>
             
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <h2 class="section-heading">LINKS</h2>
             </div>
         </div>
         
         <div class="row">
-            <div class="col-md-6 col-md-offset-3 text-center">
+            <div class="col-lg-5 col-lg-offset-4 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-1">
                 <p>And more on our Such Great Lives singers YouTube channel here: </p>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-5 col-md-offset-4">
+            <div class="col-lg-4 col-lg-offset-5 col-md-4 col-md-offset-3 col-sm-6 col-sm-offset-2 col-xs-10 col-sm-offset-1">
                 <ul>
                     <li>
                         <a href="https://www.youtube.com/user/szabologist">
