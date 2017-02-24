@@ -28,8 +28,10 @@
     position: relative;
     text-align: center;
     cursor: default;
-    background: hsla(200, 96%, 26%, 0.3);
     margin-bottom: 20px;
+    
+    background-size: cover;
+    min-height: 250px;
 }
 
 .hovereffect .overlay {
@@ -43,8 +45,7 @@
 }
 
 .hovereffect img {
-    display: block;
-    position: relative;
+    display: center;
     max-width: none;
     width: calc(100% + 20px);
     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
@@ -55,7 +56,7 @@
     backface-visibility: hidden;
 }
 
-.hovereffect:hover img {
+.hovereffect:hover  {
     opacity: 0.1;
     filter: alpha(opacity=90);
     -webkit-transform: translate3d(0,0,0);

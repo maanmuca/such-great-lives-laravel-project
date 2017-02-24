@@ -20,7 +20,7 @@
 	    /* the class of the elements we want to layout. */
 	    pictureContainer: ".picture",
 	    /* the height we want our elements to have. */
-	    idealHeight: 150,
+	    idealHeight: 850,
 	    /* the horizontal and vertical margin between the elements (in px). */
 	    gutter: 6,
         }, options);
