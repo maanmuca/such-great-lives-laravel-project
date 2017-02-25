@@ -308,7 +308,7 @@
         
         <div class="row">
             <div class="col-lg-5 col-lg-offset-4 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-1">
-                <p>And more on our Such Great Lives singers YouTube channel here: </p>
+                <p>We'd be grateful if you also check out our solo projects. Nothing to loose! </p>
             </div>
         </div>
         <div class="row">
