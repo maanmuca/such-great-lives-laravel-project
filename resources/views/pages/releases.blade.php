@@ -6,7 +6,7 @@
   Date:08/02/2017
   Version: 1.0
 -->
-     
+
 @extends('layouts.layout')
 @section('content')
 
@@ -24,7 +24,7 @@
             </div>
         </div>
             
-         <!--  Logo image-->
+        <!--  Logo image-->
         <div class="row text-center">
             <div class="col-lg-12 col-md-12 col-sm-12">
                 <a href="{{url('/')}}">
@@ -37,8 +37,8 @@
 </div>      
     
 <section id="" class="section-pink">
-        <div class="container-fluid">
-            
+    <div class="container-fluid">
+        
         <div class="row pull-right media">
             <div class="col-lg-12 icons-group">
                 <a href="https://www.facebook.com/suchgreatlives">
@@ -57,21 +57,22 @@
         </div>
             
         <div class="row">
-            <div class="col-md-offset-1 col-md-4 col-sm-4 releases-wrapper">
+            <div class="col-md-offset-1 col-md-4 col-sm-4 ">
                 <h4 class="sub-heading">3.3</h4>
                 <h5>[ SOON ]</h5>
             </div>
         </div>
         <div class="row text-center">
-            <div class="col-md-offset-1 col-md-4 col-sm-4 releases-wrapper">
+            <div class="col-md-offset-1 col-md-4 col-sm-12 col-xs-12 releases-wrapper">
                 <img src='images/3.3.png' alt="" class="img-responsive">          
             </div>
                 
-            <div class="col-md-offset-1 col-md-4 col-sm-4 releases-wrapper">
+            <div class="col-lg-offset-1 col-md-4 col-md-offset-1 col-md-5 col-sm-12 col-xs-12">
                 <p class="text-justify">Our forthcoming album is brimming with 
                     originality. It is set to feature such live
                     favourites as NO RETREAT, NIEN NUNB, and SMARTPHONE. </p>
-                <p class="text-justify"> Please stay tuned! </p>
+                <p class="text-justify"> Please stay tuned! </p> 
+                    
                 <ol class="songs pull-left">
                     <li>Waiting For Episode 7</li>
                     <li>Life Coach</li>
@@ -88,7 +89,7 @@
                     <li>Reading Renee</li>
                 </ol>
                     
-                <ul class="mins pull-right">
+                <ul class="mins">
                     <li>(3.33)</li>
                     <li>(3.33)</li>
                     <li>(3.33)</li>
@@ -100,19 +101,21 @@
                     <li>(3.33)</li>
                     <li>(3.33)</li>
                     <li>(3.33)</li>
-                    <li>(3.33)</li>    
+                    <li>(3.33)</li>  
+                    <li>(3.33)</li> 
                 </ul>
+                    
             </div>
         </div>
             
-    </div>
+        </div>
 </section>
 <section id="" class="section-blue">
     <div class="container-fluid">
         
-          
+        
         <div class="row">
-            <div class="col-md-offset-1 col-md-4 col-sm-4 releases-wrapper">
+            <div class="col-md-offset-1 col-md-4 col-sm-4 ">
                 <h4 class="sub-heading">THE MANIA</h4>
                 <h5>[ 2014 ]</h5>
             </div>
@@ -122,7 +125,7 @@
                 <img src='images/mania.png' alt="" class="img-responsive">          
             </div>
                 
-            <div class="col-md-offset-1 col-md-4 col-sm-4 releases-wrapper">
+            <div class="col-md-offset-1 col-md-4 col-sm-4 ">
                 <p class="text-justify">Recorded at Jon's House in the long 
                     Australian winter of 2014. Drums kindly provided by
                     David LLoyd. </p>
@@ -145,8 +148,8 @@
                     <li>Write A List</li>
                     <li>Always The Towel</li>
                 </ol> 
-                     
-                <ul class="mins pull-right">
+                
+                <ul class="mins ">
                     <li>(3.15)</li>
                     <li>(3.07)</li>
                     <li>(3.45)</li>
@@ -167,11 +170,11 @@
             
     </div>
 </section>
-      
+
 <section id="" class="section-red">
     <div class="container-fluid">          
         <div class="row">
-            <div class="col-md-offset-1 col-md-4 col-sm-4 releases-wrapper">
+            <div class="col-md-offset-1 col-md-4 col-sm-4 r">
                 <h4 class="sub-heading">WHAT A CACK!</h4>
                 <h5>[ 2011 ]</h5>
             </div>
@@ -181,7 +184,7 @@
                 <img src='images/what_a_cack.png' alt="" class="img-responsive">          
             </div>
             
-            <div class="col-md-offset-1 col-md-4 col-sm-4 releases-wrapper">
+            <div class="col-md-offset-1 col-md-4 col-sm-4 ">
                 <p class="text-justify">Why not purchase our first album? 
                     You know most of the songs already. There are no drums and a 
                     bit of noise on the masters, but there's also a real lot of 
