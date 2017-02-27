@@ -10,7 +10,7 @@
 @extends('layouts.layout')
 @section('content')
      
-<section id="links" class="section-dark-blue">
+<section id="links" class="section-nocolor">
     <div class="container-fluid">
         
         <div class="row pull-right media">
@@ -32,11 +32,11 @@
             
             <div class="container" id="topAlbums">
            
-            <div class="row">
+            <div class="row text-center">
                 @if (count($albums) > 0)
                 @foreach($albums['albums'] as $album)
                 <a href="photos/{{$album['id']}}">
-                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 nopadding">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 nopadding">
                         <div class="hovereffect" >
                             <div class="overlay" style="background-image: url({{$album['photos'][0]['images'][1]['source']}})">
                                 <p>

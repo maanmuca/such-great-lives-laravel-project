@@ -17,8 +17,8 @@
 /************************gallery ************************/
 
 .nopadding {
-    padding: 0 !important;
-    margin: 0 !important;
+    padding: 5px !important;
+    margin: 5px !important;
 }
 
 /*container with color filter*/
@@ -30,7 +30,7 @@
     position: relative;
     text-align: center;
     cursor: default;
-    background: hsla(243, 96%, 14%, 0.4);
+    background: hsla(200, 96%, 26%, 0.3);
     
 }
 
@@ -63,8 +63,9 @@ h6{
     text-transform: uppercase;
     padding: 12em 0;
     color: #fff;
-    opacity: 1;
     overflow: hidden;
+    text-align: center;
+    position: relative;
     padding: 0.1em 0;
 }
 
@@ -74,7 +75,6 @@ h6{
     padding: 3.5em 0;
     padding-bottom: 2px;
     color: #FFF;
-    opacity: 0;
 }
 
 /*change the color of hoverefect container*/
@@ -394,6 +394,12 @@ form{
 }
 
 /*---------------------standard  color containers--*/
+.section-nocolor{
+    padding-bottom: 60px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
 .section-purple{
     background-color: hsla(272, 100%, 14%, 0.2);
@@ -494,27 +500,23 @@ form{
     transform:scale(1.1);
 }
 
-.songs li{
+ li.song { 
+    float:left; 
+    width:70%;
     font-size: 12px;
-    text-align: left;
-}
-
-.mins li{
-    font-size: 12px;
-    text-align: left;
     list-style-type:none;
-    text-indent:10em;
-}
-
-.song ul {
-         list-style-type:none;
-    }
-
-.song li {
-    display: inline;
-    font-size: 12px;
     text-align: left;
- }
+    padding-left: 0px;
+
+}
+  li.time { 
+      float:left; 
+      width:15%;
+      font-size: 12px;
+      list-style-type:none;
+      padding-top: 0px;
+      padding-bottom: 0px;
+  }
 
 /*----------------------------footer--*/
 footer {
@@ -604,15 +606,20 @@ h5{
     border: solid white 2px;
 }
 
-/*111111111////////////////////////////////////////////////////device-width 319px max//*/
+/*111111////////////////////////////////////////////////////device-width 319px max//*/
 @media only screen and (max-device-width : 319px)
 {
-    .section-blue, .section-dark-blue, .section-pink, .section-purple, 
+    .section-nocolor,.section-blue, .section-dark-blue, .section-pink, .section-purple, 
     .section-red, .section-white{
         padding-bottom: 20px;
         padding-top: 10px;
         padding-left: 5px;
         padding-right: 5px;
+    }
+    
+    .hovereffect {
+        width: 100%;
+        min-height: 90px;
     }
     
     #bg_hd_game, #bg_hd_contact, #bg_hd_releases{
@@ -761,24 +768,23 @@ h5{
       width: 35px;
     }
     
-    .mins li{
-        text-indent:6em;
+    li.time, li.song{
         font-size: 10px;
-    }
-      
-    .songs li{
-        font-size: 10px;
-    }
-    
+    }   
 }
 @media only screen and (max-width : 319px)
 {
-    .section-blue, .section-dark-blue, .section-pink, .section-purple, 
+    .section-nocolor,.section-blue, .section-dark-blue, .section-pink, .section-purple, 
     .section-red, .section-white{
         padding-bottom: 20px;
         padding-top:10px;
         padding-left: 5px;
         padding-right: 5px;
+    }
+    
+     .hovereffect {
+        width: 100%;
+        min-height: 90px;
     }
     
     #bg_hd_game, #bg_hd_contact, #bg_hd_releases{
@@ -926,24 +932,24 @@ h5{
       width: 35px;
     }
     
-     .mins li{
-        text-indent:6em;
+    li.time, li.song{
         font-size: 10px;
-    }
-      
-    .songs li{
-        font-size: 10px;
-    }
+    } 
 
 }
 @media only screen and (min-width : 320px) and (max-width : 480px)
 {
-    .section-blue, .section-dark-blue, .section-pink, .section-purple, 
+    .section-nocolor,.section-blue, .section-dark-blue, .section-pink, .section-purple, 
     .section-red, .section-white{
         padding-bottom: 30px;
         padding-top: 20px;
         padding-left: 5px;
         padding-right: 5px;
+    }
+    
+     .hovereffect {
+        width: 100%;
+        min-height: 90px;
     }
     
     #bg_hd_game, #bg_hd_contact, #bg_hd_releases{
@@ -1091,25 +1097,25 @@ h5{
       width: 35px;
     }
     
-     .mins li{
-        text-indent:6em;
+    li.time, li.song{
         font-size: 10px;
-    }
-      
-    .songs li{
-        font-size: 10px;
-    }
+    } 
 }
 
 /*//////////////////////////////////////Smartphones (portrait and landscape)//*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px)
 {
-    .section-blue, .section-dark-blue, .section-pink, .section-purple, 
+    .section-nocolor,.section-blue, .section-dark-blue, .section-pink, .section-purple, 
     .section-red, .section-white{
         padding-bottom: 30px;
         padding-top: 20px;
         padding-left: 5px;
         padding-right: 5px;
+    }
+    
+     .hovereffect {
+        width: 100%;
+        min-height: 90px;
     }
     
     #bg_hd_game, #bg_hd_contact, #bg_hd_releases{
@@ -1249,9 +1255,9 @@ h5{
         width: 35px;
     }
     
-    .mins li{
-        text-indent:6em;
-    }
+    li.time, li.song{
+        font-size: 10px;
+    } 
 
 }
 
@@ -1358,9 +1364,6 @@ and (orientation : landscape)
         width: 50px;
     }
     
-    .mins li{
-        text-indent:8em;
-    }
 }
 
 /*////////////////////////////////////////////////////////////////////////////*/
@@ -1464,10 +1467,7 @@ and (max-width : 768px)
     .bigIcons {
         width: 50px;
     }
-    
-    .mins li{
-        text-indent:8em;
-    }
+
 }
 
 
@@ -1577,9 +1577,6 @@ and (orientation : landscape)
         width: 50px;
     }
     
-    .mins li{
-        text-indent:8em;
-    }
 }
 
 /*/////////////////////////////////////////////////////////iPads (landscape)//*/
@@ -1692,10 +1689,6 @@ and (max-width : 1024px)
     
     .bigIcons {
         width: 50px;
-    }
-    
-    .mins li{
-        text-indent:8em;
     }
 }
 
