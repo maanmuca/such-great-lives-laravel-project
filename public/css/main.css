@@ -2,19 +2,16 @@
 @import url('https://fonts.googleapis.com/css?family=Acme');
 @import url('https://fonts.googleapis.com/css?family=Sansita');
 /************************buttonsAlbumsPage************************/
-.buttonsAlbum
-{
+.buttonsAlbum{
    margin:10px;
 }
 
 /************************carousel************************/
-.buttonsPhotos
-{
+.buttonsPhotos{
    margin: 10px;
 }
 
-.myFacebookShareButton
-{
+.myFacebookShareButton{
     color: white;
 }
 /************************gallery ************************/
@@ -119,34 +116,31 @@
 
 /***********************************************videos classes implemented*****/
 
-.youtubeTitle{
-    position: absolute; top: 90%; left: 10%;
-    font-size: 12px;
-}
-
-.eachImageStyle{
-    position: relative; top: 0; left: 0;
-    font-size: 8px;
-}
-
-.youTubeBtnStyle{
-    position: absolute; top: 10%; left: 10%;
-}
-
-.youTubeBtnStyle{
-    width: 30%;
-    height: 40%;
-    opacity: 0.6;
-}
-
 .thumbnailStyle{
     margin-left: 0px;
     margin-right: 0px;
 }
 
 .mainVideoContainer{
-    background-color:#2D233B;
     margin-top: -20px;
+}
+
+.youtubeTitle{
+    position: absolute; top: 90%; 
+    padding-top: 25px;
+    font-size: 13px;
+}
+
+.eachImageStyle{
+    position: relative; top: 0; left: 0;
+    padding-top: 55px;
+}
+
+.youTubeBtnStyle{
+    position: absolute; top: 40%; left: 40%;
+    width: 30%;
+    height: 40%;
+    opacity: 0.6;
 }
 
 /*********************************************************Paola adding*****/
@@ -161,17 +155,17 @@ body{
 }
 
 .section-heading{
-    /*font-family: 'Acme', sans-serif;*/
-    font-family: 'Sansita', sans-serif;
+      font-family: 'Acme', sans-serif;
+/*    font-family: 'Sansita', sans-serif;*/
 }
 
 .sub-heading{
-    /*font-family: 'Acme', sans-serif;*/
-    font-family: 'Sansita', sans-serif;
+      font-family: 'Acme', sans-serif;
+/*    font-family: 'Sansita', sans-serif;*/
 }
 
 h2{
-    font-size: 40px;
+    font-size: 34px;
     font-weight: 500;
     line-height: 60px;
     color: #fff;
@@ -186,29 +180,51 @@ h4{
 }
 
 h5{
-    font-size: 18px;
+    font-size: 14px;
+    font-weight: 100;
     text-align: left;  
 }
 
-.icons-group a{
+.sidenav a {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 15px;
     color: white;
-    padding-top: 14px;
-    margin: 8px;
-    font-size: 1.8em;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Acme', sans-serif;
+    font-weight: 100;
 }
 
-.icons-group a:hover{
-    color: #ade504;
+.sidenav a:hover {
+    text-decoration: none; 
+    color: #9acd32;
+}
+
+.sidenav li{
+    margin-left: 35px;
+    list-style: none;
+    text-align: left;
+}
+
+.media{
+    padding-right: 0px;
+    padding-top: 10px;
+}
+
+.media .icons-group a{
+    color: white;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 1.4em;
+}
+
+.icons-group a:hover, #links a:hover{
+    color: #9acd32;
+    text-decoration: none;  
 }
 
 /*---------------------------header-index------*/
-
-#sgl-logo{
-    padding-top: 0%;
-    width: 12%;
-    height: auto;
-    margin-bottom: 30px;
-}
 
 .logo_index{
     margin-top: 60px;
@@ -225,12 +241,28 @@ h5{
     color: white;
     margin-left: 8px;
     margin-right: 8px;
-    font-size: 1.8em;
+    font-size: 1.4em;
 }
 
 .header-media .header-icons a:hover{
-    opacity: 0.6; 
-    filter: alpha(opacity=30);
+    color: #9acd32;
+    text-decoration: none;
+}
+
+.hd-media-index{
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.hd-media-index .hd-icons-index a{
+    color: white;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-size: 1.4em;
+}
+
+.hd-media-index .hd-icons-index a:hover{
+    color: #9acd32;
     text-decoration: none;
 }
 
@@ -253,7 +285,7 @@ h5{
 }
 
 .bigIcons {
-    width: 40%;
+    width: 60px;
     height: auto;
     padding-bottom: 15px;
     padding-top: 15px;
@@ -262,9 +294,8 @@ h5{
 }
 
 .bigIcons:hover{
-    opacity: 0.3; 
+    opacity: 0.4; 
     filter: alpha(opacity=30);
-    content: "15";
 }
 
 
@@ -280,38 +311,70 @@ h5{
     padding-bottom: 10px;
 }
 
+.upcomingShowsTable th{
+    text-align: center;
+}
+
+.upcomingShowsTable td{
+    text-align: center;
+}
+
 /*-----------pages--------*/
+.logo_header{
+    margin-top: 40px;
+    width: 140px;
+    height: auto;
+}
+
 #bg_hd_game{
-    background-image: url("../images/game_10.png");
-    background-size: cover;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    max-height: 300px;
-}
-
-#bg_hd_contact{
-    background-image: url("../images/contact_05.png");
-    background-size: cover;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    max-height: 300px;
-}
-
-
-#bg_hd_releases{
-    background-image: url("../images/releases_hd.png");
+    background-image: url("../images/game.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     min-height: 300px;
 }
 
+#bg_hd_contact{
+    background-image: url("../images/contact.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+}
+
+
+#bg_hd_releases{
+    background-image: url("../images/releases.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+}
+
+
+
 .form-contact{
     background-color: hsla(186, 96%, 98%, 0.2);
-    padding: 60px 60px 40px 60px;
+    padding: 60px 60px 80px 60px;
     clear:both;
     margin-top: 20px;
     margin-bottom: 50px;
+}
+
+form{
+    padding-bottom: 15px;
+}
+
+.btn-primary.btn-submit{
+    background: none;
+    background-color: hsla(243, 96%, 14%, 0.5);
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.btn-primary.btn-submit:hover{
+   background-color: hsla(300, 96%, 18%, 0.3);
+   border-color: #fff;
 }
 
 /*---------------------standard  color containers--*/
@@ -430,8 +493,8 @@ h5{
 /*----------------------------footer--*/
 footer {
     margin-top: 80px;
-    margin-bottom: 20px;
-    font-size: 13px;
+    margin-bottom: 40px;
+    font-size: 12px;
 }
 
 h5{
@@ -445,17 +508,22 @@ h5{
     margin-left:2px;
 }
 
-.footer-links li {
+.footer-links tbody td{
     line-height: 22px;
+    padding-left: 20px;
 }
 
-.footer-links li a, .phone-link{
+.align-title, .ft-contact p, .ft-contact h5{
+    padding-left: 20px;
+}
+
+.footer-links tbody td a, .phone-link{
     color:#fff;
     text-decoration: none;
 }
 
-.phone-link:hover, #links a:hover, .footer-links li a:hover, .footer-media a:hover{
-    color: #ade504;
+.phone-link:hover, .footer-media a:hover, .footer-links tbody td a:hover{
+    color: #9acd32;
     text-decoration: none;
 }
 .footer-icon, .links-icons{
@@ -465,34 +533,16 @@ h5{
 .copyright {
     min-height:40px;
     background-color: #000000;
+    padding-top: 12px;
+    padding-bottom: 15px;
 }
 
 .copyright p {
-    text-align:left;
     color:grey;
-    padding:10px 0;
+    text-align: center;
+    padding-top: 10px;
     margin-bottom:0px;
     font-size: 12px;
-}
-
-.authors {
-    list-style-type:none;
-    float:right;
-    margin-bottom:0px;
-    font-size: 13px;
-}
-
-.authors li {
-    float:left;
-    line-height:40px;
-    color: grey;
-}
-
-.authors li:after {
-    content:"|";
-    color: grey;
-    margin-right:8px;
-    margin-left:8px;
 }
 
 .footer-media a{
@@ -503,35 +553,9 @@ h5{
 }
 
 /********************************************************closing Paola*****/
-/*********************************************************videos classes implemented*****/
-.youtubeTitle{
-    position: absolute; top: 90%; 
-    padding-top: 25px;
-    font-size: 13px;
-}
-
-.eachImageStyle{
-    position: relative; top: 0; left: 0;
-    padding-top: 55px;
-}
-
-.youTubeBtnStyle{
-    position: absolute; top: 40%; left: 40%;
-    width: 30%;
-    height: 40%;
-    opacity: 0.6;
-}
 
 
 /*----------------------------------Table news*/
-
-.upcomingShowsTable thead th{
-    color: white;
-}
-
-.upcomingShowsTable tbody td{
-    color: white;
-}
 
 #container_ft{
     padding-top:5px;
@@ -540,7 +564,7 @@ h5{
 
 #menu-slider{
     position:fixed;
-    z-index: 2;
+    z-index: 3;
     font-size: 28px;
     padding-top: 5px;
     color: white;
@@ -553,119 +577,123 @@ h5{
     border: solid white 2px;
 }
 
-/*////////////////////////////////////////////////////device-width 319px max//*/
+/*111111111////////////////////////////////////////////////////device-width 319px max//*/
 @media only screen and (max-device-width : 319px)
 {
+    .section-blue, .section-dark-blue, .section-pink, .section-purple, 
+    .section-red, .section-white{
+        padding-bottom: 20px;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    #bg_hd_game, #bg_hd_contact, #bg_hd_releases{
+        min-height: 90px;
+    }
+    
+    body{
+        font-size: 12px;
+    }
+    
+    h2{
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 50px;
+    }
+
+    h4{
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 25px;
+    }
+
+    h5{
+        font-size: 12px;
+        text-align: left;  
+    }
+    
+    footer {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 11px;
+    }
+    
+    
     #intro{
         background-image: url('../images/bg_03.png');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        min-height: 400px;
+        min-height: 350px;
+    }
+    
+    .copyright p {
+        font-size: 9px;
+        padding-top: 3px;
     }
 
     .header-media{
+        display: none;
+    }
+    
+    .hd-media-index{
         padding-right: 4px;
-        padding-top: 0px;
+        padding-top: 8px;
     }
 
-    .header-media .header-icons a{
+    .hd-media-index .hd-icons-index a{
         color: white;
         margin-left: 4px;
         margin-right: 4px;
-        font-size: 1.1em;
+        font-size: 1.2em;
+    }
+    
+    .media{
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+    
+    .media .icons-group a{
+        padding-top: 0px;
+        margin-left: 2px;
+        font-size: 1.2em;
     }
 
     .logo_index{
-        margin-top: 65px;
-        width: 100px;
+        margin-top: 80px;
+        width: 80px;
         height: auto;
     }
-
-    .upcomingShowsTable thead th{
-        font-size: 14px;
-    }
-    .sidenav {
-        height: 100%; /* 100% Full-height */
-        width: 0px; /* 0 width - change this with JavaScript */
-        position: fixed; /* Stay in place */
-        z-index: 1; /* Stay on top */
-        top: 0;
-        left: 0;
-        overflow-x: hidden; /* Disable horizontal scroll */
-        padding-top: 30px; /* Place content 60px from the top */
-        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-        background-color: hsla(243, 96%, 14%, 0.75);
-    }
-
-    /* The navigation menu links */
-    .sidenav a {
-        padding: 8px 8px 8px 8px;
-        text-decoration: none;
-        font-size: 20px;
-        color: white;
-        display: block;
-        transition: 0.3s;
-        font-family: 'Sansita', sans-serif;
-
-    }
-
-    .sidenav li{
-        list-style: none;
-        text-align: center;
-    }
-
-    .sidenav .closebtn {
-        position: absolute;
-        top: 0;
-        right: 25px;
-        font-size: 36px;
-        margin-left: 50px;
-    }
-    #main {
-        transition: margin-left .5s;
-        padding: 20px;
-        margin-left:0px ;
-    }
-
-}
-@media only screen and (max-width : 319px)
-{
-    #intro{
-        background-image: url('../images/bg_03.png');
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        min-height: 400px;
-    }
-
-    .header-media{
-        padding-right: 4px;
-        padding-top: 0px;
-    }
-
-    .header-media .header-icons a{
-        color: white;
-        margin-left: 4px;
-        margin-right: 4px;
-        font-size: 1.1em;
-    }
-
-    .logo_index{
-        margin-top: 65px;
-        width: 100px;
+    
+    .logo_header{
+        margin-top: 15px;
+        width: 50px;
         height: auto;
     }
 
     .upcomingShowsTable thead th{
         font-size: 12px;
-        color:white;
     }
 
     .upcomingShowsTable tbody td{
-        font-size: 12px;
-        color:white;
+        font-size: 11px;
     }
+    
+    .starWarsNews{
+        background-image: url('../images/stars-bg.jpg');
+        background-repeat: no-repeat;
+        color:yellow;
+        height: 200px;
+    }
+
+    .starwarsSglTitle{
+        width: 75%;
+        height: 75%;
+        padding-left: 25%;
+        margin-bottom: 50px;
+    }
+
     .sidenav {
         height: 100%; /* 100% Full-height */
         width: 0px; /* 0 width - change this with JavaScript */
@@ -676,31 +704,173 @@ h5{
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 30px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-        background-color: hsla(243, 96%, 14%, 0.75);
-    }
-
-    /* The navigation menu links */
-    .sidenav a {
-        padding: 8px 8px 8px 8px;
-        text-decoration: none;
-        font-size: 20px;
-        color: white;
-        display: block;
-        transition: 0.3s;
-        font-family: 'Sansita', sans-serif;
-
-    }
-
-    .sidenav li{
-        list-style: none;
-        text-align: center;
+/*        background-color: rgba(28,25,25,0.9);*/
+        background-image: url('../images/bg_sidenav.png');
     }
 
     .sidenav .closebtn {
+        color: #9acd32;
         position: absolute;
         top: 0;
-        right: 25px;
-        font-size: 36px;
+        right: 3px;
+        font-size: 40px;
+        margin-left: 50px;
+    }
+    
+    #main {
+        transition: margin-left .5s;
+        padding: 20px;
+        margin-left:0px ;
+    }
+    
+    .form-contact{
+        padding: 25px 10px 50px 10px;
+    }
+    
+    form{
+        padding-bottom: 4px;
+    }
+
+    .bigIcons {
+      width: 35px;
+    }
+    
+    
+}
+@media only screen and (max-width : 319px)
+{
+    .section-blue, .section-dark-blue, .section-pink, .section-purple, 
+    .section-red, .section-white{
+        padding-bottom: 20px;
+        padding-top:10px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    #bg_hd_game, #bg_hd_contact, #bg_hd_releases{
+        min-height: 90px;
+    }
+    
+    body{
+        font-size: 12px;
+    }
+    
+    h2{
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 50px;
+    }
+
+    h4{
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 25px;
+    }
+
+    h5{
+        font-size: 12px;
+        text-align: left;  
+    }
+    
+    footer {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 11px;
+    }
+    
+    .copyright p{
+        font-size: 9px;
+        padding-top: 3px;
+    }
+    
+    #intro{
+        background-image: url('../images/bg_03.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 350px;
+    }
+    
+    .header-media{
+        display: none;
+    }
+
+    .hd-media-index{
+        padding-right: 4px;
+        padding-top: 8px;
+    }
+
+    .hd-media-index .hd-icons-index a{
+        color: white;
+        margin-left: 4px;
+        margin-right: 4px;
+        font-size: 1.2em;
+    }
+    
+    .media{
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+    
+    .media .icons-group a{
+        padding-top: 0px;
+        margin-left: 2px;
+        font-size: 1.2em;
+    }
+
+    .logo_index{
+        margin-top: 80px;
+        width: 80px;
+        height: auto;
+    }
+    
+     .logo_header{
+        margin-top: 15px;
+        width: 50px;
+        height: auto;
+    }
+
+    .upcomingShowsTable thead th{
+        font-size: 12px;
+    }
+
+    .upcomingShowsTable tbody td{
+        font-size: 11px;
+    }
+
+    .starWarsNews{
+        background-image: url('../images/stars-bg.jpg');
+        background-repeat: no-repeat;
+        color:yellow;
+        height: 200px;
+    }
+
+    .starwarsSglTitle{
+        width: 75%;
+        height: 75%;
+        padding-left: 25%;
+    }
+
+    .sidenav {
+        height: 100%; /* 100% Full-height */
+        width: 0px; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0;
+        left: 0;
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 30px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+/*        background-color: rgba(28,25,25,0.9);*/
+        background-image: url('../images/bg_sidenav.png');
+    }
+
+    .sidenav .closebtn {
+        color: #9acd32;
+        position: absolute;
+        top: 0;
+        right: 3px;
+        font-size: 40px;
         margin-left: 50px;
     }
 
@@ -708,11 +878,67 @@ h5{
         transition: margin-left .5s;
         padding: 20px;
         margin-left:0px ;
+    }
+    
+    .form-contact{
+        padding: 25px 10px 50px 10px;
+    }
+    
+    form{
+        padding-bottom: 4px;
+    }
+    
+    .bigIcons {
+      width: 35px;
     }
 
 }
 @media only screen and (min-width : 320px) and (max-width : 480px)
 {
+    .section-blue, .section-dark-blue, .section-pink, .section-purple, 
+    .section-red, .section-white{
+        padding-bottom: 30px;
+        padding-top: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    #bg_hd_game, #bg_hd_contact, #bg_hd_releases{
+        min-height: 90px;
+    }
+    
+    body{
+        font-size: 12px;
+    }
+    
+    h2{
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 50px;
+    }
+
+    h4{
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 25px;
+    }
+
+    h5{
+        font-size: 12px;
+        text-align: left;  
+    }
+    
+    footer {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 11px;
+    }
+    
+    .copyright p {
+        font-size: 9px;
+        padding-top: 3px;
+    }
+    
     #intro{
         background-image: url('../images/bg_03.png');
         background-position: center;
@@ -722,26 +948,65 @@ h5{
     }
 
     .header-media{
+        display: none;
+    }
+    
+    .hd-media-index{
         padding-right: 4px;
-        padding-top: 0px;
+        padding-top: 8px;
     }
 
-    .header-media .header-icons a{
+    .hd-media-index .hd-icons-index a{
         color: white;
         margin-left: 4px;
         margin-right: 4px;
-        font-size: 1.1em;
+        font-size: 1.2em;
+    }
+    
+    .media{
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+    
+    .media .icons-group a{
+        padding-top: 0px;
+        margin-left: 2px;
+        font-size: 1.2em;
     }
 
     .logo_index{
-        margin-top: 65px;
-        width: 100px;
+        margin-top: 100px;
+        width: 90px;
+        height: auto;
+    }
+    
+     .logo_header{
+        margin-top: 20px;
+        width: 50px;
         height: auto;
     }
 
-    .upcomingShowsTable td{
-        font-size: 14px;
+    .upcomingShowsTable thead th{
+        font-size: 12px;
     }
+
+    .upcomingShowsTable tbody td{
+        font-size: 11px;
+    }
+
+    .starWarsNews{
+        background-image: url('../images/stars-bg.jpg');
+        background-repeat: no-repeat;
+        color:yellow;
+        height: 200px;
+    }
+
+    .starwarsSglTitle{
+        width: 75%;
+        height: 75%;
+        padding-left: 25%;
+    }
+
     .sidenav {
         height: 100%; /* 100% Full-height */
         width: 0px; /* 0 width - change this with JavaScript */
@@ -752,31 +1017,16 @@ h5{
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 30px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-        background-color: hsla(243, 96%, 14%, 0.75);
-    }
-
-    /* The navigation menu links */
-    .sidenav a {
-        padding: 8px 8px 8px 8px;
-        text-decoration: none;
-        font-size: 20px;
-        color: white;
-        display: block;
-        transition: 0.3s;
-        font-family: 'Sansita', sans-serif;
-
-    }
-
-    .sidenav li{
-        list-style: none;
-        text-align: center;
+/*        background-color: rgba(28,25,25,0.9);*/
+        background-image: url('../images/bg_sidenav.png');
     }
 
     .sidenav .closebtn {
+        color: #9acd32;
         position: absolute;
         top: 0;
-        right: 25px;
-        font-size: 36px;
+        right: 3px;
+        font-size: 40px;
         margin-left: 50px;
     }
 
@@ -784,6 +1034,18 @@ h5{
         transition: margin-left .5s;
         padding: 20px;
         margin-left:0px ;
+    }
+    
+    .form-contact{
+        padding: 25px 10px 50px 10px;
+    }
+    
+    form{
+        padding-bottom: 4px;
+    }
+    
+    .bigIcons {
+      width: 35px;
     }
 
 }
@@ -791,6 +1053,50 @@ h5{
 /*//////////////////////////////////////Smartphones (portrait and landscape)//*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px)
 {
+    .section-blue, .section-dark-blue, .section-pink, .section-purple, 
+    .section-red, .section-white{
+        padding-bottom: 30px;
+        padding-top: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    #bg_hd_game, #bg_hd_contact, #bg_hd_releases{
+        min-height: 90px;
+    }
+    
+    body{
+        font-size: 12px;
+    }
+    
+    h2{
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 50px;
+    }
+
+    h4{
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 25px;
+    }
+
+    h5{
+        font-size: 12px;
+        text-align: left;  
+    }
+    
+    footer {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 11px;
+    }
+    
+    .copyright p{
+        font-size: 9px;
+        padding-top: 3px;
+    }
+    
     #intro{
         background-image: url('../images/bg_03.png');
         background-position: center;
@@ -800,25 +1106,63 @@ h5{
     }
 
     .header-media{
+        display: none;
+    }
+    
+    .hd-media-index{
         padding-right: 4px;
-        padding-top: 0px;
+        padding-top: 8px;
     }
 
-    .header-media .header-icons a{
+    .hd-media-index .hd-icons-index a{
         color: white;
         margin-left: 4px;
         margin-right: 4px;
-        font-size: 1.1em;
+        font-size: 1.2em;
+    }
+    
+    .media{
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+    
+    .media .icons-group a{
+        padding-top: 0px;
+        margin-left: 2px;
+        font-size: 1.2em;
     }
 
     .logo_index{
-        margin-top: 65px;
-        width: 100px;
+        margin-top: 100px;
+        width: 90px;
+        height: auto;
+    }
+    
+     .logo_header{
+        margin-top: 20px;
+        width: 50px;
         height: auto;
     }
 
-    .upcomingShowsTable td{
-        font-size: 6px;
+    .upcomingShowsTable thead th{
+        font-size: 12px;
+    }
+
+    .upcomingShowsTable tbody td{
+        font-size: 11px;
+    }
+
+    .starWarsNews{
+        background-image: url('../images/stars-bg.jpg');
+        background-repeat: no-repeat;
+        color:yellow;
+        height: 200px;
+    }
+
+    .starwarsSglTitle{
+        width: 75%;
+        height: 75%;
+        padding-left: 25%;
     }
 
     .sidenav {
@@ -831,31 +1175,16 @@ h5{
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 30px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-        background-color: hsla(243, 96%, 14%, 0.75);
-    }
-
-    /* The navigation menu links */
-    .sidenav a {
-        padding: 8px 8px 8px 8px;
-        text-decoration: none;
-        font-size: 20px;
-        color: white;
-        display: block;
-        transition: 0.3s;
-        font-family: 'Sansita', sans-serif;
-
-    }
-
-    .sidenav li{
-        list-style: none;
-        text-align: center;
+/*        background-color: rgba(28,25,25,0.9);*/
+        background-image: url('../images/bg_sidenav.png');
     }
 
     .sidenav .closebtn {
+        color: #9acd32;
         position: absolute;
         top: 0;
-        right: 25px;
-        font-size: 36px;
+        right: 3px;
+        font-size: 40px;
         margin-left: 50px;
     }
 
@@ -863,15 +1192,84 @@ h5{
         transition: margin-left .5s;
         padding: 20px;
         margin-left:0px ;
+    }
+    
+    .bigIcons {
+        width: 35px;
     }
 
 }
 
-/*////////////////////////////////////////////////////////////////////////////*/
+/*3333333////////////////////////////////////////////////////////////////////////////*/
 @media only screen and (min-device-width : 481px)
 and (max-device-width : 768px)
 and (orientation : landscape)
 {
+    #bg_hd_game, #bg_hd_contact, #bg_hd_releases{
+        min-height: 170px;
+    }
+
+    .logo_index{
+        margin-top: 80px;
+        width: 120px;
+        height: auto;
+    }
+    
+    .logo_header{
+        margin-top: 60px;
+        width: 80px;
+        height: auto;
+    }
+    
+    .header-media{
+        padding-right: 30px;
+        padding-top: 8px;
+    }
+
+    .header-media .header-icons a{
+        margin-left: 8px;
+        margin-right: 8px;
+        font-size: 1.3em;
+    }
+    
+    .hd-media-index{
+        padding-right: 30px;
+        padding-top: 12px;
+    }
+
+    .hd-media-index .hd-icons-index a{
+        color: white;
+        margin-left: 4px;
+        margin-right: 4px;
+        font-size: 1.3em;
+    }
+    
+    .copyright p{
+        font-size: 11px;
+        padding-top: 3px;
+    }
+    
+    #intro{
+        background-image: url('../images/bg_03.png');
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 500px; 
+        position: relative;
+    }
+    
+    .starWarsNews{
+        background-image: url('../images/stars-bg.jpg');
+        background-repeat: no-repeat;
+        color:yellow;
+        height: 200px;
+    }
+
+    .starwarsSglTitle{
+        width: 75%;
+        height: 75%;
+        padding-left: 25%;
+    }
     .sidenav {
         height: 100%; /* 100% Full-height */
         width: 0px; /* 0 width - change this with JavaScript */
@@ -882,31 +1280,16 @@ and (orientation : landscape)
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 30px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-        background-color: hsla(243, 96%, 14%, 0.75);
-    }
-
-    /* The navigation menu links */
-    .sidenav a {
-        padding: 8px 8px 8px 8px;
-        text-decoration: none;
-        font-size: 20px;
-        color: white;
-        display: block;
-        transition: 0.3s;
-        font-family: 'Sansita', sans-serif;
-
-    }
-
-    .sidenav li{
-        list-style: none;
-        text-align: center;
+/*        background-color: rgba(28,25,25,0.9);*/
+        background-image: url('../images/bg_sidenav.png');
     }
 
     .sidenav .closebtn {
+        color: #9acd32;
         position: absolute;
         top: 0;
-        right: 25px;
-        font-size: 36px;
+        right: 3px;
+        font-size: 40px;
         margin-left: 50px;
     }
 
@@ -914,6 +1297,10 @@ and (orientation : landscape)
         transition: margin-left .5s;
         padding: 20px;
         margin-left:0px ;
+    }
+    
+    .bigIcons {
+        width: 50px;
     }
 }
 
@@ -921,7 +1308,71 @@ and (orientation : landscape)
 @media only screen and (min-width : 481px)
 and (max-width : 768px)
 {
+    #bg_hd_game, #bg_hd_contact, #bg_hd_releases{
+        min-height: 180px;
+    }
+    
+    .logo_index{
+        margin-top: 80px;
+        width: 120px;
+        height: auto;
+    }
+    
+    .logo_header{
+        margin-top: 60px;
+        width: 80px;
+        height: auto;
+    }
+    
+    .header-media{
+        padding-right: 30px;
+        padding-top: 8px;
+    }
+    
+    .hd-media-index{
+        padding-right: 30px;
+        padding-top: 12px;
+    }
 
+    .hd-media-index .hd-icons-index a{
+        color: white;
+        margin-left: 4px;
+        margin-right: 4px;
+        font-size: 1.3em;
+    }
+    
+    .copyright p{
+        font-size: 11px;
+        padding-top: 3px;
+    }
+    
+    #intro{
+        background-image: url('../images/bg_03.png');
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 500px; 
+        position: relative;
+    }
+
+    .header-media .header-icons a{
+        margin-left: 8px;
+        margin-right: 8px;
+        font-size: 1.3em;
+    }
+    
+    .starWarsNews{
+        background-image: url('../images/stars-bg.jpg');
+        background-repeat: no-repeat;
+        color:yellow;
+        height: 200px;
+    }
+
+    .starwarsSglTitle{
+        width: 75%;
+        height: 75%;
+        padding-left: 25%;
+    }
     .sidenav {
         height: 100%; /* 100% Full-height */
         width: 0px; /* 0 width - change this with JavaScript */
@@ -932,31 +1383,16 @@ and (max-width : 768px)
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 30px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-        background-color: hsla(243, 96%, 14%, 0.75);
-    }
-
-    /* The navigation menu links */
-    .sidenav a {
-        padding: 8px 8px 8px 8px;
-        text-decoration: none;
-        font-size: 20px;
-        color: white;
-        display: block;
-        transition: 0.3s;
-        font-family: 'Sansita', sans-serif;
-
-    }
-
-    .sidenav li{
-        list-style: none;
-        text-align: center;
+/*        background-color: rgba(28,25,25,0.9);*/
+        background-image: url('../images/bg_sidenav.png');
     }
 
     .sidenav .closebtn {
+        color: #9acd32;
         position: absolute;
         top: 0;
-        right: 25px;
-        font-size: 36px;
+        right: 3px;
+        font-size: 40px;
         margin-left: 50px;
     }
 
@@ -964,6 +1400,10 @@ and (max-width : 768px)
         transition: margin-left .5s;
         padding: 20px;
         margin-left:0px ;
+    }
+    
+    .bigIcons {
+        width: 50px;
     }
 }
 
@@ -974,6 +1414,72 @@ and (max-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape)
 {
+    #bg_hd_game, #bg_hd_contact, #bg_hd_releases{
+        min-height: 190px;
+    }
+    
+    .logo_index{
+        margin-top: 40px;
+        width: 120px;
+        height: auto;
+    }
+    
+    .logo_header{
+        margin-top: 30px;
+        width: 90px;
+        height: auto;
+    }
+    
+    .header-media{
+        padding-right: 30px;
+        padding-top: 8px;
+    }
+
+    .header-media .header-icons a{
+        margin-left: 8px;
+        margin-right: 8px;
+        font-size: 1.3em;
+    }
+    
+    .hd-media-index{
+        padding-right: 30px;
+        padding-top: 12px;
+    }
+
+    .hd-media-index .hd-icons-index a{
+        color: white;
+        margin-left: 4px;
+        margin-right: 4px;
+        font-size: 1.3em;
+    }
+    
+    .copyright p{
+        font-size: 11px;
+        padding-top: 3px;
+    }
+    
+    #intro{
+        background-image: url('../images/bg_03.png');
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 500px; 
+        position: relative;
+    }
+
+    .starWarsNews{
+        background-image: url('../images/stars-bg.jpg');
+        background-repeat: no-repeat;
+        color:yellow;
+        height: 200px;
+    }
+
+    .starwarsSglTitle{
+        width: 75%;
+        height: 75%;
+        padding-left: 25%;
+    }
+
     .sidenav {
         height: 100%; /* 100% Full-height */
         width: 0px; /* 0 width - change this with JavaScript */
@@ -984,38 +1490,28 @@ and (orientation : landscape)
         overflow-x: hidden; /* Disable horizontal scroll */
         padding-top: 30px; /* Place content 60px from the top */
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-        background-color: hsla(243, 96%, 14%, 0.75);
-    }
-
-    /* The navigation menu links */
-    .sidenav a {
-        padding: 8px 8px 8px 8px;
-        text-decoration: none;
-        font-size: 20px;
-        color: white;
-        display: block;
-        transition: 0.3s;
-        font-family: 'Sansita', sans-serif;
-
-    }
-
-    .sidenav li{
-        list-style: none;
-        text-align: center;
+/*        background-color: rgba(28,25,25,0.9);*/
+        background-image: url('../images/bg_sidenav.png');
     }
 
     .sidenav .closebtn {
+        color: #9acd32;
         position: absolute;
         top: 0;
-        right: 25px;
-        font-size: 36px;
+        right: 3px;
+        font-size: 40px;
         margin-left: 50px;
     }
+    
     #main {
         transition: margin-left .5s;
         padding-right: 20px;
         margin-left:150px;
         margin-right:-30px;
+    }
+    
+    .bigIcons {
+        width: 50px;
     }
 }
 
@@ -1023,10 +1519,76 @@ and (orientation : landscape)
 @media only screen and (min-width : 769px)
 and (max-width : 1024px)
 {
+    #bg_hd_game, #bg_hd_contact, #bg_hd_releases{
+        min-height: 190px;
+    }
+    
+    .logo_index{
+        margin-top: 40px;
+        width: 120px;
+        height: auto;
+    }
+    
+    .logo_header{
+        margin-top: 30px;
+        width: 130px;
+        height: auto;
+    }
+    
+    .header-media{
+        padding-right: 30px;
+        padding-top: 8px;
+    }
+
+    .header-media .header-icons a{
+        margin-left: 8px;
+        margin-right: 8px;
+        font-size: 1.3em;
+    }
+    
+    .hd-media-index{
+        padding-right: 30px;
+        padding-top: 12px;
+    }
+
+    .hd-media-index .hd-icons-index a{
+        color: white;
+        margin-left: 4px;
+        margin-right: 4px;
+        font-size: 1.3em;
+    }
+    
+    .copyright p{
+        font-size: 11px;
+        padding-top: 3px;
+    }
+    
+    #intro{
+        background-image: url('../images/bg_03.png');
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 500px; 
+        position: relative;
+    }
+    
     iframe
     {
         width: 100%;
         height: 50%;
+    }
+
+    .starWarsNews{
+        background-image: url('../images/stars-bg.jpg');
+        background-repeat: no-repeat;
+        color:yellow;
+        height: 200px;
+    }
+
+    .starwarsSglTitle{
+        width: 75%;
+        height: 75%;
+        padding-left: 25%;
     }
 
     #menu-slider{
@@ -1045,28 +1607,12 @@ and (max-width : 1024px)
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
     }
 
-    /* The navigation menu links */
-    .sidenav a {
-        padding: 8px 8px 8px 8px;
-        text-decoration: none;
-        font-size: 20px;
-        color: white;
-        display: block;
-        transition: 0.3s;
-        font-family: 'Sansita', sans-serif;
-
-    }
-
-    .sidenav li{
-        list-style: none;
-        text-align: center;
-    }
-
     .sidenav .closebtn {
+        color: #9acd32;
         position: absolute;
         top: 0;
-        right: 25px;
-        font-size: 36px;
+        right: 3px;
+        font-size: 40px;
         margin-left: 50px;
         display: none;
     }
@@ -1076,18 +1622,39 @@ and (max-width : 1024px)
         margin-left:150px;
         margin-right:-30px;
     }
+    
+    .bigIcons {
+        width: 50px;
+    }
 }
 
 /*//////////////////////////////////////////////////////Desktops and laptops//*/
 @media only screen and (min-width : 1025px)
 and (max-width : 1823px)
 {
+    .logo_index{
+        margin-top: 50px;
+        width: 180px;
+        height: auto;
+    }
+    
+    .logo_header{
+        margin-top: 30px;
+        width: 125px;
+        height: auto;
+    }
+    
+    .copyright {
+        padding-top: 2px;
+        padding-bottom: 5px;
+    }
+    
     #intro{
         background-image: url('../images/bg_03.png');
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
-        min-height: 650px; 
+        min-height: 630px; 
         position: relative;
     }
 
@@ -1131,28 +1698,12 @@ and (max-width : 1823px)
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
     }
 
-    /* The navigation menu links */
-    .sidenav a {
-        padding: 8px 8px 8px 8px;
-        text-decoration: none;
-        font-size: 20px;
-        color: white;
-        display: block;
-        transition: 0.3s;
-        font-family: 'Sansita', sans-serif;
-
-    }
-
-    .sidenav li{
-        list-style: none;
-        text-align: center;
-    }
-
     .sidenav .closebtn {
+        color: #9acd32;
         position: absolute;
         top: 0;
-        right: 25px;
-        font-size: 36px;
+        right: 3px;
+        font-size: 40px;
         margin-left: 50px;
         display: none;
     }
@@ -1167,11 +1718,43 @@ and (max-width : 1823px)
         width: 800px;
         height: 200px;
     }
+    
+    .bigIcons {
+        width: 50px;
+    }
 }
 
 /*/////////////////////////////////////////////////////////////Large screens//*/
 @media only screen and (min-width : 1824px)
 {
+    .section-blue, .section-dark-blue, .section-pink, .section-purple, 
+    .section-red, .section-white{
+        padding-bottom: 80px;
+        padding-top: 50px;
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+    
+    body{
+        font-size: 15px;
+    }
+    
+    h2{
+        line-height: 70px;
+    }
+
+    h4{
+        line-height: 45px;
+    }
+    .copyright {
+        padding-top: 2px;
+        padding-bottom: 5px;
+    }
+
+    .copyright p{
+        font-size: 13px;
+    }
+    
     #intro{
         background-image: url('../images/bg_03.png');
         background-position: top;
@@ -1181,15 +1764,31 @@ and (max-width : 1823px)
         position: relative;
     }
     
-    #sgl-logo{
-        padding-top: 0%;
-        width: 12%;
-        height: auto;
+    .hd-media-index{
+        padding-right: 180px;
+        padding-top: 60px;
+    }
+
+    .hd-media-index .hd-icons-index a{
+        margin-left: 4px;
+        margin-right: 4px;
+        font-size: 1.4em;
+    }
+    
+    .media{
+        padding-right: 0px;
+        padding-top: 0px;
+    }
+
+    .media .icons-group a{
+        margin-left: 8px;
+        margin-right: 8px;
+        font-size: 1.4em;
     }
 
     .logo_index{
-        margin-top: 60px;
-        width: 300px;
+        margin-top: 70px;
+        width: 260px;
         height: auto;
     }
     
@@ -1221,33 +1820,24 @@ and (max-width : 1823px)
         transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
     }
 
-    /* The navigation menu links */
-    .sidenav a {
-        padding: 8px 8px 8px 8px;
-        text-decoration: none;
-        font-size: 18px;
-        color: white;
-        display: block;
-        transition: 0.3s
-    }
-
-    .sidenav li{
-        list-style: none;
-        text-align: center;
-    }
-
     .sidenav .closebtn {
+        color: #9acd32;
         position: absolute;
         top: 0;
-        right: 25px;
-        font-size: 36px;
+        right: 3px;
+        font-size: 40px;
         margin-left: 50px;
+        display: none;
     }
 
     #main {
         transition: margin-left .5s;
         padding: 20px;
         margin-left: 250px;
+    }
+    
+    .bigIcons {
+      width: 50px;
     }
 }
 
@@ -1261,24 +1851,6 @@ only screen and (min-device-pixel-ratio : 1.5)
 @font-face {
     font-family: 'starWarsFont'; /*a name to be used later*/
     src: url('../fonts/Star_Jedi_Rounded.ttf'); /*URL to font*/
-}
-
-#upcomingShows h1{
-    color: white;
-}
-
-#upcomingShows p{
-    color: black;
-}
-
-.upcomingShowsTable th{
-    color: #2D233B;
-    text-align: center;
-}
-
-.upcomingShowsTable td{
-    color:#2D233B;
-    text-align: center;
 }
 
 .star {

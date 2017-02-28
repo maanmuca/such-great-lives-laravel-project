@@ -23,22 +23,36 @@
             </div>
         </div>
             
-        <!--  Logo image-->
+      
         <div class="row text-center">
-            <div class="col-lg-12">
+            <div class="col-lg-12 col-md-12 col-sm-12">
                 <a href="{{url('/')}}">
-                    <img src="{{URL::asset('images/sgllogo_light.png')}}" id="sgl-logo" 
-                         class="img-responsive center-block"  alt="logo"></a>
+                    <img src="{{URL::asset('images/logo_header.png')}}"
+                         class="center-block logo_header"  alt="logo"></a>
             </div>
         </div>
+        
         
     </div>
 </div>      
     
 <section id="" class="section-dark-blue">
     <div class="container-fluid"> <!-- ---------------------------------must be fluid--->
+        
+        
+        <div class="row pull-right media">
+            <div class="col-lg-12 icons-group">
+                <a href="https://www.facebook.com/suchgreatlives">
+                    <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://www.youtube.com/channel/UCd6sEEFIAg7SPoM5fBujc8g">
+                    <i class="fa fa-youtube" aria-hidden="true"></i></a>
+                <a href="https://plus.google.com/106986527777902815660">
+                    <i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <h2 class="section-heading">Contact us</h2>
             </div>
         </div>
@@ -64,8 +78,8 @@
                         </textarea>
                     </div>          
                 </form>
-                
-                <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit</button>     
+
+                <button type="button" id="submit" name="submit" class="btn btn-primary pull-right btn-submit">Submit</button>     
             </div>
         </div>
     </div>

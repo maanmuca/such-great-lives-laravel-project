@@ -8,7 +8,7 @@
 <section id="" class="section-dark-blue">
     <div class="container-fluid"> <!-- ---------------------------------must be fluid--->
         
-         <div class="row pull-right">
+         <div class="row pull-right media">
             <div class="col-lg-12 icons-group">
                 <a href="https://www.facebook.com/suchgreatlives">
                     <i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -21,7 +21,7 @@
             
         
          <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <h2 class="section-heading">Videos</h2>
             </div>
         </div>
@@ -36,5 +36,4 @@
         </div>
     </div>
 </section>
-
 @endsection

@@ -10,11 +10,7 @@
 @extends('layouts.layout')
 @section('content')
     <div class="container text-center" id="topPhotos">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2 class="section-heading">Photos Album</h2>
-            </div>
-        </div>
+
         <div class="row text-center">
 
                 @foreach($photos['photos'] as $photo)
