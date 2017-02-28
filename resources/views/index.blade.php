@@ -67,24 +67,27 @@
             
         <div class="row">
             <div class="col-lg-12">
-                @if (count($posts)>0)
-                    @foreach($posts['posts'] as $message)
-                        <dt>Facebook Post</dt>
-                        <dl>
-                            {{$message['message'] }}
-                        </dl>
-                        <dl>
-                            {{$message['created_time']['date'] }}
-                        </dl>
-                        <hr />
-                    @endforeach
-                    @else
-                    <dt>Facebook Post</dt>
-                    <dl>
-                        No news Today :( :p :( :p
-                    </dl>
-                    <hr />
-                @endif
+                <?php
+                    //var_dump($posts['posts']);
+
+                    foreach ($posts['posts'] as $post)
+                    {
+                        if (!array_key_exists('message', $post))
+                        {
+                            continue;
+                        }
+                        else
+
+                        {
+                            echo "<hr>";
+                            $pieces = explode(" ", $post['created_time']['date']);
+                            echo "<dl>".$pieces[0]."</dl>";
+                            echo "<dl>".$post['message']."</dl>";
+                        }
+
+                    }
+
+                ?>
             </div>
             
         </div>
