@@ -15,6 +15,13 @@
     color: white;
 }
 /************************gallery ************************/
+.cover-album{
+    width: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
 
 .nopadding {
     padding: 0 !important;
