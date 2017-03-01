@@ -660,7 +660,7 @@ h5{
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        min-height: 350px;
+        min-height: 480px;
     }
     
     .copyright p {
@@ -696,8 +696,8 @@ h5{
     }
 
     .logo_index{
-        margin-top: 80px;
-        width: 80px;
+        margin-top: 60px;
+        width: 100px;
         height: auto;
     }
     
@@ -829,7 +829,7 @@ h5{
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        min-height: 350px;
+        min-height: 500px;
     }
     
     .header-media{
@@ -860,8 +860,8 @@ h5{
     }
 
     .logo_index{
-        margin-top: 80px;
-        width: 80px;
+        margin-top: 60px;
+        width: 110px;
         height: auto;
     }
     
@@ -994,7 +994,7 @@ h5{
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        min-height: 400px;
+        min-height: 530px;
     }
 
     .header-media{
@@ -1026,7 +1026,7 @@ h5{
 
     .logo_index{
         margin-top: 100px;
-        width: 90px;
+        width: 120px;
         height: auto;
     }
     
@@ -1160,7 +1160,7 @@ h5{
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        min-height: 400px;
+        min-height: 540px;
     }
 
     .header-media{
@@ -1192,7 +1192,7 @@ h5{
 
     .logo_index{
         margin-top: 100px;
-        width: 90px;
+        width: 120px;
         height: auto;
     }
     
@@ -1273,7 +1273,7 @@ and (orientation : landscape)
 
     .logo_index{
         margin-top: 80px;
-        width: 120px;
+        width: 130px;
         height: auto;
     }
     
@@ -1316,7 +1316,7 @@ and (orientation : landscape)
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
-        min-height: 500px; 
+        min-height: 580px; 
         position: relative;
     }
     
@@ -1377,7 +1377,7 @@ and (max-width : 768px)
     
     .logo_index{
         margin-top: 80px;
-        width: 120px;
+        width: 140px;
         height: auto;
     }
     
@@ -1414,7 +1414,7 @@ and (max-width : 768px)
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
-        min-height: 500px; 
+        min-height: 590px; 
         position: relative;
     }
 
@@ -1484,7 +1484,7 @@ and (orientation : landscape)
     
     .logo_index{
         margin-top: 40px;
-        width: 120px;
+        width: 150px;
         height: auto;
     }
     
@@ -1527,7 +1527,7 @@ and (orientation : landscape)
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
-        min-height: 500px; 
+        min-height: 610px; 
         position: relative;
     }
 
@@ -1590,7 +1590,7 @@ and (max-width : 1024px)
     
     .logo_index{
         margin-top: 40px;
-        width: 120px;
+        width: 160px;
         height: auto;
     }
     
@@ -1633,7 +1633,7 @@ and (max-width : 1024px)
         background-position: top;
         background-size: cover;
         background-repeat: no-repeat;
-        min-height: 500px; 
+        min-height: 620px; 
         position: relative;
     }
     
