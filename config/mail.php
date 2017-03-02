@@ -29,7 +29,8 @@ return [
     |
     */
 
-    'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
+//    'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
+    'host' => env('MAIL_HOST', 'mail.suchgreatlives.com'),
 
     /*
     |--------------------------------------------------------------------------
@@ -55,10 +56,16 @@ return [
     |
     */
 
+//    'from' => [
+//        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
+//        'name' => env('MAIL_FROM_NAME', 'Example'),
+//    ],
+    
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
-        'name' => env('MAIL_FROM_NAME', 'Example'),
+        'address' => 'info@suchgreatlives.com',
+        'name' => 'Such great lives'
     ],
+
 
     /*
     |--------------------------------------------------------------------------
@@ -71,7 +78,8 @@ return [
     |
     */
 
-    'encryption' => env('MAIL_ENCRYPTION', 'tls'),
+    //'encryption' => env('MAIL_ENCRYPTION', 'tls'),
+    'encryption' => env('MAIL_ENCRYPTION', 'ssl'),
 
     /*
     |--------------------------------------------------------------------------
