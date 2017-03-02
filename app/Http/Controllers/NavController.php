@@ -4,10 +4,14 @@ namespace App\Http\Controllers;
 use Facebook\Exceptions\FacebookOtherException;
 use Facebook\Exceptions\FacebookResponseException;
 use Illuminate\Http\Request;
+use App\Http\Requests;
 use League\Flysystem\Exception;
 use Psy\Exception\ErrorException;
 use SammyK\LaravelFacebookSdk;
 use Illuminate\Support\Facades\App;
+use App\Post;
+use Mail;
+use Session;
 
 /** 
  * Name: NavController
@@ -136,9 +140,32 @@ class NavController extends Controller
         return View('pages.contact');
     }
 
-    //subscribe
-    public function subscribe(){
-        return View('pages.subscribe');
+    //send contact info
+    public function post_contact(Request $request){
+        
+        $this->validate($request, [
+               'name' => 'required|min:2|regex:/^[(a-zA-Z\s)]+$/u', //letters and spaces
+               'email' => 'required|email',
+               'subject' => 'required',
+               'message' => 'required'
+           ]);
+
+        $data = array(
+            'name' => $request->name,
+            'email' => $request->email,
+            'subject' => $request->subject,
+            'bodyMessage' => $request->message    
+           );
+
+        Mail::send('emails.contact', $data, function($theMessage) use ($data){
+            $theMessage->from($data['email']);
+            $theMessage->to('info@suchgreatlives.com');
+            $theMessage->subject($data['subject']);
+        });
+       
+        Session::flash('success', 'Your message was sent!');
+        
+        return View('/');
     }
 
 }

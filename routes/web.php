@@ -31,6 +31,5 @@ Route::get('game', 'NavController@game');
 
 //contact
 Route::get('/contact', 'NavController@contact');
+Route::post('/contact', 'NavController@post_contact');
 
- //subscribe
-Route::get('subscribe', 'NavController@subscribe');
