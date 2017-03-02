@@ -77,14 +77,12 @@
                             continue;
                         }
                         else
-
                         {
                             echo "<hr>";
                             $pieces = explode(" ", $post['created_time']['date']);
                             echo "<dl>".$pieces[0]."</dl>";
                             echo "<dl>".$post['message']."</dl>";
                         }
-
                     }
 
                 ?>
@@ -250,7 +248,7 @@
                         <p class="content-header"><br>www.suchgreatlives.com</p>
                         <br>
                         <p class="content-body">
-                        <div class="row ">
+                        <div class="row text-center ">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 starwarsSglTitle">
                                 <img src="{{URL::asset('images/sgllogostarwars.png')}}" class="img-responsive">
                             </div>
