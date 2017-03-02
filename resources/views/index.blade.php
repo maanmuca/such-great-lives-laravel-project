@@ -19,7 +19,7 @@
           
            <!--  Logo image-->
         <div class="row text-center">
-            <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <a href="{{url('/')}}">
                     <img src="{{URL::asset('images/logo_index.png')}}"
                          class="center-block logo_index"  alt="logo"></a>
@@ -34,7 +34,7 @@
                 <a href="{{url('/releases')}}"  class="col-lg-4 col-md-4 col-sm-4 col-xs-4" >
                     <img src="{{URL::asset('images/music.png')}}"  class="bigIcons"   alt="releases">
                 </a>
-                <a href="{{url('/photos')}}"  class="col-lg-4 col-md-4 col-sm-4 col-xs-4"  >
+                <a href="{{url('/albums')}}"  class="col-lg-4 col-md-4 col-sm-4 col-xs-4"  >
                     <img src="{{URL::asset('images/images.png')}}" class= "bigIcons"   alt="gallery">
                 </a>
             </div>
