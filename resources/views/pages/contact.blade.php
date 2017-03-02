@@ -89,7 +89,7 @@
                     
                     <div class="form-group" @if ($errors->has('message')) has-error @endif>
                         <textarea class="form-control" type="textarea" id="message" name="message" 
-                                  placeholder="Message" maxlength="140" rows="7"
+                                  placeholder="Message" rows="7"
                                   value="{{ Request::old('message') }}">
                         </textarea>
                         @if ($errors->has('message'))

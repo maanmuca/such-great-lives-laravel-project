@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\App;
 use App\Post;
 use Mail;
 use Session;
+use Redirect;
 
 /** 
  * Name: NavController
@@ -149,21 +150,23 @@ class NavController extends Controller
                'subject' => 'required',
                'message' => 'required'
            ]);
+        
+        
 
-        $data = array(
-            'name' => $request->name,
-            'email' => $request->email,
-            'subject' => $request->subject,
-            'bodyMessage' => $request->message    
-           );
-
-        Mail::send('emails.contact', $data, function($theMessage) use ($data){
-            $theMessage->from($data['email']);
-            $theMessage->to('info@suchgreatlives.com');
-            $theMessage->subject($data['subject']);
-        });
+//        $data = array(
+//            'name' => $request->name,
+//            'email' => $request->email,
+//            'subject' => $request->subject,
+//            'bodyMessage' => $request->message    
+//           );
+//
+//        Mail::send('emails.contact', $data, function($theMessage) use ($data){
+//            $theMessage->from($data['email']);
+//            $theMessage->to('suchgreatlives@gmail.com');
+//            $theMessage->subject($data['subject']);
+//        });
        
-        Session::flash('success', 'Your message was sent!');
+        //Session::flash('success', 'Your message was sent!');
         
         return View('/');
     }

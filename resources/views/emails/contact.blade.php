@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h3>You have a new contact via suchgreatlives.com</h3>
+    
+    <h3 style="color:purple">Contact via Suchgreatlives Official Website</h3>
+    <p><strong>Name:</strong>{{$name}}</p>
+    <p><strong>Email:</strong>{{$email}}</p>
+    <div>{{$bodyMessage}}</div>
 
-<div>
-    {{ $bodyMessage}}
-</div>
-<p>Sent via {{$email}}</p>
-<p>Contact: {{$name}}<p>
 </body>
 </html>
 
