@@ -62,7 +62,7 @@
                     <div class=" ft-contact col-md-offset-3 col-md-3 col-sm-offset-1 col-sm-4">
                         <h5>FIND US</h5>
                         <p><a href="mailto:info@suchgreatlives.com" class="phone-link"><i class="fa fa-envelope footer-icon">
-                                </i> E-mail : info@suchgreatlives.com</p>
+                                </i> E-mail : band@suchgreatlives.com</p>
                         <p><a href="{{url('/contact')}}" class="phone-link">
                                 <i class="fa fa-phone footer-icon"></i>Contact us</a></p>
                         <p><i class="fa fa-map-pin footer-icon"></i> Melbourne. Australia</p>

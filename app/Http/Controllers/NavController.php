@@ -153,20 +153,21 @@ class NavController extends Controller
         
         
 
-//        $data = array(
-//            'name' => $request->name,
-//            'email' => $request->email,
-//            'subject' => $request->subject,
-//            'bodyMessage' => $request->message    
-//           );
-//
-//        Mail::send('emails.contact', $data, function($theMessage) use ($data){
-//            $theMessage->from($data['email']);
+        $data = array(
+            'name' => $request->name,
+            'email' => $request->email,
+            'subject' => $request->subject,
+            'bodyMessage' => $request->message    
+           );
+
+        Mail::send('emails.contact', $data, function($theMessage) use ($data){
+            $theMessage->from($data['email']);
+            $theMessage->to('band@suchgreatlives.com');
 //            $theMessage->to('suchgreatlives@gmail.com');
-//            $theMessage->subject($data['subject']);
-//        });
+            $theMessage->subject($data['subject']);
+        });
        
-        //Session::flash('success', 'Your message was sent!');
+        Session::flash('success', 'Your message was sent!');
         
         return View('/');
     }

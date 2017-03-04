@@ -30,11 +30,10 @@
             </div>
         </div>
             
-            <div class="container" id="topAlbums">
+        <div class="container" id="topAlbums">
            
             <div class="row text-center">
                 <?php
-
 
                 foreach ($albums['albums'] as $album)
                 {
@@ -58,7 +57,66 @@
 
             </div>
         </div>
+        
+         <div class="container-fluid" id="topAlbums">
+           
+            <div class="row text-center">
+                <?php
+
+                foreach ($albums['albums'] as $album)
+                {
+                    if ($album['name']=="Cover Photos" || $album['name']=="Timeline Photos" || $album['name']=="Profile Pictures")
+                    {
+                        continue;
+                    }
+                    else
+                    {
+                      echo '<a href="photos/'.$album['id'].'">';
+                      echo '<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 nopadding">';
+                      echo '<div class="hovereffect" >';
+                      echo '<div class="overlay" style="background-image: url('.$album['photos'][0]['images'][1]['source'].')">';
+                      echo '<p><h6>'.$album['name'].'</h6>';
+                      echo '<p>Share on</p>';
+                      echo '<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fsuchgreatlives%2F&amp;src=sdkpreparse">';
+                      echo '<i class="fa fa-facebook" aria-hidden="true"></i></a></p></div></div></div></a>';
+                    }
+                }
+                ?>
+
+            </div>
+        </div>
+        
+         
+            
+           
+            
+       
     </div>
 </section>
-       
 @endsection
+
+<!--<div class="container" id="topAlbums">
+           
+            <div class="row text-center">
+                @if (count($albums) > 0)
+                @foreach($albums['albums'] as $album)
+                <a href="photos/{{$album['id']}}">
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 nopadding">
+                        <div class="hovereffect" >
+                            <div class="overlay" style="background-image: url({{$album['photos'][0]['images'][1]['source']}})">
+                                <p>
+                                <h6>{{$album['name']}}</h6>
+                                <p>Share on</p>
+                                <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fsuchgreatlives%2F&amp;src=sdkpreparse">
+                                    <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                </p>
+                            </div>
+                        </div>
+                     
+                    </div>
+                </a>
+                @endforeach
+                @endif
+            </div>
+</div>
+       -->
