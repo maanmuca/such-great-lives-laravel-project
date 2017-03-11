@@ -150,9 +150,7 @@ class NavController extends Controller
                'subject' => 'required',
                'message' => 'required'
            ]);
-        
-        
-
+             
         $data = array(
             'name' => $request->name,
             'email' => $request->email,
@@ -163,13 +161,13 @@ class NavController extends Controller
         Mail::send('emails.contact', $data, function($theMessage) use ($data){
             $theMessage->from($data['email']);
             $theMessage->to('band@suchgreatlives.com');
-//            $theMessage->to('suchgreatlives@gmail.com');
-            $theMessage->subject($data['subject']);
+           $theMessage->to('suchgreatlives@gmail.com');
+            $theMessage->subject($data['subject']);     
         });
        
         Session::flash('success', 'Your message was sent!');
+        return redirect('/');
         
-        return View('/');
     }
 
 }
