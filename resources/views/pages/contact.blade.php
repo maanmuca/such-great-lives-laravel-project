@@ -56,13 +56,19 @@
                 <h2 class="section-heading">Contact us</h2>
             </div>
         </div>
-            
+     
         <div class="row">
-            <div class="col-md-offset-3 col-md-6 form-contact">  
-               
+            <div class="col-md-offset-3 col-md-6 form-contact"> 
+                
+                 @if(notify()->ready())
+                 <div class="alert alert-success text-center">
+                         {{notify()->message()}}
+                     </div>
+                @endif
+                
                 <form action="{{url('contact')}}" method="POST" role="form"> 
                      {!! csrf_field() !!}
-                    
+                     
                      <div class="form-group" @if ($errors->has('name')) has-error @endif>
                         <input type="text" class="form-control" id="name" name="name" placeholder="Name" 
                                value="{{ Request::old('name') }}">
@@ -101,6 +107,7 @@
                         <button type="submit" id="submit" name="submit" class="btn btn-primary pull-right btn-submit">
                             Send Message</button>  
                     </div>
+                     
              </form>
 
             </div>

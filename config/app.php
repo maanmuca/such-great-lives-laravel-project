@@ -163,11 +163,11 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
         SammyK\LaravelFacebookSdk\LaravelFacebookSdkServiceProvider::class,
-
+            
         /*
          * Package Service Providers...
          */
-
+        Codecourse\Notify\NotifyServiceProvider::class,
         //
 
         /*

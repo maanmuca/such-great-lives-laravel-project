@@ -394,6 +394,16 @@ form{
    border-color: #fff;
 }
 
+.help-block{
+    color:#C0C0C0;
+}
+
+.alert {
+    background: none;
+    background-color: hsla(243, 96%, 14%, 0.5);
+    border-color: #fff;
+    color: #fff;
+}
 /*---------------------standard  color containers--*/
 .section-nocolor{
     padding-bottom: 60px;

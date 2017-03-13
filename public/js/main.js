@@ -285,4 +285,8 @@ function changeVideoLgImage(i)
         $("#myVideo")[0].src += "&autoplay=1";
 }
 
+ 
+hiddenSent(function() {
+    $('#sent').hide();
+});
 

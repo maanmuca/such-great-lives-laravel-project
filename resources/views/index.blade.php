@@ -149,7 +149,7 @@
                     <h4 class="sub-heading">MICHAEL</h4>
                 </div>
                 <p class="text-justify">Michael is our five-string fretless bassist 
-                    and lead singer! He is always presents with his purple energy. 
+                    and lead singer! He is always present with his purple energy. 
                     The band's leader grew up in Canberra but has been all around 
                     the world, rock-climbing and learning Spanish. Michael has sung, 
                     played and recorded music since the mid-1990s.

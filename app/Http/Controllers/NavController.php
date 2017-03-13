@@ -161,13 +161,13 @@ class NavController extends Controller
         Mail::send('emails.contact', $data, function($theMessage) use ($data){
             $theMessage->from($data['email']);
             $theMessage->to('band@suchgreatlives.com');
-           $theMessage->to('suchgreatlives@gmail.com');
             $theMessage->subject($data['subject']);     
         });
        
-        Session::flash('success', 'Your message was sent!');
-        return redirect('/');
+        notify()->flash('Thanks for your support, '.' '.$request->name .'.'. ' We will be in touch shortly!', 'success');
+        return redirect('contact');
         
+      
     }
 
 }
