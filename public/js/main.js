@@ -286,7 +286,4 @@ function changeVideoLgImage(i)
 }
 
  
-hiddenSent(function() {
-    $('#sent').hide();
-});
 
